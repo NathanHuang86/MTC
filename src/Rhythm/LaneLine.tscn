@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=2]
+
+[sub_resource type="Environment" id=1]
+background_mode = 4
+glow_enabled = true
+glow_intensity = 1.28
+glow_blend_mode = 0
+glow_hdr_threshold = 0.47
+
+[sub_resource type="CanvasItemMaterial" id=2]
+
+[node name="Node2D" type="Node2D"]
+
+[node name="WorldEnvironment" type="WorldEnvironment" parent="."]
+environment = SubResource( 1 )
+
+[node name="Node2D" type="Line2D" parent="."]
+points = PoolVector2Array( 376, 72, 496, 64 )
+default_color = Color( 0.984314, 0.984314, 0.984314, 1 )
+begin_cap_mode = 1
+end_cap_mode = 1
+
+[node name="Node2D2" type="Line2D" parent="."]
+material = SubResource( 2 )
+position = Vector2( 8, 136 )
+points = PoolVector2Array( 104, 152, 648, 88 )
+default_color = Color( 0.866667, 0.176471, 0.176471, 1 )
+begin_cap_mode = 1
+end_cap_mode = 1

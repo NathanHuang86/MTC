@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Usada Pekora laughing smol compilation.mp3-b7be35be303f5532feb4fd7795e5c237.mp3str"
+
+[deps]
+
+source_file="res://src/Audio/Usada Pekora laughing smol compilation.mp3"
+dest_files=[ "res://.import/Usada Pekora laughing smol compilation.mp3-b7be35be303f5532feb4fd7795e5c237.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

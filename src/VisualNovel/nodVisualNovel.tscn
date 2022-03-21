@@ -1,0 +1,246 @@
+[gd_scene load_steps=17 format=2]
+
+[ext_resource path="res://src/VisualNovel/mnbShowMenu.gd" type="Script" id=1]
+[ext_resource path="res://assets/Images/Black.jpg" type="Texture" id=2]
+[ext_resource path="res://assets/Images/Cog.png" type="Texture" id=3]
+[ext_resource path="res://src/VisualNovel/btnLoad.gd" type="Script" id=4]
+[ext_resource path="res://src/VisualNovel/tbtBackground.gd" type="Script" id=5]
+[ext_resource path="res://assets/Fonts/hinted-RosaSans-Medium.ttf" type="DynamicFontData" id=6]
+[ext_resource path="res://assets/Images/LabelText.png" type="Texture" id=7]
+[ext_resource path="res://src/VisualNovel/btnSave.gd" type="Script" id=8]
+
+[sub_resource type="Animation" id=8]
+resource_name = "DayNight"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Background/sprCharacter/aniCharacterEntrance/colDayNight:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="Animation" id=3]
+resource_name = "Entrance"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Background/sprCharacter:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( -0.1, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 0 ), Color( 1, 1, 1, 1 ) ]
+}
+
+[sub_resource type="Animation" id=4]
+resource_name = "Exit"
+length = 2.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Background/sprCharacter:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 2 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=5]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath("Background/sprCharacter:modulate")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 1, 1, 1, 1 ) ]
+}
+tracks/1/type = "value"
+tracks/1/path = NodePath("Background/sprCharacter/aniCharacterEntrance/colDayNight:color")
+tracks/1/interp = 1
+tracks/1/loop_wrap = true
+tracks/1/imported = false
+tracks/1/enabled = true
+tracks/1/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ) ]
+}
+
+[sub_resource type="DynamicFont" id=1]
+size = 30
+font_data = ExtResource( 6 )
+
+[sub_resource type="Animation" id=6]
+length = 0.001
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:percent_visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0 ),
+"transitions": PoolRealArray( 1 ),
+"update": 0,
+"values": [ 1.0 ]
+}
+
+[sub_resource type="Animation" id=7]
+resource_name = "Text Crawl"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/path = NodePath(".:percent_visible")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ 0.0, 1.0 ]
+}
+
+[sub_resource type="DynamicFont" id=2]
+size = 30
+font_data = ExtResource( 6 )
+
+[node name="VisualScene" type="Node2D"]
+
+[node name="Background" type="TextureButton" parent="."]
+margin_right = 1920.0
+margin_bottom = 1080.0
+texture_normal = ExtResource( 2 )
+expand = true
+script = ExtResource( 5 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="sprCharacter" type="Sprite" parent="Background"]
+position = Vector2( 910, 630 )
+scale = Vector2( 0.375, 0.375 )
+
+[node name="aniCharacterEntrance" type="AnimationPlayer" parent="Background/sprCharacter"]
+root_node = NodePath("../../..")
+anims/DayNight = SubResource( 8 )
+anims/Entrance = SubResource( 3 )
+anims/Exit = SubResource( 4 )
+anims/RESET = SubResource( 5 )
+
+[node name="colDayNight" type="ColorRect" parent="Background/sprCharacter/aniCharacterEntrance"]
+visible = false
+margin_right = 1920.0
+margin_bottom = 1080.0
+color = Color( 0, 0, 0, 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Dialog" type="Label" parent="Background"]
+margin_top = 800.0
+margin_right = 1920.0
+margin_bottom = 1080.0
+custom_fonts/font = SubResource( 1 )
+text = "Bob the builder"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="aniText" type="AnimationPlayer" parent="Background/Dialog"]
+anims/RESET = SubResource( 6 )
+"anims/Text Crawl" = SubResource( 7 )
+
+[node name="Sprite" type="Sprite" parent="Background/Dialog"]
+show_behind_parent = true
+position = Vector2( 960, 120 )
+texture = ExtResource( 7 )
+
+[node name="btnSave" type="Button" parent="Background/Dialog"]
+margin_left = 560.0
+margin_top = 184.0
+margin_right = 824.0
+margin_bottom = 264.0
+text = "SAVE"
+script = ExtResource( 8 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnLoad" type="Button" parent="Background/Dialog"]
+margin_left = 872.0
+margin_top = 184.0
+margin_right = 1136.0
+margin_bottom = 264.0
+text = "LOAD"
+script = ExtResource( 4 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="btnMainMenu" type="Button" parent="Background/Dialog"]
+margin_left = 1192.0
+margin_top = 184.0
+margin_right = 1456.0
+margin_bottom = 264.0
+text = "MAIN MENU"
+
+[node name="CurrentCharacter" type="Label" parent="Background"]
+margin_top = 768.0
+margin_right = 1920.0
+margin_bottom = 816.0
+custom_fonts/font = SubResource( 1 )
+text = "Bob the builder"
+autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="liePlayerInput" type="LineEdit" parent="Background"]
+visible = false
+margin_left = 448.0
+margin_top = 208.0
+margin_right = 1392.0
+margin_bottom = 312.0
+custom_fonts/font = SubResource( 2 )
+max_length = 25
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="mnbShowMenu" type="MenuButton" parent="."]
+margin_left = 1832.0
+margin_top = 24.0
+margin_right = 1896.0
+margin_bottom = 88.0
+icon = ExtResource( 3 )
+flat = false
+expand_icon = true
+script = ExtResource( 1 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[connection signal="animation_finished" from="Background/sprCharacter/aniCharacterEntrance" to="Background" method="_on_aniCharacterEntrance_animation_finished"]
+[connection signal="pressed" from="Background/Dialog/btnSave" to="Background/Dialog/btnSave" method="_on_btnSave_pressed"]
+[connection signal="pressed" from="Background/Dialog/btnLoad" to="Background/Dialog/btnLoad" method="_on_btnLoad_pressed"]
+[connection signal="text_entered" from="Background/liePlayerInput" to="Background" method="_on_liePlayerInput_text_entered"]

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/JanitorREVAMPED.wav-82ecd9154d9c22d89b9abceafe30c93c.sample"
+
+[deps]
+
+source_file="res://src/Audio/JanitorREVAMPED.wav"
+dest_files=[ "res://.import/JanitorREVAMPED.wav-82ecd9154d9c22d89b9abceafe30c93c.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

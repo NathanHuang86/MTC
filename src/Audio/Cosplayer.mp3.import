@@ -1,0 +1,15 @@
+[remap]
+
+importer="mp3"
+type="AudioStreamMP3"
+path="res://.import/Cosplayer.mp3-8a58cecb63b39236a5506e6384951b14.mp3str"
+
+[deps]
+
+source_file="res://src/Audio/Cosplayer.mp3"
+dest_files=[ "res://.import/Cosplayer.mp3-8a58cecb63b39236a5506e6384951b14.mp3str" ]
+
+[params]
+
+loop=true
+loop_offset=0

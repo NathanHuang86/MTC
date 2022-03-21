@@ -1,0 +1,60 @@
+[OUTSIDE]
+[CHAR:]
+[ENVIRONMENT]
+You walk up the campus you have seen online and in brochures a thousand times. Although you have never seen it in person Before; infront of you stands a big gate with the GCC logo standing proud above it welcoming you to campus.
+
+[PLAYER]
+Woww I can’t believe after all this time I’m finally here at GCC, it is more colorful  in person than I thought.
+
+[STAIRS]
+[CHAR:]
+[ENVIRONMENT]
+as you walk into the music building for the first time you are overwhelmed by the number of students here at GCC.
+
+[PLAYER]
+Whew, I finally made it to the music wing here at GCC. I have a lot of tough classes ahead of me, but I should also remember to have fun. Maybe I should look for some clubs to join.
+
+[POSTER]
+[CHAR:]
+[ENVIRONMENT]
+Through all the bustling students going to and from you see a poster on a cork board that catches your eye. One advertising a battle for the bands. Seems interesting enough but it says here that you need to have a band consisting of X students.
+
+[PLAYER]
+Well that’s just too bad. I just moved here to GCC and don’t know anyone yet. Might be a fun thing to do another year but for now I should just stick to getting to class on ti--.
+
+WAIT!
+
+OMG! I have class in 5 minutes, I can’t be late to my first class 😲.
+
+But the stairs are wet. When did that get there? I can’t go up them! I guess I have to use the Elevator.
+
+[ELEVATORDOOR]
+[CHAR:]
+[ENVIRONMENT]
+You go over to the elevator and press the button, looking at the time again. As you slide into the elevator and press for floor two you see a custodian coming from the basement with a mop.
+
+[PLAYER]
+Oh sorry for getting in your way and for using the elevator, you see I’m running late for class.
+
+[JANITOR]
+[CHAR:]
+[???]
+Oh not a problem, yeah I’m sorry we are trying to get into a regular schedule of cleaning all the stairs at noon time.
+
+[PLAYER]
+Oh cool, so you are a JANITOR here at GCC, that has to be fun. Oh yeah I should probably introduce myself. My name is
+
+[CHAR:]
+[???]
+Wow what a cool name, it really rolls off the tongue.
+My name is To--
+
+[PLAYER]
+Oppe sorry to interrupt but I’m trying to get to class so I don’t have time to chat. Sorry.
+
+[ELEVATOR]
+[CHAR:]
+[ENVIRONMENT]
+After awkwardly cutting off the janitor, the elevator shuts down and the two of you stand in silence until the janitor starts humming to the elevator music. and banging his mop handle against the door to the beat.
+
+[RHYTHM]

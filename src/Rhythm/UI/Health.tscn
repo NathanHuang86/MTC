@@ -1,0 +1,29 @@
+[gd_scene load_steps=4 format=2]
+
+[ext_resource path="res://assets/Rhythm/UI/HealthProgress.png" type="Texture" id=1]
+[ext_resource path="res://assets/Rhythm/UI/HealthOver.png" type="Texture" id=2]
+[ext_resource path="res://src/Rhythm/UI/Health.gd" type="Script" id=3]
+
+[node name="Health" type="Control"]
+anchor_right = 1.0
+anchor_bottom = 1.0
+script = ExtResource( 3 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="TextureProgress" type="TextureProgress" parent="."]
+margin_left = 1664.0
+margin_top = 64.0
+margin_right = 1764.0
+margin_bottom = 864.0
+step = 0.01
+value = 100.0
+texture_over = ExtResource( 2 )
+texture_progress = ExtResource( 1 )
+fill_mode = 3
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Tween" type="Tween" parent="."]
