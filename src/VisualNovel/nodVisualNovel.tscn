@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=20 format=2]
 
 [ext_resource path="res://src/VisualNovel/mnbShowMenu.gd" type="Script" id=1]
 [ext_resource path="res://assets/Images/Black.jpg" type="Texture" id=2]
@@ -119,6 +119,18 @@ tracks/0/keys = {
 "values": [ 0.0, 1.0 ]
 }
 
+[sub_resource type="DynamicFont" id=9]
+size = 25
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=10]
+size = 25
+font_data = ExtResource( 6 )
+
+[sub_resource type="DynamicFont" id=11]
+size = 25
+font_data = ExtResource( 6 )
+
 [sub_resource type="DynamicFont" id=2]
 size = 30
 font_data = ExtResource( 6 )
@@ -162,9 +174,6 @@ margin_bottom = 1080.0
 custom_fonts/font = SubResource( 1 )
 text = "Bob the builder"
 autowrap = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="aniText" type="AnimationPlayer" parent="Background/Dialog"]
 anims/RESET = SubResource( 6 )
@@ -176,33 +185,33 @@ position = Vector2( 960, 120 )
 texture = ExtResource( 7 )
 
 [node name="btnSave" type="Button" parent="Background/Dialog"]
-margin_left = 560.0
-margin_top = 184.0
-margin_right = 824.0
-margin_bottom = 264.0
+margin_left = 680.0
+margin_top = 200.0
+margin_right = 758.0
+margin_bottom = 280.0
+custom_fonts/font = SubResource( 9 )
 text = "SAVE"
+flat = true
 script = ExtResource( 8 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="btnLoad" type="Button" parent="Background/Dialog"]
 margin_left = 872.0
-margin_top = 184.0
-margin_right = 1136.0
-margin_bottom = 264.0
+margin_top = 200.0
+margin_right = 954.0
+margin_bottom = 280.0
+custom_fonts/font = SubResource( 10 )
 text = "LOAD"
+flat = true
 script = ExtResource( 4 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="btnMainMenu" type="Button" parent="Background/Dialog"]
-margin_left = 1192.0
-margin_top = 184.0
-margin_right = 1456.0
-margin_bottom = 264.0
+margin_left = 1040.0
+margin_top = 200.0
+margin_right = 1197.0
+margin_bottom = 280.0
+custom_fonts/font = SubResource( 11 )
 text = "MAIN MENU"
+flat = true
 
 [node name="CurrentCharacter" type="Label" parent="Background"]
 margin_top = 768.0
