@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex"
+path="res://.import/Cosplay Room.jpg-5ada0774c8961ead6102e774ef9758ea.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Background/Vending Machines.jpg"
-dest_files=[ "res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex" ]
+source_file="res://assets/Images/Background/Cosplay Room.jpg"
+dest_files=[ "res://.import/Cosplay Room.jpg-5ada0774c8961ead6102e774ef9758ea.stex" ]
 
 [params]
 

@@ -25,20 +25,9 @@ func nextScript(line):
 	
 	var script = ""
 	
-	if line == "[BROCHURES]":
-		self.set_normal_texture(load('res://assets/Images/Background/map.jpg'))
-		line = f.get_line()
-	
-	if line == "[GYM]":
-		self.set_normal_texture(load('res://assets/Images/Background/weight room.jpg'))
-		line = f.get_line()
-	
-	if line == "[POSTER]":
-		self.set_normal_texture(load('res://assets/Images/Background/poster.jpg'))
-		line = f.get_line()
-	
 	if line == "[JANITOR]":
-		get_node("sprCharacter").texture = load('res://assets/Images/Janitor.png')
+		line = f.get_line()
+		get_node("sprCharacter").texture = load('res://assets/Images/Janitor Frames/' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.743, 0.702)
 		get_node("sprCharacter").position = Vector2(920, 584)
 		
@@ -53,46 +42,18 @@ func nextScript(line):
 		get_node("sprCharacter").texture = StreamTexture.new()
 		line = f.get_line()
 	
-	if line == "[OUTSIDE]":
-		self.set_normal_texture(load('res://assets/Images/Background/outside final.PNG'))
-		line = f.get_line()
-	
-	if line == "[ELEVATORDOOR]":
-		self.set_normal_texture(load('res://assets/Images/Background/ElevatorDoor.jpg'))
-		line = f.get_line()
-	
-	if line == "[ELEVATOR]":
-		self.set_normal_texture(load('res://assets/Images/Background/elevator.jpg'))
-		line = f.get_line()
-	
-	if line == "[STAIRS]":
-		self.set_normal_texture(load('res://assets/Images/Background/stairs final.PNG'))
-		line = f.get_line()
-	
-	if line == "[LECTURE]":
-		self.set_normal_texture(load('res://assets/Images/Background/lecturehall final.jpg'))
-		line = f.get_line()
-	
-	if line == "[PATH4]":
-		self.set_normal_texture(load('res://assets/Images/Background/path4.jpg'))
-		line = f.get_line()
-	
-	if line == "[PEPBENCH]":
-		self.set_normal_texture(load('res://assets/Images/Background/pplonbench.jpg'))
-		line = f.get_line()
-	
 	if line == "[RHYTHM]":
 		nodTransition.goto_scene("res://src/Rhythm/World3D.tscn")
 		return get_parent().get_node("Background/Dialog").text
 	
 	if line == "[CHAR:]":
 		line = f.get_line()
-		get_node("CurrentCharacter").text = "[ENVIRONMENT]"
+		get_node("CurrentCharacter").text = line
 		line = f.get_line()
 	
-	if line == '[SCHOOL]':
+	if line == '[BACKGROUND]':
 		line = f.get_line()
-		self.set_normal_texture(load('res://assets/Images/Troll.jpg'))
+		self.set_normal_texture(load('res://assets/Images/' + line + '.png'))
 		line = f.get_line()
 	
 	if line == "[PLAYER]":

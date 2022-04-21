@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex"
+path="res://.import/Restaurant.jpg-16d36631e3b28f8940e6463c95354209.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Background/Vending Machines.jpg"
-dest_files=[ "res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex" ]
+source_file="res://assets/Images/Background/Restaurant.jpg"
+dest_files=[ "res://.import/Restaurant.jpg-16d36631e3b28f8940e6463c95354209.stex" ]
 
 [params]
 

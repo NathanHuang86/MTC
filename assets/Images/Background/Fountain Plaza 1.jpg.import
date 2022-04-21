@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex"
+path="res://.import/Fountain Plaza 1.jpg-5d68972c29dbedc8bec2c58a8e7c213c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Background/Vending Machines.jpg"
-dest_files=[ "res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex" ]
+source_file="res://assets/Images/Background/Fountain Plaza 1.jpg"
+dest_files=[ "res://.import/Fountain Plaza 1.jpg-5d68972c29dbedc8bec2c58a8e7c213c.stex" ]
 
 [params]
 

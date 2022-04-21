@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex"
+path="res://.import/Woman Mad.png-18af0e4cec7dabdbeea8a54cc9996adf.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Background/Vending Machines.jpg"
-dest_files=[ "res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex" ]
+source_file="res://assets/Images/Women Frames/Woman Mad.png"
+dest_files=[ "res://.import/Woman Mad.png-18af0e4cec7dabdbeea8a54cc9996adf.stex" ]
 
 [params]
 

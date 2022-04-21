@@ -37,6 +37,7 @@ You go over to the elevator and press the button, looking at the time again. As 
 Oh sorry for getting in your way and for using the elevator, you see I’m running late for class.
 
 [JANITOR]
+Janitor Default
 [CHAR:]
 [???]
 Oh not a problem, yeah I’m sorry we are trying to get into a regular schedule of cleaning all the stairs at noon time.

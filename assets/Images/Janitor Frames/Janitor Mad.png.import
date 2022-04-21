@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex"
+path="res://.import/Janitor Mad.png-ee7531a81954c9701139cca6f522d83a.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Background/Vending Machines.jpg"
-dest_files=[ "res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex" ]
+source_file="res://assets/Images/Janitor Frames/Janitor Mad.png"
+dest_files=[ "res://.import/Janitor Mad.png-ee7531a81954c9701139cca6f522d83a.stex" ]
 
 [params]
 
