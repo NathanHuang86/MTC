@@ -105,7 +105,6 @@ tracks/0/keys = {
 
 [sub_resource type="Animation" id=7]
 resource_name = "Text Crawl"
-length = 3.0
 tracks/0/type = "value"
 tracks/0/path = NodePath(".:percent_visible")
 tracks/0/interp = 1
@@ -113,7 +112,7 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 3 ),
+"times": PoolRealArray( 0, 2 ),
 "transitions": PoolRealArray( 1, 1 ),
 "update": 0,
 "values": [ 0.0, 1.0 ]
@@ -148,8 +147,8 @@ __meta__ = {
 }
 
 [node name="sprCharacter" type="Sprite" parent="Background"]
-position = Vector2( 910, 630 )
-scale = Vector2( 0.375, 0.375 )
+position = Vector2( 976, 584 )
+scale = Vector2( 0.218899, 0.210978 )
 
 [node name="aniCharacterEntrance" type="AnimationPlayer" parent="Background/sprCharacter"]
 root_node = NodePath("../../..")

@@ -1,24 +1,14 @@
-[CHAR:] - Character talking
-[ENVIRONMENT] - No one talking
+[PLAYER]
 [BACKGROUND]
-Some background name - Display background
-[*Some character name]
-some character name w/ expression - Display an expression of a character
-[RHYTHM] - Start game part
-[LEAVE] - Character leaves the environment
-*Leave space for next line of dialog
-
-[CHAR:]
-[BACKGROUND]
-Lobby
+Union
 I walk into lobby.
 
 [JANITOR]
 Janitor Default
 [BACKGROUND]
-Stairs
+Path 2
 Hey dude, I'm here at the stairs.
-						<------ this blank line will be break to next set of dialogs
+
 What do you need me to do?
 
 I can do handstand.

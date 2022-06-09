@@ -2,16 +2,11 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Stairs.PNG-66a0694d0b7ecff4046b4e7d40e7dced.stex"
-metadata={
-"vram_texture": false
-}
+valid=false
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.PNG"
-dest_files=[ "res://.import/Stairs.PNG-66a0694d0b7ecff4046b4e7d40e7dced.stex" ]
-
+source_file="res://assets/Images/Background/Stairs.jpg"
 [params]
 
 compress/mode=0

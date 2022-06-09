@@ -2,7 +2,7 @@ extends TextureButton
 
 onready var dialog = get_node("Dialog")
 onready var f = File.new()
-onready var scenes = ['res://src/Dialog/Intro.txt', 'res://src/Dialog/Teacher.txt', 'res://src/Dialog/Chadwick.txt', 'res://src/Dialog/Mother.txt']
+onready var scenes = ['res://src/Dialog/Demo.txt', 'res://src/Dialog/Teacher.txt', 'res://src/Dialog/Chadwick.txt', 'res://src/Dialog/Mother.txt']
 onready var imgBackGround = File.new()
 onready var tracker = 0
 onready var aniEnable = false
@@ -28,8 +28,9 @@ func nextScript(line):
 	if line == "[JANITOR]":
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Janitor Frames/' + line + '.png')
-		get_node("sprCharacter").scale = Vector2(0.743, 0.702)
+		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
+		
 		
 		if aniEnable == true:
 			$sprCharacter/aniCharacterEntrance.play("Entrance")
@@ -38,29 +39,22 @@ func nextScript(line):
 		
 		line = f.get_line()
 	
+	if line == "[PLAYER]":
+		get_node("CurrentCharacter").text = "[" + sigGlobal.gamedata.strProtagName + "]"
+		line = f.get_line()
+	
 	if line == "[LEAVE]":
 		get_node("sprCharacter").texture = StreamTexture.new()
+		line = f.get_line()
+	
+	if line == '[BACKGROUND]':
+		line = f.get_line()
+		self.set_normal_texture(load('res://assets/Images/Background/' + line + '.jpg'))
 		line = f.get_line()
 	
 	if line == "[RHYTHM]":
 		nodTransition.goto_scene("res://src/Rhythm/World3D.tscn")
 		return get_parent().get_node("Background/Dialog").text
-	
-	if line == "[CHAR:]":
-		line = f.get_line()
-		get_node("CurrentCharacter").text = line
-		line = f.get_line()
-	
-	if line == '[BACKGROUND]':
-		line = f.get_line()
-		self.set_normal_texture(load('res://assets/Images/' + line + '.png'))
-		line = f.get_line()
-	
-	if line == "[PLAYER]":
-		get_node("CurrentCharacter").text = "[" + sigGlobal.gamedata.strProtagName + "]"
-		line = f.get_line()
-	
-	
 	
 	if line == "(day ends)":
 		$sprCharacter/aniCharacterEntrance.play("DayNight")
@@ -89,6 +83,7 @@ func _pressed():
 		var line = f.get_line()
 		if not line == "":
 			dialog.text = nextScript(line)
+			$Dialog/aniText.playback_speed(dialog.text.length() * 20)
 			$Dialog/aniText.play("Text Crawl")
 
 func _on_liePlayerInput_text_entered(new_text):
@@ -101,3 +96,4 @@ func _on_aniCharacterEntrance_animation_finished(anim_name):
 	if anim_name == "DayNight":
 		$sprCharacter/aniCharacterEntrance.play_backwards("DayNight")
 		self.disabled = false
+		
