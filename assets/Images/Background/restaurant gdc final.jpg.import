@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/restaurant gdc final.jpg-99406c436537912c302af8312a3a2e6c.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/restaurant gdc final.jpg"
+dest_files=[ "res://.import/restaurant gdc final.jpg-99406c436537912c302af8312a3a2e6c.stex" ]
+
 [params]
 
 compress/mode=0

@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/himboroom.jpg-a6a837b27f862441ea64ba144dc7b515.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/himboroom.jpg"
+dest_files=[ "res://.import/himboroom.jpg-a6a837b27f862441ea64ba144dc7b515.stex" ]
+
 [params]
 
 compress/mode=0

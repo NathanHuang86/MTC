@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/path6.jpg-c825503247d16746700f89cf441fb17a.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/path6.jpg"
+dest_files=[ "res://.import/path6.jpg-c825503247d16746700f89cf441fb17a.stex" ]
+
 [params]
 
 compress/mode=0

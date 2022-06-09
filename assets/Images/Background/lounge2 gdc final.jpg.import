@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/lounge2 gdc final.jpg-add05455466a6da5ff5eaa03f4cb52b5.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/lounge2 gdc final.jpg"
+dest_files=[ "res://.import/lounge2 gdc final.jpg-add05455466a6da5ff5eaa03f4cb52b5.stex" ]
+
 [params]
 
 compress/mode=0

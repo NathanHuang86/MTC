@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/hallway 2 final.jpg-57608d760da5a89ea66398d37358d181.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/hallway 2 final.jpg"
+dest_files=[ "res://.import/hallway 2 final.jpg-57608d760da5a89ea66398d37358d181.stex" ]
+
 [params]
 
 compress/mode=0

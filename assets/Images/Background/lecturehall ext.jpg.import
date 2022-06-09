@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/lecturehall ext.jpg-209f6a434cee6653605e371ad7cfb183.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/lecturehall ext.jpg"
+dest_files=[ "res://.import/lecturehall ext.jpg-209f6a434cee6653605e371ad7cfb183.stex" ]
+
 [params]
 
 compress/mode=0

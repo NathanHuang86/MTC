@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/mtgroom2 final.jpg-7f881a6bd374850a353245067638191d.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/mtgroom2 final.jpg"
+dest_files=[ "res://.import/mtgroom2 final.jpg-7f881a6bd374850a353245067638191d.stex" ]
+
 [params]
 
 compress/mode=0

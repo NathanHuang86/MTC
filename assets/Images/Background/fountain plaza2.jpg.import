@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/fountain plaza2.jpg-1877f18cbfd837705dfe7c0fc6724bb9.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/fountain plaza2.jpg"
+dest_files=[ "res://.import/fountain plaza2.jpg-1877f18cbfd837705dfe7c0fc6724bb9.stex" ]
+
 [params]
 
 compress/mode=0

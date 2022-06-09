@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/night scene gdc final.jpg-32e8e3408ba279fd254f80452d164f57.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/night scene gdc final.jpg"
+dest_files=[ "res://.import/night scene gdc final.jpg-32e8e3408ba279fd254f80452d164f57.stex" ]
+
 [params]
 
 compress/mode=0

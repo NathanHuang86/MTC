@@ -2,11 +2,16 @@
 
 importer="texture"
 type="StreamTexture"
-valid=false
+path="res://.import/union bg gdc final.jpg-1888b2f7abcc106f4b98161a02c5682c.stex"
+metadata={
+"vram_texture": false
+}
 
 [deps]
 
-source_file="res://assets/Images/Background/Stairs.jpg"
+source_file="res://assets/Images/Background/union bg gdc final.jpg"
+dest_files=[ "res://.import/union bg gdc final.jpg-1888b2f7abcc106f4b98161a02c5682c.stex" ]
+
 [params]
 
 compress/mode=0
