@@ -1,7 +1,7 @@
 [gd_resource type="SpriteFrames" load_steps=3 format=2]
 
-[ext_resource path="res://Sprites/game/arrow_button/left/arrow_button_left1.png" type="Texture" id=1]
-[ext_resource path="res://Sprites/game/arrow_button/left/arrow_button_left2.png" type="Texture" id=2]
+[ext_resource path="res://src/Rhythm/Sprites/game/arrow_button/left/LEFT_Arrow.png" type="Texture" id=1]
+[ext_resource path="res://src/Rhythm/Sprites/game/arrow_button/left/LEFT_Arrow2.png" type="Texture" id=2]
 
 [resource]
 animations = [ {

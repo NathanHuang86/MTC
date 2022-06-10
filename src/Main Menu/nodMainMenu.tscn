@@ -11,7 +11,7 @@
 [ext_resource path="res://src/Audio/TitleThemeDemo.wav" type="AudioStream" id=9]
 [ext_resource path="res://src/Main Menu/nodMainMenu.gd" type="Script" id=10]
 
-[sub_resource type="Animation" id=2]
+[sub_resource type="Animation" id=1]
 resource_name = "Fade In"
 length = 4.0
 tracks/0/type = "value"
@@ -27,7 +27,7 @@ tracks/0/keys = {
 "values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 1 ) ]
 }
 
-[sub_resource type="Animation" id=3]
+[sub_resource type="Animation" id=2]
 resource_name = "Fade Out"
 length = 6.0
 tracks/0/type = "value"
@@ -43,7 +43,7 @@ tracks/0/keys = {
 "values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
 }
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=3]
 length = 0.001
 tracks/0/type = "value"
 tracks/0/path = NodePath(".:modulate")
@@ -58,7 +58,7 @@ tracks/0/keys = {
 "values": [ Color( 0, 0, 0, 0.25 ) ]
 }
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="DynamicFont" id=4]
 size = 80
 outline_size = 4
 outline_color = Color( 0.105882, 0.427451, 0.882353, 1 )
@@ -69,9 +69,9 @@ script = ExtResource( 10 )
 
 [node name="aniCharacterChange" type="AnimationPlayer" parent="."]
 root_node = NodePath("../sprCharacter")
-"anims/Fade In" = SubResource( 2 )
-"anims/Fade Out" = SubResource( 3 )
-anims/RESET = SubResource( 4 )
+"anims/Fade In" = SubResource( 1 )
+"anims/Fade Out" = SubResource( 2 )
+anims/RESET = SubResource( 3 )
 
 [node name="spriBackground" type="Sprite" parent="."]
 position = Vector2( 960, 540 )
@@ -92,7 +92,7 @@ margin_left = 128.0
 margin_top = 512.0
 margin_right = 480.0
 margin_bottom = 640.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 4 )
 text = "START"
 flat = true
 script = ExtResource( 4 )
@@ -105,7 +105,7 @@ margin_left = 128.0
 margin_top = 640.0
 margin_right = 480.0
 margin_bottom = 768.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 4 )
 text = "LOAD"
 flat = true
 script = ExtResource( 8 )
@@ -118,7 +118,7 @@ margin_left = 112.0
 margin_top = 768.0
 margin_right = 527.0
 margin_bottom = 896.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 4 )
 text = "OPTIONS"
 flat = true
 script = ExtResource( 7 )
@@ -128,7 +128,7 @@ margin_left = 128.0
 margin_top = 896.0
 margin_right = 480.0
 margin_bottom = 1024.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 4 )
 text = "QUIT"
 flat = true
 script = ExtResource( 5 )
@@ -138,7 +138,6 @@ __meta__ = {
 
 [node name="aspBGM" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
-
 [connection signal="animation_finished" from="aniCharacterChange" to="." method="_on_aniCharacterChange_animation_finished"]
 [connection signal="pressed" from="btnLoad" to="btnLoad" method="_on_btnLoad_pressed"]
 [connection signal="finished" from="aspBGM" to="." method="_on_aspBGM_finished"]
