@@ -1,8 +1,8 @@
 [gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://src/Rhythm/Frames/note_frames.tres" type="SpriteFrames" id=1]
-[ext_resource path="res://src/Rhythm/Sprites/game/particles/star.png" type="Texture" id=2]
-[ext_resource path="res://src/Rhythm/Fonts/heartbit2x.tres" type="DynamicFont" id=3]
+[ext_resource path="res://src/Rhythm/Sprites/game/particles/red6.png" type="Texture" id=2]
+[ext_resource path="res://src/Rhythm/Fonts/MilkyDynamic2.tres" type="DynamicFont" id=3]
 [ext_resource path="res://src/Rhythm/Scripts/Note.gd" type="Script" id=4]
 
 [sub_resource type="RectangleShape2D" id=1]
@@ -42,10 +42,11 @@ one_shot = true
 
 [node name="Label" type="Label" parent="Node2D"]
 anchor_right = 0.046
-margin_left = -20.0
-margin_top = -8.0
-margin_right = 20.0
-margin_bottom = 6.0
+margin_left = -12.0
+margin_top = 6.0
+margin_right = 205.0
+margin_bottom = 66.0
+rect_scale = Vector2( 0.122, 0.122 )
 custom_fonts/font = ExtResource( 3 )
 custom_colors/font_color = Color( 1, 1, 1, 1 )
 align = 1

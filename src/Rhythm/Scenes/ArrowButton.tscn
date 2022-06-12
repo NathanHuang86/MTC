@@ -13,13 +13,13 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 14.9772, 20.1069 )
+extents = Vector2( 14.9772, 15.367 )
 
 [sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 4, 67.3539 )
+extents = Vector2( 14.4615, 50.7403 )
 
 [sub_resource type="RectangleShape2D" id=4]
-extents = Vector2( 4, 95.0722 )
+extents = Vector2( 13.1266, 102.132 )
 
 [node name="ArrowButton" type="AnimatedSprite"]
 frames = SubResource( 1 )
@@ -36,7 +36,6 @@ shape = SubResource( 2 )
 shape = SubResource( 3 )
 
 [node name="OkayArea" type="Area2D" parent="."]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="OkayArea"]
 shape = SubResource( 4 )

@@ -201,7 +201,7 @@ func _on_Conductor_beat(position):
 		lane1 = 3
 
 	if song_position_in_beats > 158:
-		RhythmGlobal.set_score(score)
+		RhythmGlobal.set_score(score, "Janitor")
 		RhythmGlobal.combo = max_combo
 		RhythmGlobal.great = great
 		RhythmGlobal.good = good

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/hit100.png-8d3c66718f7a8369929db8615cc426ab.stex"
+path="res://.import/red6.png-a6feda8d0b2bfee04309f40e928d091c.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Rhythm/Effects/hit100.png"
-dest_files=[ "res://.import/hit100.png-8d3c66718f7a8369929db8615cc426ab.stex" ]
+source_file="res://src/Rhythm/Sprites/game/particles/red6.png"
+dest_files=[ "res://.import/red6.png-a6feda8d0b2bfee04309f40e928d091c.stex" ]
 
 [params]
 
@@ -20,7 +20,7 @@ compress/hdr_mode=0
 compress/bptc_ldr=0
 compress/normal_map=0
 flags/repeat=0
-flags/filter=true
+flags/filter=false
 flags/mipmaps=false
 flags/anisotropic=false
 flags/srgb=2
