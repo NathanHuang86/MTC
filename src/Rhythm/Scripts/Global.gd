@@ -9,7 +9,7 @@ var okay = 0
 var missed = 0
 var grade = "NA"
 
-
+#standardize scoring somehow
 func set_score(new):
 	score = new
 	if score > 11400:

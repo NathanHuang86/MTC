@@ -30,7 +30,7 @@ var lane3 = 0
 var lane4 = 0
 
 var rand = 0
-var note = load("res://Scenes/Note.tscn")
+var note = load("res://src/Rhythm/Scenes/Note.tscn")
 
 var instance
 var instance2
@@ -201,12 +201,12 @@ func _on_Conductor_beat(position):
 		lane1 = 3
 
 	if song_position_in_beats > 158:
-		Global.set_score(score)
-		Global.combo = max_combo
-		Global.great = great
-		Global.good = good
-		Global.okay = okay
-		Global.missed = missed
+		RhythmGlobal.set_score(score)
+		RhythmGlobal.combo = max_combo
+		RhythmGlobal.great = great
+		RhythmGlobal.good = good
+		RhythmGlobal.okay = okay
+		RhythmGlobal.missed = missed
 		get_tree().change_scene("res://Scenes/End.tscn")
 		if get_tree().change_scene("res://Scenes/End.tscn") != OK:
 			print ("Error changing scene to End")

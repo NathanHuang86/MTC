@@ -78,20 +78,24 @@ centered = false
 position = Vector2( 80, 164 )
 scale = Vector2( 0.122, 0.122 )
 frames = ExtResource( 2 )
+input = "left"
 
 [node name="ArrowUp" parent="." instance=ExtResource( 1 )]
 position = Vector2( 120, 164 )
 scale = Vector2( 0.122, 0.122 )
 frames = SubResource( 1 )
+input = "up"
 
 [node name="ArrowDown" parent="." instance=ExtResource( 1 )]
 position = Vector2( 160, 164 )
 scale = Vector2( 0.122, 0.122 )
+input = "down"
 
 [node name="ArrowRight" parent="." instance=ExtResource( 1 )]
 position = Vector2( 200, 164 )
 scale = Vector2( 0.122, 0.122 )
 frames = ExtResource( 3 )
+input = "right"
 
 [node name="Label" type="Label" parent="."]
 margin_left = 4.0
@@ -125,7 +129,7 @@ volume_db = -15.0
 
 [node name="Janitor" type="AnimatedSprite" parent="."]
 position = Vector2( 259.646, 97.7794 )
-scale = Vector2( 0.0331638, 0.0314963 )
+scale = Vector2( 0.03, 0.03 )
 frames = SubResource( 2 )
 script = ExtResource( 19 )
 
