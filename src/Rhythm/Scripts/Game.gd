@@ -1,5 +1,10 @@
 extends Node2D
 
+onready var map = File.new()
+onready var scripts = ['res://src/Rhythm/Maps/demoRhythm.txt']
+
+
+
 var score = 0
 var combo = 0
 
@@ -44,6 +49,7 @@ var instance4
 func _ready():
 	randomize()
 	$Conductor.play_with_beat_offset(8)
+	map.open(scripts[RhythmGlobal.sceneInt], File.READ)
 
 
 func _input(event):
@@ -98,118 +104,27 @@ func _on_Conductor_measure(position):
 #to compensate for arrows taking a while to fall, subract 2 beats off for a better transition
 
 func _on_Conductor_beat(position):
-	#$Janitor._call_bounce()
-	song_position_in_beats = position
 	
-	if song_position_in_beats > 4:##
-		count = 1
-		lane1 = 2
-	if song_position_in_beats > 5:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 8:##
-		count = 1
-		lane1 = 3
-	if song_position_in_beats > 9:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 12:##
-		count = 1
-		lane1 = 1
-	if song_position_in_beats > 13:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 16:##
-		count = 1
-		lane1 = 0
-	if song_position_in_beats > 17:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 20:##
-		count = 1
-		lane1 = 3
-		lane2 = 0
-	if song_position_in_beats > 21:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 24:##
-		count = 1
-		lane1 = 3
-	if song_position_in_beats > 25:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 28:##
-		count = 1
-		lane1 = 3
-	if song_position_in_beats > 29:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 32:##
-		count = 1
-		lane1 = 3
-	if song_position_in_beats > 33:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 36:##
-		count = 1
-		lane1 = 3
-	if song_position_in_beats > 37:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 38:
-		count = 2
-		lane1 = 1
-		lane2 = 0
-	if song_position_in_beats > 39:
-		count = 0
-		lane1 = 1
-		lane2 = 0
-	if song_position_in_beats > 40:##
-		count = 1
-		lane1 = 3
-	if song_position_in_beats > 41:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 42:
-		count = 2
-		lane1 = 2
-		lane2 = 3
-	if song_position_in_beats > 43:
-		count = 0
-		lane1 = 2
-		lane2 = 3
-	if song_position_in_beats > 44:##
-		count = 1
-		lane1 = 3
-	if song_position_in_beats > 45:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 48:##
-		count = 1
-		lane1 = 3
-	if song_position_in_beats > 49:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 52:##
-		count = 1
-		lane1 = 3
-	if song_position_in_beats > 53:
-		count = 0
-		lane1 = 1
-	if song_position_in_beats > 54:##
-		count = 1
-		lane1 = 3
-
-	if song_position_in_beats > 158:
-		RhythmGlobal.set_score(score, "Janitor")
-		RhythmGlobal.combo = max_combo
-		RhythmGlobal.great = great
-		RhythmGlobal.good = good
-		RhythmGlobal.okay = okay
-		RhythmGlobal.missed = missed
-		get_tree().change_scene("res://Scenes/End.tscn")
-		if get_tree().change_scene("res://Scenes/End.tscn") != OK:
-			print ("Error changing scene to End")
+	
+	
+	var beat = map.get_line()
+	
+	count = int(beat.substr(0, 1))
+	lane1 = int(beat.substr(2, 1))
+	lane2 = int(beat.substr(4, 1))
+	lane3 = int(beat.substr(6, 1))
+	
+#
+#	if song_position_in_beats > 158:
+#		RhythmGlobal.set_score(score, "Janitor")
+#		RhythmGlobal.combo = max_combo
+#		RhythmGlobal.great = great
+#		RhythmGlobal.good = good
+#		RhythmGlobal.okay = okay
+#		RhythmGlobal.missed = missed
+#		get_tree().change_scene("res://src/Rhythm/Scenes/End.tscn")
+#		if get_tree().change_scene("res://src/Rhythm/Scenes/End.tscn") != OK:
+#			print ("Error changing scene to End")
 
 
 
@@ -270,7 +185,7 @@ func increment_score(by):
 		missed += 1
 	
 	
-	score += by * combo
+	score += (by * 100)
 	$Label.text = str(score)
 	if combo > 0:
 		$Combo.text = str(combo) + " combo!"

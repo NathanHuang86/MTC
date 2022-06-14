@@ -1,8 +1,15 @@
 extends Node2D
 
+var sceneInt = 0
+var spriteInt = 0
+var backgroundInt = 0
+var songInt = 0
 
 var score = 0
-var gradescore = 0
+var totalNotes = [1, 1, 1]
+#remember to customize
+var percent = 0
+
 var combo = 0
 var great = 0
 var good = 0
@@ -10,39 +17,21 @@ var okay = 0
 var missed = 0
 var grade = "NA"
 
-#standardize scoring somehow
-func set_score(new, character):
-	gradescore = new
-	#MAKE SURE GRADESCORE IS CALCULATED UNIQULY DEPENDING ON CHARACTER
+func set_score(new):
 	
-	
-#	if character = "Janitor":
-#
-#	if character = "Cosplay":
-#
-#	if character = "Himbo":
-#
-#	if character = "Mother":
-#
-#	if character = "Oliver":
-#
-#	if character = "Shopping":
-#
-#	if character = "Janitor":
-#
-#	if character = "Janitor":
-		
 	score = new
 	
-	if gradescore == 1000:
+	percent = float(great + good + okay) / totalNotes[songInt]
+	
+	if percent == 1:
 		grade = "S"
-	elif gradescore > 900:
+	elif percent > 0.9:
 		grade = "A"
-	elif gradescore > 800:
+	elif percent > 0.8:
 		grade = "B"
-	elif gradescore > 600:
+	elif percent > 0.7:
 		grade = "C"
-	elif gradescore > 400:
+	elif percent > 0.6:
 		grade = "D"
 	else:
 		grade = "F"

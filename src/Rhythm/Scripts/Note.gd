@@ -1,7 +1,10 @@
 extends Area2D
 
 const TARGET_Y = 164
+
 const SPAWN_Y = -16
+#this adjusts the speed at which the arrows fall, but they still reach the "receptors" at the same time no matter what
+
 const DIST_TO_TARGET = TARGET_Y - SPAWN_Y
 
 const LEFT_LANE_SPAWN = Vector2(80, SPAWN_Y)
@@ -35,11 +38,11 @@ func initialize(lane):
 		$AnimatedSprite.frame = 1
 		position = UP_LANE_SPAWN
 	elif lane == 2:
-		$AnimatedSprite.frame = 2
-		position = RIGHT_LANE_SPAWN
-	elif lane == 3:
 		$AnimatedSprite.frame = 3
 		position = DOWN_LANE_SPAWN
+	elif lane == 3:
+		$AnimatedSprite.frame = 2
+		position = RIGHT_LANE_SPAWN
 	else:
 		printerr("Invalid lane set for note: " + str(lane))
 		return

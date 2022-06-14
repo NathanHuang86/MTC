@@ -9,7 +9,7 @@
 [ext_resource path="res://assets/Images/LabelText.png" type="Texture" id=7]
 [ext_resource path="res://src/VisualNovel/btnSave.gd" type="Script" id=8]
 
-[sub_resource type="Animation" id=8]
+[sub_resource type="Animation" id=1]
 resource_name = "DayNight"
 length = 3.0
 tracks/0/type = "value"
@@ -25,7 +25,7 @@ tracks/0/keys = {
 "values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
 }
 
-[sub_resource type="Animation" id=3]
+[sub_resource type="Animation" id=2]
 resource_name = "Entrance"
 length = 2.0
 tracks/0/type = "value"
@@ -41,7 +41,7 @@ tracks/0/keys = {
 "values": [ Color( 0, 0, 0, 0 ), Color( 1, 1, 1, 1 ) ]
 }
 
-[sub_resource type="Animation" id=4]
+[sub_resource type="Animation" id=3]
 resource_name = "Exit"
 length = 2.0
 tracks/0/type = "value"
@@ -57,7 +57,7 @@ tracks/0/keys = {
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
 }
 
-[sub_resource type="Animation" id=5]
+[sub_resource type="Animation" id=4]
 length = 0.001
 tracks/0/type = "value"
 tracks/0/path = NodePath("Background/sprCharacter:modulate")
@@ -84,7 +84,7 @@ tracks/1/keys = {
 "values": [ Color( 0, 0, 0, 1 ) ]
 }
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="DynamicFont" id=5]
 size = 30
 font_data = ExtResource( 6 )
 
@@ -118,6 +118,10 @@ tracks/0/keys = {
 "values": [ 0.0, 1.0 ]
 }
 
+[sub_resource type="DynamicFont" id=8]
+size = 25
+font_data = ExtResource( 6 )
+
 [sub_resource type="DynamicFont" id=9]
 size = 25
 font_data = ExtResource( 6 )
@@ -127,10 +131,6 @@ size = 25
 font_data = ExtResource( 6 )
 
 [sub_resource type="DynamicFont" id=11]
-size = 25
-font_data = ExtResource( 6 )
-
-[sub_resource type="DynamicFont" id=2]
 size = 30
 font_data = ExtResource( 6 )
 
@@ -152,10 +152,10 @@ scale = Vector2( 0.218899, 0.210978 )
 
 [node name="aniCharacterEntrance" type="AnimationPlayer" parent="Background/sprCharacter"]
 root_node = NodePath("../../..")
-anims/DayNight = SubResource( 8 )
-anims/Entrance = SubResource( 3 )
-anims/Exit = SubResource( 4 )
-anims/RESET = SubResource( 5 )
+anims/DayNight = SubResource( 1 )
+anims/Entrance = SubResource( 2 )
+anims/Exit = SubResource( 3 )
+anims/RESET = SubResource( 4 )
 
 [node name="colDayNight" type="ColorRect" parent="Background/sprCharacter/aniCharacterEntrance"]
 visible = false
@@ -170,7 +170,7 @@ __meta__ = {
 margin_top = 800.0
 margin_right = 1920.0
 margin_bottom = 1080.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 5 )
 text = "Bob the builder"
 autowrap = true
 
@@ -188,7 +188,7 @@ margin_left = 680.0
 margin_top = 200.0
 margin_right = 758.0
 margin_bottom = 280.0
-custom_fonts/font = SubResource( 9 )
+custom_fonts/font = SubResource( 8 )
 text = "SAVE"
 flat = true
 script = ExtResource( 8 )
@@ -198,7 +198,7 @@ margin_left = 872.0
 margin_top = 200.0
 margin_right = 954.0
 margin_bottom = 280.0
-custom_fonts/font = SubResource( 10 )
+custom_fonts/font = SubResource( 9 )
 text = "LOAD"
 flat = true
 script = ExtResource( 4 )
@@ -208,7 +208,7 @@ margin_left = 1040.0
 margin_top = 200.0
 margin_right = 1197.0
 margin_bottom = 280.0
-custom_fonts/font = SubResource( 11 )
+custom_fonts/font = SubResource( 10 )
 text = "MAIN MENU"
 flat = true
 
@@ -216,7 +216,7 @@ flat = true
 margin_top = 768.0
 margin_right = 1920.0
 margin_bottom = 816.0
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 5 )
 text = "Bob the builder"
 autowrap = true
 __meta__ = {
@@ -229,7 +229,7 @@ margin_left = 448.0
 margin_top = 208.0
 margin_right = 1392.0
 margin_bottom = 312.0
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 11 )
 max_length = 25
 __meta__ = {
 "_edit_use_anchors_": false
@@ -247,7 +247,6 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
 [connection signal="animation_finished" from="Background/sprCharacter/aniCharacterEntrance" to="Background" method="_on_aniCharacterEntrance_animation_finished"]
 [connection signal="pressed" from="Background/Dialog/btnSave" to="Background/Dialog/btnSave" method="_on_btnSave_pressed"]
 [connection signal="pressed" from="Background/Dialog/btnLoad" to="Background/Dialog/btnLoad" method="_on_btnLoad_pressed"]
