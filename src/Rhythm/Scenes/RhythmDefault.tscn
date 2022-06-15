@@ -42,11 +42,6 @@ animations = [ {
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 17 ), ExtResource( 9 ), ExtResource( 12 ) ],
-"loop": true,
-"name": "Janitor",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
 "loop": true,
 "name": "Oliver",
@@ -60,6 +55,11 @@ animations = [ {
 "frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
 "loop": true,
 "name": "Cosplayer",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ), ExtResource( 9 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "Janitor",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ) ],

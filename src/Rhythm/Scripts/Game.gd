@@ -2,7 +2,9 @@ extends Node2D
 
 onready var map = File.new()
 onready var scripts = ['res://src/Rhythm/Maps/demoRhythm.txt']
-
+onready var backgrounds = ['res://assets/Images/Background/elevator.jpg']
+onready var song_bpm = [90, 00, 110, 160]
+#Janitor, cosplay(brodie), himbo, mother, oliver(wesley), woman
 
 
 var score = 0
@@ -14,7 +16,7 @@ var good = 0
 var okay = 0
 var missed = 0
 
-var bpm = 90
+var bpm = song_bpm[RhythmGlobal.songInt]
 
 var song_position = 0.0
 var song_position_in_beats = 0
@@ -115,16 +117,16 @@ func _on_Conductor_beat(position):
 	lane3 = int(beat.substr(6, 1))
 	
 #
-#	if song_position_in_beats > 158:
-#		RhythmGlobal.set_score(score, "Janitor")
-#		RhythmGlobal.combo = max_combo
-#		RhythmGlobal.great = great
-#		RhythmGlobal.good = good
-#		RhythmGlobal.okay = okay
-#		RhythmGlobal.missed = missed
-#		get_tree().change_scene("res://src/Rhythm/Scenes/End.tscn")
-#		if get_tree().change_scene("res://src/Rhythm/Scenes/End.tscn") != OK:
-#			print ("Error changing scene to End")
+	if map.eof_reached():
+		RhythmGlobal.set_score(score)
+		RhythmGlobal.combo = max_combo
+		RhythmGlobal.great = great
+		RhythmGlobal.good = good
+		RhythmGlobal.okay = okay
+		RhythmGlobal.missed = missed
+		get_tree().change_scene("res://src/Rhythm/Scenes/End.tscn")
+		if get_tree().change_scene("res://src/Rhythm/Scenes/End.tscn") != OK:
+			print ("Error changing scene to End")
 
 
 
