@@ -3,7 +3,11 @@ extends AudioStreamPlayer
 
 #change bpm here and on the Game.gd script to reflect BPM of song. Also you can double the bpm for access to more notes
 #differences between rhythm scenes include bpm, note mapping, song playing, background, and character sprite
-export var bpm := 90
+
+var song_bpm = [90, 00, 110, 160, 00, 120, 00, 00]
+#Janitor, cosplay(brodie), himbo, mother, oliver(wesley), woman, skater, ominous
+#var bpm_buffer = song_bpm[RhythmGlobal.sceneInt]
+var bpm = song_bpm[RhythmGlobal.sceneInt]
 export var measures := 4
 
 # Tracking the beat and song position

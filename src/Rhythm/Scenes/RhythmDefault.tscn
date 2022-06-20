@@ -42,19 +42,14 @@ animations = [ {
 
 [sub_resource type="SpriteFrames" id=2]
 animations = [ {
-"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
-"loop": true,
-"name": "Oliver",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 29 ), ExtResource( 28 ), ExtResource( 30 ) ],
 "loop": true,
 "name": "Shoppin",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 26 ) ],
 "loop": true,
-"name": "Cosplayer",
+"name": "Himbo",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 17 ), ExtResource( 9 ), ExtResource( 12 ) ],
@@ -62,14 +57,19 @@ animations = [ {
 "name": "Janitor",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "Oliver",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "Cosplayer",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "Mother",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 26 ) ],
-"loop": true,
-"name": "Himbo",
 "speed": 5.0
 } ]
 

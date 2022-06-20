@@ -1,10 +1,11 @@
 extends Node2D
 
 onready var map = File.new()
-onready var scripts = ['res://src/Rhythm/Maps/demoRhythm.txt']
+onready var scripts = ['res://src/Rhythm/Maps/Janitor.txt','res://src/Rhythm/Maps/Cosplay.txt','res://src/Rhythm/Maps/Himbo.txt', 'res://src/Rhythm/Maps/Mother.txt', 'res://src/Rhythm/Maps/Oliver.txt', 'res://src/Rhythm/Maps/Skater.txt', 'res://src/Rhythm/Maps/Ominous.txt']
 onready var backgrounds = ['res://assets/Images/Background/elevator.jpg']
-onready var song_bpm = [90, 00, 110, 160]
-#Janitor, cosplay(brodie), himbo, mother, oliver(wesley), woman
+onready var sprites = ['Janitor', 'Cosplay', 'Himbo', 'Mother', 'Oliver', 'Shoppin'] #add skater and ominous when you can
+var song_bpm = [90, 00, 110, 160, 00, 120, 00, 00]
+#Janitor, cosplay(brodie), himbo, mother, oliver(wesley), woman, skater, ominous
 
 
 var score = 0
@@ -16,7 +17,8 @@ var good = 0
 var okay = 0
 var missed = 0
 
-var bpm = song_bpm[RhythmGlobal.songInt]
+var bpm = song_bpm[RhythmGlobal.sceneInt]
+
 
 var song_position = 0.0
 var song_position_in_beats = 0
@@ -52,6 +54,7 @@ func _ready():
 	randomize()
 	$Conductor.play_with_beat_offset(8)
 	map.open(scripts[RhythmGlobal.sceneInt], File.READ)
+	$Sprite.set_animation(sprites[RhythmGlobal.sceneInt])
 
 
 func _input(event):
@@ -108,7 +111,7 @@ func _on_Conductor_measure(position):
 func _on_Conductor_beat(position):
 	
 	
-	
+	$Sprite/AnimationPlayer.play("Bounce")
 	var beat = map.get_line()
 	
 	count = int(beat.substr(0, 1))
@@ -118,12 +121,12 @@ func _on_Conductor_beat(position):
 	
 #
 	if map.eof_reached():
-		RhythmGlobal.set_score(score)
 		RhythmGlobal.combo = max_combo
 		RhythmGlobal.great = great
 		RhythmGlobal.good = good
 		RhythmGlobal.okay = okay
 		RhythmGlobal.missed = missed
+		RhythmGlobal.set_score(score)
 		get_tree().change_scene("res://src/Rhythm/Scenes/End.tscn")
 		if get_tree().change_scene("res://src/Rhythm/Scenes/End.tscn") != OK:
 			print ("Error changing scene to End")
@@ -193,8 +196,13 @@ func increment_score(by):
 		$Combo.text = str(combo) + " combo!"
 		if combo > max_combo:
 			max_combo = combo
+	#if combo > 25:
+		#$Sprite.frame(1)
+	#if combo > 50:
+		#$Sprite.frame(2)
 	else:
 		$Combo.text = ""
+		#$Sprite.frame(0)
 
 
 func reset_combo():

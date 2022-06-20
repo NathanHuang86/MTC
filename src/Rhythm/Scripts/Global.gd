@@ -1,12 +1,9 @@
 extends Node2D
 
 var sceneInt = 0
-var spriteInt = 0
-var backgroundInt = 0
-var songInt = 0
 
 var score = 0
-var totalNotes = [1, 1, 1]
+var totalNotes = [46, 1, 1]
 #remember to customize
 var percent = 0
 
@@ -21,8 +18,8 @@ func set_score(new):
 	
 	score = new
 	
-	percent = float(great + good + okay) / totalNotes[songInt]
-	
+	percent = float(great + good + okay) / totalNotes[sceneInt]
+
 	if percent == 1:
 		grade = "S"
 	elif percent > 0.9:
