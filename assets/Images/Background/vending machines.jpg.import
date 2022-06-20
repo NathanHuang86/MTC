@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/vending machines.jpg-8f5b382ab3f24066370bd5fb8939ff32.stex"
+path="res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Background/vending machines.jpg"
-dest_files=[ "res://.import/vending machines.jpg-8f5b382ab3f24066370bd5fb8939ff32.stex" ]
+source_file="res://assets/Images/Background/Vending Machines.jpg"
+dest_files=[ "res://.import/Vending Machines.jpg-500408eb3fddf7249b254bbafc636ebc.stex" ]
 
 [params]
 
@@ -28,6 +28,7 @@ process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 process/invert_color=false
+process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=true

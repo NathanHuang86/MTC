@@ -2,7 +2,7 @@ extends TextureButton
 
 onready var dialog = get_node("Dialog")
 onready var f = File.new()
-onready var scenes = ['res://src/Dialog/Demo.txt', 'res://src/Dialog/Teacher.txt', 'res://src/Dialog/Chadwick.txt', 'res://src/Dialog/Mother.txt']
+onready var scenes = ['res://src/Dialog/Janitor.txt', 'res://src/Dialog/Teacher.txt', 'res://src/Dialog/Chadwick.txt', 'res://src/Dialog/Mother.txt']
 onready var imgBackGround = File.new()
 onready var tracker = 0
 onready var aniEnable = false
@@ -25,12 +25,17 @@ func nextScript(line):
 	
 	var script = ""
 	
-	if line == "[JANITOR]":
+	if line == '[BACKGROUND]':
 		line = f.get_line()
-		get_node("sprCharacter").texture = load('res://assets/Images/Janitor Frames/' + line + '.png')
+		self.set_normal_texture(load('res://assets/Images/Background/' + line + '.jpg'))
+		line = f.get_line()
+	
+	if line == "[JANITOR]":
+		get_node("CurrentCharacter").text = "[JANITOR]"
+		line = f.get_line()
+		get_node("sprCharacter").texture = load('res://assets/Images/Janitor Frames/Janitor ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
-		
 		
 		if aniEnable == true:
 			$sprCharacter/aniCharacterEntrance.play("Entrance")
@@ -43,13 +48,12 @@ func nextScript(line):
 		get_node("CurrentCharacter").text = "[" + sigGlobal.gamedata.strProtagName + "]"
 		line = f.get_line()
 	
-	if line == "[LEAVE]":
-		get_node("sprCharacter").texture = StreamTexture.new()
+	if line == "[ENVIRONMENT]":
+		get_node("CurrentCharacter").text = "[ENVIRONMENT]"
 		line = f.get_line()
 	
-	if line == '[BACKGROUND]':
-		line = f.get_line()
-		self.set_normal_texture(load('res://assets/Images/Background/' + line + '.jpg'))
+	if line == "[LEAVE]":
+		get_node("sprCharacter").texture = StreamTexture.new()
 		line = f.get_line()
 	
 	if line == "[RHYTHM]":
@@ -83,8 +87,6 @@ func _pressed():
 		var line = f.get_line()
 		if not line == "":
 			dialog.text = nextScript(line)
-			$Dialog/aniText.playback_speed(dialog.text.length() * 20)
-			$Dialog/aniText.play("Text Crawl")
 
 func _on_liePlayerInput_text_entered(new_text):
 	self.disabled = false
