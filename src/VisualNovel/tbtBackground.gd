@@ -57,7 +57,7 @@ func nextScript(line):
 		line = f.get_line()
 	
 	if line == "[RHYTHM]":
-		nodTransition.goto_scene("res://src/Rhythm/World3D.tscn")
+		nodTransition.goto_scene("res://src/Rhythm/Scenes/RhythmDefault.tscn")
 		return get_parent().get_node("Background/Dialog").text
 	
 	if line == "(day ends)":

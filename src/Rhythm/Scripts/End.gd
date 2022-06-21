@@ -1,8 +1,10 @@
 extends Node2D
 
+onready var sprites = ['Janitor', 'Cosplay', 'Himbo', 'Mother', 'Oliver', 'Shoppin']
 
 func _ready():
-	$Sprite.frame = RhythmGlobal.spriteInt
+	$Sprite.set_animation(sprites[RhythmGlobal.sceneInt])
+	#sprites[RhythmGlobal.sceneInt]
 	
 	
 	$GradeNumber.text = RhythmGlobal.grade

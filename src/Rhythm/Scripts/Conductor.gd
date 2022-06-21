@@ -5,6 +5,7 @@ extends AudioStreamPlayer
 #differences between rhythm scenes include bpm, note mapping, song playing, background, and character sprite
 
 var song_bpm = [90, 00, 110, 160, 00, 120, 00, 00]
+var song_file = ['res://src/Audio/Janitor.wav']
 #Janitor, cosplay(brodie), himbo, mother, oliver(wesley), woman, skater, ominous
 #var bpm_buffer = song_bpm[RhythmGlobal.sceneInt]
 var bpm = song_bpm[RhythmGlobal.sceneInt]
