@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ominous Default.png-cd61c58508a5f4ff8baad7592676536c.stex"
+path="res://.import/Ominous Stare.png-3af6005ce58096b169a9ef8a3a3432b4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Ominous/Ominous Default.png"
-dest_files=[ "res://.import/Ominous Default.png-cd61c58508a5f4ff8baad7592676536c.stex" ]
+source_file="res://assets/Images/Ominous Frames/Ominous Stare.png"
+dest_files=[ "res://.import/Ominous Stare.png-3af6005ce58096b169a9ef8a3a3432b4.stex" ]
 
 [params]
 

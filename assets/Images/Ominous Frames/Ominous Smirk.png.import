@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ominous Smirk.png-aeb5f1e5e8430d18be5169dbfb299d7b.stex"
+path="res://.import/Ominous Smirk.png-6f18d25f1a7ebdb44d39feb6090eb927.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Ominous/Ominous Smirk.png"
-dest_files=[ "res://.import/Ominous Smirk.png-aeb5f1e5e8430d18be5169dbfb299d7b.stex" ]
+source_file="res://assets/Images/Ominous Frames/Ominous Smirk.png"
+dest_files=[ "res://.import/Ominous Smirk.png-6f18d25f1a7ebdb44d39feb6090eb927.stex" ]
 
 [params]
 

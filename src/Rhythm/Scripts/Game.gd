@@ -204,13 +204,13 @@ func increment_score(by):
 		$Combo.text = str(combo) + " combo!"
 		if combo > max_combo:
 			max_combo = combo
-	#if combo > 25:
-		#$Sprite.frame(1)
-	#if combo > 50:
-		#$Sprite.frame(2)
+			if combo > 25:
+				$Sprite.frame = 1
+			elif combo > 50:
+				$Sprite.frame = 2
 	else:
 		$Combo.text = ""
-		#$Sprite.frame(0)
+		$Sprite.frame = 0
 
 
 func reset_combo():

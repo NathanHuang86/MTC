@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ominous Shocked.png-5952a1ce458cbdbf1826c61332de9479.stex"
+path="res://.import/Ominous Default.png-a470f45d0c5be9491d0d8f5741b91070.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Ominous/Ominous Shocked.png"
-dest_files=[ "res://.import/Ominous Shocked.png-5952a1ce458cbdbf1826c61332de9479.stex" ]
+source_file="res://assets/Images/Ominous Frames/Ominous Default.png"
+dest_files=[ "res://.import/Ominous Default.png-a470f45d0c5be9491d0d8f5741b91070.stex" ]
 
 [params]
 

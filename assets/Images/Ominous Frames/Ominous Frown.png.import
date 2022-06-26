@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Ominous Laugh.png-cbd960b9b30e6c0e4c17424faedf0099.stex"
+path="res://.import/Ominous Frown.png-fc0a0c329996497466f1b8c986b43e53.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Ominous/Ominous Laugh.png"
-dest_files=[ "res://.import/Ominous Laugh.png-cbd960b9b30e6c0e4c17424faedf0099.stex" ]
+source_file="res://assets/Images/Ominous Frames/Ominous Frown.png"
+dest_files=[ "res://.import/Ominous Frown.png-fc0a0c329996497466f1b8c986b43e53.stex" ]
 
 [params]
 
