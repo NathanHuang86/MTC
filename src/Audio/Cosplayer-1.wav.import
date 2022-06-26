@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Cosplayer-1.wav-8bba46184b1987bc0f5d4cc716cfe727.sample"
+
+[deps]
+
+source_file="res://src/Audio/Cosplayer-1.wav"
+dest_files=[ "res://.import/Cosplayer-1.wav-8bba46184b1987bc0f5d4cc716cfe727.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

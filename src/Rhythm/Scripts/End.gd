@@ -1,9 +1,15 @@
 extends Node2D
 
-onready var sprites = ['Janitor', 'Cosplay', 'Himbo', 'Mother', 'Oliver', 'Shoppin']
 
+var background
 func _ready():
-	$Sprite.set_animation(sprites[RhythmGlobal.sceneInt])
+	$Sprite.frame = RhythmGlobal.sceneInt
+	match RhythmGlobal.sceneInt:
+		0:
+			background = preload('res://assets/Images/Background/elevator.jpg')
+		1:
+			background = preload('res://assets/Images/Background/Fountain Plaza 2.jpg')
+	$TextureRect.set_texture(background)
 	#sprites[RhythmGlobal.sceneInt]
 	
 	

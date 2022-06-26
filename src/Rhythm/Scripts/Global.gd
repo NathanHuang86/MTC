@@ -1,6 +1,6 @@
 extends Node2D
 
-var sceneInt = 0
+var sceneInt = 1
 
 var score = 0
 var totalNotes = [46, 1, 1]

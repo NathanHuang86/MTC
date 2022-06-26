@@ -1,0 +1,2145 @@
+1.0 - measure 1
+
+
+
+
+
+
+
+1.1 - measure 2
+
+
+
+
+
+
+
+1.2 - measure 3
+
+
+
+
+
+
+
+1.0 - measure 4
+
+
+
+
+
+
+
+1.3 - measure 5
+
+
+
+
+
+
+
+1.0 - measure 6
+
+
+
+
+
+
+
+1.2 - measure 7
+
+
+
+1.1
+
+
+
+1.3 - measure 8
+
+
+
+
+
+
+
+2.0.3 - measure 9
+
+
+
+1.3
+
+
+
+1.2 - measure 10
+
+1.1
+1.0
+
+1.1
+
+
+2.0.1 - measure 11
+
+
+
+
+
+
+
+2.2.3 - measure 12
+
+
+
+
+
+1.0
+
+1.0 - measure 13
+
+
+
+
+
+
+
+1.2 - measure 14
+
+1.3
+1.2
+
+1.0
+
+
+1.1 - measure 15
+
+
+
+
+
+
+
+1.2 - measure 16
+
+
+
+
+
+1.2
+
+1.0 - measure 17
+1.1
+
+1.1
+
+1.1
+
+1.3
+00 - measure 18
+
+
+1.0
+1.2
+1.3
+
+
+1.0 - measure 19
+1.1
+
+1.1
+
+1.1
+
+1.3
+00 - measure 20
+
+
+1.0
+1.2
+1.3
+
+
+1.0 - measure 21
+1.0
+
+1.1
+
+
+
+
+2.2.1 - measure 22
+
+
+
+
+1.3
+
+
+2.0.3  - measure 23
+
+
+
+
+
+1.2
+1.1
+00 - measure 24
+
+
+
+
+
+
+
+1.0 - measure 17
+1.1
+
+1.1
+
+1.1
+
+1.3
+00 - measure 18
+
+
+1.0
+1.2
+1.3
+
+
+1.0 - measure 19
+1.1
+
+1.1
+
+1.1
+
+1.3
+00 - measure 20
+
+
+1.0
+1.2
+1.3
+
+
+1.0 - measure 21
+1.0
+
+1.1
+
+
+
+
+2.2.1 - measure 22
+
+
+
+
+1.3
+
+
+2.0.3  - measure 23
+
+
+
+
+
+1.2
+1.1
+00 - measure 32
+
+
+
+
+
+
+
+00 - measure 33
+
+1.3
+
+
+1.2
+
+1.2
+00 - measure 34
+
+
+
+
+
+
+
+00 - measure 35
+
+1.1
+
+
+1.0
+
+1.0
+00 - measure 36
+
+
+
+
+
+2.0.3
+
+1.0 - measure 37
+
+
+
+1.3
+
+
+
+1.0 - measure 38
+
+
+
+
+
+
+
+00 - measure 39
+
+
+
+
+
+
+
+00 - measure 40
+
+
+
+
+
+
+
+00 - measure 41
+
+
+
+
+
+
+
+00 - measure 42
+
+
+
+
+
+
+
+00 - measure 43
+
+
+
+
+
+
+
+00 - measure 44
+
+
+
+
+
+
+
+00 - measure 45
+
+
+
+
+
+
+
+00 - measure 46
+
+
+
+
+
+
+
+00 - measure 47
+
+
+
+
+
+
+
+00 - measure 48
+
+
+
+
+
+
+
+00 - measure 49
+
+
+
+
+
+
+
+00 - measure 50
+
+
+
+
+
+
+
+00 - measure 51
+
+
+
+
+
+
+
+00 - measure 52
+
+
+
+
+
+
+
+00 - measure 53
+
+
+
+
+
+
+
+00 - measure 54
+
+
+
+
+
+
+
+00 - measure 55
+
+
+
+
+
+
+
+00 - measure 56
+
+
+
+
+
+
+
+00 - measure 57
+
+
+
+
+
+
+
+00 - measure 58
+
+
+
+
+
+
+
+00 - measure 59
+
+
+
+
+
+
+
+00 - measure 60
+
+
+
+
+
+
+
+00 - measure 61
+
+
+
+
+
+
+
+00 - measure 62
+
+
+
+
+
+
+
+00 - measure 63
+
+
+
+
+
+
+
+00 - measure 64
+
+
+
+
+
+
+
+00 - measure 65
+
+
+
+
+
+
+
+00 - measure 66
+
+
+
+
+
+
+
+00 - measure 67
+
+
+
+
+
+
+
+00 - measure 68
+
+
+
+
+
+
+
+00 - measure 69
+
+
+
+
+
+
+
+00 - measure 70
+
+
+
+
+
+
+
+00 - measure 71
+
+
+
+
+
+
+
+00 - measure 72
+
+
+
+
+
+
+
+00 - measure 73
+
+
+
+
+
+
+
+00 - measure 74
+
+
+
+
+
+
+
+00 - measure 75
+
+
+
+
+
+
+
+00 - measure 76
+
+
+
+
+
+
+
+00 - measure 77
+
+
+
+
+
+
+
+00 - measure 78
+
+
+
+
+
+
+
+00 - measure 79
+
+
+
+
+
+
+
+00 - measure 80
+
+
+
+
+
+
+
+00 - measure 81
+
+
+
+
+
+
+
+00 - measure 82
+
+
+
+
+
+
+
+00 - measure 83
+
+
+
+
+
+
+
+00 - measure 84
+
+
+
+
+
+
+
+00 - measure 85
+
+
+
+
+
+
+
+00 - measure 86
+
+
+
+
+
+
+
+00 - measure 87
+
+
+
+
+
+
+
+00 - measure 88
+
+
+
+
+
+
+
+00 - measure 89
+
+
+
+
+
+
+
+00 - measure 90
+
+
+
+
+
+
+
+00 - measure 91
+
+
+
+
+
+
+
+00 - measure 92
+
+
+
+
+
+
+
+00 - measure 93
+
+
+
+
+
+
+
+00 - measure 94
+
+
+
+
+
+
+
+00 - measure 95
+
+
+
+
+
+
+
+00 - measure 96
+
+
+
+
+
+
+
+00 - measure 97
+
+
+
+
+
+
+
+00 - measure 98
+
+
+
+
+
+
+
+00 - measure 99
+
+
+
+
+
+
+
+00 - measure 100
+
+
+
+
+
+
+
+00 - measure 101
+
+
+
+
+
+
+
+00 - measure 102
+
+
+
+
+
+
+
+00 - measure 103
+
+
+
+
+
+
+
+00 - measure 104
+
+
+
+
+
+
+
+00 - measure 105
+
+
+
+
+
+
+
+00 - measure 106
+
+
+
+
+
+
+
+00 - measure 107
+
+
+
+
+
+
+
+00 - measure 108
+
+
+
+
+
+
+
+00 - measure 109
+
+
+
+
+
+
+
+00 - measure 110
+
+
+
+
+
+
+
+00 - measure 111
+
+
+
+
+
+
+
+00 - measure 112
+
+
+
+
+
+
+
+00 - measure 113
+
+
+
+
+
+
+
+00 - measure 114
+
+
+
+
+
+
+
+00 - measure 115
+
+
+
+
+
+
+
+00 - measure 116
+
+
+
+
+
+
+
+00 - measure 117
+
+
+
+
+
+
+
+00 - measure 118
+
+
+
+
+
+
+
+00 - measure 119
+
+
+
+
+
+
+
+00 - measure 120
+
+
+
+
+
+
+
+00 - measure 121
+
+
+
+
+
+
+
+00 - measure 122
+
+
+
+
+
+
+
+00 - measure 123
+
+
+
+
+
+
+
+00 - measure 124
+
+
+
+
+
+
+
+00 - measure 125
+
+
+
+
+
+
+
+00 - measure 126
+
+
+
+
+
+
+
+00 - measure 127
+
+
+
+
+
+
+
+00 - measure 128
+
+
+
+
+
+
+
+00 - measure 129
+
+
+
+
+
+
+
+00 - measure 130
+
+
+
+
+
+
+
+00 - measure 131
+
+
+
+
+
+
+
+00 - measure 132
+
+
+
+
+
+
+
+00 - measure 133
+
+
+
+
+
+
+
+00 - measure 134
+
+
+
+
+
+
+
+00 - measure 135
+
+
+
+
+
+
+
+00 - measure 136
+
+
+
+
+
+
+
+00 - measure 137
+
+
+
+
+
+
+
+00 - measure 138
+
+
+
+
+
+
+
+00 - measure 139
+
+
+
+
+
+
+
+00 - measure 140
+
+
+
+
+
+
+
+00 - measure 141
+
+
+
+
+
+
+
+00 - measure 142
+
+
+
+
+
+
+
+00 - measure 143
+
+
+
+
+
+
+
+00 - measure 144
+
+
+
+
+
+
+
+00 - measure 145
+
+
+
+
+
+
+
+00 - measure 146
+
+
+
+
+
+
+
+00 - measure 147
+
+
+
+
+
+
+
+00 - measure 148
+
+
+
+
+
+
+
+00 - measure 149
+
+
+
+
+
+
+
+00 - measure 150
+
+
+
+
+
+
+
+00 - measure 151
+
+
+
+
+
+
+
+00 - measure 152
+
+
+
+
+
+
+
+00 - measure 153
+
+
+
+
+
+
+
+00 - measure 154
+
+
+
+
+
+
+
+00 - measure 155
+
+
+
+
+
+
+
+00 - measure 156
+
+
+
+
+
+
+
+00 - measure 157
+
+
+
+
+
+
+
+00 - measure 158
+
+
+
+
+
+
+
+00 - measure 159
+
+
+
+
+
+
+
+00 - measure 160
+
+
+
+
+
+
+
+00 - measure 161
+
+
+
+
+
+
+
+00 - measure 162
+
+
+
+
+
+
+
+00 - measure 163
+
+
+
+
+
+
+
+00 - measure 164
+
+
+
+
+
+
+
+00 - measure 165
+
+
+
+
+
+
+
+00 - measure 166
+
+
+
+
+
+
+
+00 - measure 167
+
+
+
+
+
+
+
+00 - measure 168
+
+
+
+
+
+
+
+00 - measure 169
+
+
+
+
+
+
+
+00 - measure 170
+
+
+
+
+
+
+
+00 - measure 171
+
+
+
+
+
+
+
+00 - measure 172
+
+
+
+
+
+
+
+00 - measure 173
+
+
+
+
+
+
+
+00 - measure 174
+
+
+
+
+
+
+
+00 - measure 175
+
+
+
+
+
+
+
+00 - measure 176
+
+
+
+
+
+
+
+00 - measure 177
+
+
+
+
+
+
+
+00 - measure 178
+
+
+
+
+
+
+
+00 - measure 179
+
+
+
+
+
+
+
+00 - measure 180
+
+
+
+
+
+
+
+00 - measure 181
+
+
+
+
+
+
+
+00 - measure 182
+
+
+
+
+
+
+
+00 - measure 183
+
+
+
+
+
+
+
+00 - measure 184
+
+
+
+
+
+
+
+00 - measure 185
+
+
+
+
+
+
+
+00 - measure 186
+
+
+
+
+
+
+
+00 - measure 187
+
+
+
+
+
+
+
+00 - measure 188
+
+
+
+
+
+
+
+00 - measure 189
+
+
+
+
+
+
+
+00 - measure 190
+
+
+
+
+
+
+
+00 - measure 191
+
+
+
+
+
+
+
+00 - measure 192
+
+
+
+
+
+
+
+00 - measure 193
+
+
+
+
+
+
+
+00 - measure 194
+
+
+
+
+
+
+
+00 - measure 195
+
+
+
+
+
+
+
+00 - measure 196
+
+
+
+
+
+
+
+00 - measure 197
+
+
+
+
+
+
+
+00 - measure 198
+
+
+
+
+
+
+
+00 - measure 199
+
+
+
+
+
+
+
+00 - measure 200
+
+
+
+
+
+
+
+00 - measure 201
+
+
+
+
+
+
+
+00 - measure 202
+
+
+
+
+
+
+
+00 - measure 203
+
+
+
+
+
+
+
+00 - measure 204
+
+
+
+
+
+
+
+00 - measure 205
+
+
+
+
+
+
+
+00 - measure 206
+
+
+
+
+
+
+
+00 - measure 207
+
+
+
+
+
+
+
+00 - measure 208
+
+
+
+
+
+
+
+00 - measure 209
+
+
+
+
+
+
+
+00 - measure 210
+
+
+
+
+
+
+
+00 - measure 211
+
+
+
+
+
+
+
+00 - measure 212
+
+
+
+
+
+
+
+00 - measure 213
+
+
+
+
+
+
+
+00 - measure 214
+
+
+
+
+
+
+
+00 - measure 215
+
+
+
+
+
+
+
+00 - measure 216
+
+
+
+
+
+
+
+00 - measure 217
+
+
+
+
+
+
+
+00 - measure 218
+
+
+
+
+
+
+
+00 - measure 219
+
+
+
+
+
+
+
+00 - measure 220
+
+
+
+
+
+
+
+00 - measure 221
+
+
+
+
+
+
+
+00 - measure 222
+
+
+
+
+
+
+
+00 - measure 223
+
+
+
+
+
+
+
+00 - measure 224
+
+
+
+
+
+
+
+00 - measure 225
+
+
+
+
+
+
+
+00 - measure 226
+
+
+
+
+
+
+
+00 - measure 227
+
+
+
+
+
+
+
+00 - measure 228
+
+
+
+
+
+
+
+00 - measure 229
+
+
+
+
+
+
+
+00 - measure 230
+
+
+
+
+
+
+
+00 - measure 231
+
+
+
+
+
+
+
+00 - measure 232
+
+
+
+
+
+
+
+00 - measure 233
+
+
+
+
+
+
+
+00 - measure 234
+
+
+
+
+
+
+
+00 - measure 235
+
+
+
+
+
+
+
+00 - measure 236
+
+
+
+
+
+
+
+00 - measure 237
+
+
+
+
+
+
+
+00 - measure 238
+
+
+
+
+
+
+
+00 - measure 239
+
+
+
+
+
+
+
+00 - measure 240
+
+
+
+
+
+
+
+00 - measure 241
+
+
+
+
+
+
+
+00 - measure 242
+
+
+
+
+
+
+
+00 - measure 243
+
+
+
+
+
+
+
+00 - measure 244
+
+
+
+
+
+
+
+00 - measure 245
+
+
+
+
+
+
+
+00 - measure 246
+
+
+
+
+
+
+
+00 - measure 247
+
+
+
+
+
+
+
+00 - measure 248
+
+
+
+
+
+
+
+00 - measure 249
+
+
+
+
+
+
+
+00 - measure 250
+
+
+
+
+
+
+
+00 - measure 251
+
+
+
+
+
+
+
+00 - measure 252
+
+
+
+
+
+
+
+00 - measure 253
+
+
+
+
+
+
+
+00 - measure 254
+
+
+
+
+
+
+
+00 - measure 255
+
+
+
+
+
+
+
+00 - measure 256
+
+
+
+
+
+
+
+00 - measure 257
+
+
+
+
+
+
+
+00 - measure 258
+
+
+
+
+
+
+
+00 - measure 259
+
+
+
+
+
+
+
+00 - measure 260
+
+
+
+
+
+
+
+00 - measure 261
+
+
+
+
+
+
+
+00 - measure 262
+
+
+
+
+
+
+
+00 - measure 263
+
+
+
+
+
+
+
+00 - measure 264
+
+
+
+
+
+
+
+00 - measure 265
+
+
+
+
+
+
+
+00 - measure 266
+
+
+
+
+
+
+
+00 - measure 267
+
+
+
+
+
+
+
+00 - measure 268
+
+
+
+
+
+
+
+00 - measure 269

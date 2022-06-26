@@ -13,32 +13,29 @@ animations = [ {
 } ]
 
 [sub_resource type="RectangleShape2D" id=2]
-extents = Vector2( 14.9772, 15.367 )
+extents = Vector2( 14.9772, 20.707 )
 
 [sub_resource type="RectangleShape2D" id=3]
-extents = Vector2( 14.4615, 50.7403 )
+extents = Vector2( 14.4615, 43.3993 )
 
 [sub_resource type="RectangleShape2D" id=4]
-extents = Vector2( 13.1266, 102.132 )
+extents = Vector2( 13.1266, 68.7612 )
 
 [node name="ArrowButton" type="AnimatedSprite"]
 frames = SubResource( 1 )
 script = ExtResource( 2 )
 
 [node name="PerfectArea" type="Area2D" parent="."]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="PerfectArea"]
 shape = SubResource( 2 )
 
 [node name="GoodArea" type="Area2D" parent="."]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="GoodArea"]
 shape = SubResource( 3 )
 
 [node name="OkayArea" type="Area2D" parent="."]
-visible = false
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="OkayArea"]
 shape = SubResource( 4 )
