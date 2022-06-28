@@ -4,8 +4,8 @@ extends AudioStreamPlayer
 #change bpm here and on the Game.gd script to reflect BPM of song. Also you can double the bpm for access to more notes
 #differences between rhythm scenes include bpm, note mapping, song playing, background, and character sprite
 
-var song_bpm = [90, 350, 110, 160, 00, 120, 360, 00]
-var song_file = ['res://src/Audio/Janitor.wav', 'res://src/Audio/Cosplayer.wav', 'res://src/Audio/KPop.wav', 'res://src/Audio/Mother.wav', '', 'res://src/Audio/Skater.wav', '' ]
+var song_bpm = [90, 350, 220, 160, 00, 120, 360, 00]
+
 #Janitor, cosplay(brodie)175, himbo, mother, oliver(wesley), woman, skater180, ominous
 #var bpm_buffer = song_bpm[RhythmGlobal.sceneInt]
 var bpm = song_bpm[RhythmGlobal.sceneInt]
@@ -38,7 +38,7 @@ func _ready():
 		1:
 			audioStream = preload('res://src/Audio/Cosplayer-3.wav')
 		2:
-			audioStream = preload('res://src/Audio/KPop.wav')
+			audioStream = preload('res://src/Audio/KPop-1.wav')
 		3:
 			audioStream = preload('res://src/Audio/Mother.wav')
 		4:

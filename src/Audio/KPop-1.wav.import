@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/KPop-1.wav-a74d834e21a86ced57312d1c156f82ca.sample"
+
+[deps]
+
+source_file="res://src/Audio/KPop-1.wav"
+dest_files=[ "res://.import/KPop-1.wav-a74d834e21a86ced57312d1c156f82ca.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

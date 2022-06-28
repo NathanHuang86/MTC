@@ -3,8 +3,8 @@ extends Node2D
 onready var map = File.new()
 onready var scripts = ['res://src/Rhythm/Maps/Janitor.txt','res://src/Rhythm/Maps/Cosplay.txt','res://src/Rhythm/Maps/Himbo.txt', 'res://src/Rhythm/Maps/Mother.txt', 'res://src/Rhythm/Maps/Oliver.txt', 'res://src/Rhythm/Maps/Skater.txt', 'res://src/Rhythm/Maps/Ominous.txt']
 onready var sprites = ['Janitor', 'Cosplayer', 'Himbo', 'Mother', 'Oliver', 'Shoppin'] #add skater and ominous when you can
-var song_bpm = [90, 350, 110, 160, 00, 120, 360, 00]
-#Janitor, cosplay(brodie), himbo, mother, oliver(wesley), woman, skater, ominous
+var song_bpm = [90, 350, 220, 160, 00, 120, 360, 00]
+#Janitor, cosplay(brodie), himbo 110, mother, oliver(wesley), woman, skater, ominous
 
 
 var score = 0
@@ -57,7 +57,9 @@ func _ready():
 		0:
 			background = preload('res://assets/Images/Background/elevator.jpg')
 		1:
-			background = preload('res://assets/Images/Background/Fountain Plaza 2.jpg')
+			background = preload('res://assets/Images/Background/People Bench.jpg')
+		2:
+			background = preload('res://assets/Images/Background/plaza area.jpg')
 	$TextureRect.set_texture(background)
 	randomize()
 	$Conductor.play_with_beat_offset(8)
@@ -119,7 +121,7 @@ func _on_Conductor_measure(position):
 func _on_Conductor_beat(position):
 	
 	
-	$Sprite/AnimationPlayer.play("Bounce")
+	#$Sprite/AnimationPlayer.play("Bounce")
 	var beat = map.get_line()
 	
 	count = int(beat.substr(0, 1))
