@@ -47,14 +47,14 @@ animations = [ {
 "name": "Shoppin",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
-"loop": true,
-"name": "Cosplayer",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 21 ), ExtResource( 25 ), ExtResource( 26 ) ],
 "loop": true,
 "name": "Himbo",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "Cosplayer",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
@@ -62,14 +62,14 @@ animations = [ {
 "name": "Oliver",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 17 ), ExtResource( 9 ), ExtResource( 12 ) ],
-"loop": true,
-"name": "Janitor",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "Mother",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 17 ), ExtResource( 9 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "Janitor",
 "speed": 5.0
 } ]
 

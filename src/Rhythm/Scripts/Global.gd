@@ -3,7 +3,7 @@ extends Node2D
 var sceneInt = 1
 
 var score = 0
-var totalNotes = [46, 1, 1]
+var totalNotes = [46, 286, 1]
 #remember to customize
 var percent = 0
 

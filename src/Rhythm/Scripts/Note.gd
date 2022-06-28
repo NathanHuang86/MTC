@@ -48,11 +48,13 @@ func initialize(lane):
 		return
 	
 	speed = DIST_TO_TARGET / 2.0
-
+#timer is 0.3 sec
 
 func destroy(score):
 	$CPUParticles2D.emitting = true
 	$AnimatedSprite.visible = false
+	var collision = get_node("collision")
+	remove_child(collision)
 	$Timer.start()
 	hit = true
 	if score == 3:
