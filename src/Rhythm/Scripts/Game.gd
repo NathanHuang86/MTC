@@ -3,8 +3,8 @@ extends Node2D
 onready var map = File.new()
 onready var scripts = ['res://src/Rhythm/Maps/Janitor.txt','res://src/Rhythm/Maps/Cosplay.txt','res://src/Rhythm/Maps/Himbo.txt', 'res://src/Rhythm/Maps/Mother.txt', 'res://src/Rhythm/Maps/Oliver.txt', 'res://src/Rhythm/Maps/Skater.txt', 'res://src/Rhythm/Maps/Ominous.txt']
 onready var sprites = ['Janitor', 'Cosplayer', 'Himbo', 'Mother', 'Oliver', 'Shoppin'] #add skater and ominous when you can
-var song_bpm = [90, 350, 220, 160, 00, 120, 360, 00]
-#Janitor, cosplay(brodie), himbo 110, mother, oliver(wesley), woman, skater, ominous
+var song_bpm = [90, 350, 220, 320, 00, 120, 360, 00]
+#Janitor, cosplay(brodie), himbo 110, mother160, oliver(wesley), woman, skater, ominous
 
 
 var score = 0
@@ -59,6 +59,8 @@ func _ready():
 		1:
 			background = preload('res://assets/Images/Background/People Bench.jpg')
 		2:
+			background = preload('res://assets/Images/Background/plaza area.jpg')
+		3:
 			background = preload('res://assets/Images/Background/plaza area.jpg')
 	$TextureRect.set_texture(background)
 	randomize()
