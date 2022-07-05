@@ -36,7 +36,28 @@ func nextScript(line):
 		get_node("sprCharacter").texture = load('res://assets/Images/Janitor Frames/Janitor ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
-		
+	
+	if line == "[COSPLAY]":
+		get_node("CurrentCharacter").text = "[COSPLAYER]"
+		line = f.get_line()
+		get_node("sprCharacter").texture = load('res://assets/Images/Cosplayer Frames/Cosplay ' + line + '.png')
+		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
+		get_node("sprCharacter").position = Vector2(920, 584)
+	
+	if line == "[CHADWICK]":
+		get_node("CurrentCharacter").text = "[CHADWICK]"
+		line = f.get_line()
+		get_node("sprCharacter").texture = load('res://assets/Images/Chadwick Frames/Chadwick ' + line + '.png')
+		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
+		get_node("sprCharacter").position = Vector2(920, 584)
+	
+	if line == "[OLIVER]":
+		get_node("CurrentCharacter").text = "[OLIVER]"
+		line = f.get_line()
+		get_node("sprCharacter").texture = load('res://assets/Images/Oliver Frames/Oliver ' + line + '.png')
+		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
+		get_node("sprCharacter").position = Vector2(920, 584)
+	
 		if aniEnable == true:
 			$sprCharacter/aniCharacterEntrance.play("Entrance")
 		else:
