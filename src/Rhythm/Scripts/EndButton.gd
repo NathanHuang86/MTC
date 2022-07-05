@@ -25,4 +25,5 @@ func _on_Button_pressed():
 		get_tree().change_scene("res://src/Rhythm/Scenes/RhythmDefault.tscn")
 	else:
 		RhythmGlobal.sceneInt += 1
+		sigGlobal.gamedata["intScene"] += 1
 		get_tree().change_scene("res://src/VisualNovel/nodVisualNovel.tscn")

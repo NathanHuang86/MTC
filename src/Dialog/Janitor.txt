@@ -3,8 +3,8 @@ Outside
 [ENVIRONMENT]
 You walk up the campus you have seen online and in brochures a thousand times.
 
-Although you have never seen it in person Before;
-in front of you stands a large courtyard with the GCC logo standing proud above it welcoming you to campus
+Although you have never seen it in person before;
+In front of you stands a large courtyard with the GCC logo standing proud above it welcoming you to campus
 
 [PLAYER]
 Wow, I can’t believe I’m finally here! College is so busy and cool!

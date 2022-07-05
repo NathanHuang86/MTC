@@ -1,7 +1,7 @@
 [BACKGROUND]
 Elevator
 [JANITOR]
-Laugh
+Default
 [ENVIRONMENT]
 After jamming out with the janitor for a long time the elevator finally gets fixed.
 

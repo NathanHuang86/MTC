@@ -2,7 +2,7 @@ extends TextureButton
 
 onready var dialog = get_node("Dialog")
 onready var f = File.new()
-onready var scenes = ['res://src/Dialog/Janitor.txt', 'res://src/Dialog/Teacher.txt', 'res://src/Dialog/Chadwick.txt', 'res://src/Dialog/Mother.txt']
+onready var scenes = ['res://src/Dialog/Janitor.txt', 'res://src/Dialog/Cosplay.txt', 'res://src/Dialog/Chadwick.txt']
 onready var imgBackGround = File.new()
 onready var tracker = 0
 onready var aniEnable = false
@@ -70,7 +70,7 @@ func nextScript(line):
 		line = f.get_line()
 	
 	if line == "[ENVIRONMENT]":
-		get_node("CurrentCharacter").text = "[ENVIRONMENT]"
+		get_node("CurrentCharacter").text = " "
 		line = f.get_line()
 	
 	if line == "[LEAVE]":
