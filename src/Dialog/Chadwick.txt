@@ -1,146 +1,251 @@
-[COSPLAYER]
-[PEPBENCH]
+[COSPLAY]
+Smile
 [PLAYER]
 That sounded awesome. Is this really just a hobby for you?
 
-[CHAR:]
-[ANNIE]
 Thanks. yeah, I just make this stuff in my free time.
 
 [PLAYER]
 You know, I’m actually looking for someone to join me for the battle of the bands. you’re really talented, I would love to have you on the team. 
 
-[CHAR:]
-[ANNIE]
+[COSPLAY]
+Default
 Sure, I’d love to. I’ve been waiting for the chance to show off my music.
 
 [PLAYER]
 Awesome! It’s great to have you on the team… you know, I never got your name.
 
-[CHAR:]
-[ANNIE]
+[COSPLAY]
+Smile
 Oh right. It’s hard to be in a band with someone if you don’t know their name. I’m Annie. Annie May. What about you?
 
 [PLAYER]
-I’m (player name). Thanks again for everything.
+I’m *PLAYER*. Thanks again for everything.
 
-[CHAR:]
-[ANNIE]   
+[COSPLAY]
+Stare
 My pleasure. Hey, you don’t know anyone else in our class, right?
 
 [PLAYER]
-Yeah, I wasn’t able to catch anyone's face before the professor chewed me out.
+Yeah, I wasn’t able to meet anyone before the professor chewed me out.
 
-[CHAR:]
-[ANNIE]
+[COSPLAY]
+Smirk
 If you need more signatures, I know for sure that Chad goes to lift at the weight room after every class.
 
 [PLAYER]
-Gotcha. Thanks again for your help
+Gotcha. Thanks again for your help.
 
-[CHAR:]
-[ANNIE]
-Don’t thank me just yet. We still have to win.
+[COSPLAY]
+Smile
+Don’t thank me just yet. We still have to win!
 
 [PLAYER]
+[LEAVE]
 Right.
 
-[LEAVE]
-[GYM]
-[CHAR:]
-[ENVIRONMENT] 
-As you walk towards the Armsgard Center of Fitness, you see a tall muscular man, taller than anyone you’ve ever seen on campus, even taller than the JANITOR you met in the elevator. You feel motivated to go and ask him for some tips on how to maintain a healthy lifestyle whilst on campus. As you walk into the center, you hear what sounds like weights of unimaginable scale being lifted and then dropped violently like a crack of thunder. 
-
-[CHAR:]
+[BACKGROUND]
+Path 1
 [ENVIRONMENT]
-As you walk towards the the GCC weight room, you see a huge, gigantic man lifting weights all by himself.
+As you walk towards the Fitness Center, you see a tall muscular man, taller than anyone you’ve ever seen on campus, even taller than the JANITOR you met in the elevator. You feel motivated to go and ask him for some tips on how to maintain a healthy lifestyle whilst on campus. As you walk into the center, you hear what sounds like cracks of thunder coming from the weight room.
 
+As you walk towards the GCC weight room, you see a huge, gigantic man lifting weights all by himself.
+
+[BACKGROUND]
+Weight Room
 [PLAYER]
 OMG is he really one of the students that goes to Music 101? He looks tough...
 
-[CHAR:]
 [ENVIRONMENT]
-You worryingly approach the absolute unit. As you get closer and closer you start to hear what sounds like a females voice singing. A language you dont understand. Eventually you realize it is coming from the man’s earbuds. It seems that as the beat picks up so does his pace.
+You worryingly approach the absolute unit. As you get closer and closer you start to hear what sounds like faint pop music in a language you don’t understand.
+
+Eventually you realize it is coming from the man’s earbuds. It sounds like he’s working to the rhythm of the music playing.
 
 [PLAYER]
 Oh no.
 
-[CHAR:]
+[ENVIRONMENT]
+The man lifts his head, noticing your stares. He sets down his massive dumbbell and takes an earbud out.
+
 [CHADWICK]
-Oh, I didn’t scare you did I? Sorry if I did. I was too focused on this new hit song that a band I follow just released. 
+Default
+Oh, hey, what’s good? Sorry I didn’t notice you earlier, my favorite group just dropped a new EP.
 
-[Player] 
-Oh? What’s the band’s name? 
+[PLAYER] 
+Oh? What’s the group’s name? 
 
-[CHAR:]
-[Chadwick]
+[CHADWICK]
+Talk
 Have you ever heard of the KGB?
 
-[Player]
-Uuuuummm… no…?
+[PLAYER]
+Ummm… no…?
 
-[CHAR:]
-[Chadwick]
-Why of course! Korean Girl Band is only the greatest K-pop group of all time. Besides their amazing vocals, they did some of the best performances I’ve ever seen. They are probably the greatest thing on this earth.
+[CHADWICK]
+Smile
+They’re called KGB, which stands for Korean Girl Band. It’s one of the greatest K-pop groups of all time.
+Besides their amazing vocals, they did some of the best performances I’ve ever seen.
+They are probably the greatest thing on this earth.
 
-[CHAR:]
-[CHADWICK] 
+[CHADWICK]
+Talk 
 Oh, right, you were here for the weights right? 
 
-[Player]
-Actually I was going to ask if you wanted to be a part of this band I’m making.
+[PLAYER]
+Actually I was going to ask if you could sign my list for class, and maybe join this band I’m making.
 
-[CHAR:]
-[Chadwick] 
+[ENVIRONMENT]
+He quickly takes your notebook with Annie’s name on it, scribbling something down and giving it back to you. His handwriting is pristine, and he’s written Chadwick with a heart instead of the dot over the “i”. You can’t help but look at it for a second before putting it back in your backpack.
+
+[CHADWICK]
+Shock 
 Band? What for?
 
-[Player] 
-Oh there is this poster that talked about a battle of the bands, and it sounded like a pretty cool thing to do! 
+[PLAYER] 
+The school is hosting a battle of the bands contest, and whoever wins
 
-[CHAR:]
-[Chadwick]
+[CHADWICK]
+Frown
 Oh well then I might join it, but are you sure you want me? 
 
-[Player] 
+[PLAYER] 
 Yeah! If you want, we could see how well our rhythm matches-
 
-[CHAR:]
-[Oliver] 
+[OLIVER]
+Default 
 Oi! Chadwick, I got your stupid bloody tickets for that dumb J-pop group you wanted! 
 
-[CHAR:]
-[Chadwick]
+[OLIVER]
+Smile
 Oliver! Thank you very much, you’re the best! Oh and also it’s a k-pop band, not j-pop
-*Chadwick moves over to Oliver and takes the tickets, and then proceeds to give him a bearhug*
 
-[CHAR:]
-[Oliver]
+[ENVIRONMENT]
+Chadwick takes the tickets, slipping them into his pocket and giving the man a bear hug.
+
+[OLIVER]
+Mad
 Ugh! Don’t touch me!! And besides they all are just pretending to be the real thing!  
-*Oliver wiggles out of Chadwick’s bearhug, and does a pose that makes it obvious that he is referring to himself as being the ‘real thing’*
 
-[CHAR:]
-[Chadwick]
-That's a very rude thing to say
+[ENVIRONMENT]
+The man gestures to himself, rolling his eyes and looking smugly at Chadwick.
 
-[CHAR:]
-[Oliver] 
-So what? I’m just telling the truth, and besides that Ha-joon is just a fake and a fraud! 
+[CHADWICK]
+Serious
+That's a very rude thing to say, KGB is great!
 
-[CHAR:]
-[Chadwick] 
+[OLIVER]
+Smug
+So what? I’m just telling the truth, and besides that Mimi is just a fake and a fraud! 
+
+[CHADWICK] 
+Serious
 No one talks about my queen like that! Let’s duel! 
 
-[CHAR:]
-[Oliver] 
-Heh, fine, I’ll show you that my ELITE moves are better than that fraud of an idol is! 
-*Chadwick and Oliver then go to the middle of the room, and prepare to duke it out in a-*
+[OLIVER]
+Tongue Out
+Heh, fine, I’ll show you that my ELITE moves are better than that fraud of an idol’s!
 
-[CHAR:]
-[Chadwick]
+[ENVIRONMENT]
+Chadwick and Oliver each prepare to dance. Chadwick stretches and flexes his large muscles, while Oliver attempts to do the same.
+
+[CHADWICK]
+Frown
 Remember, no break dancing.
 
-[CHAR:]
-[Oliver]
-All the better, but let’s move this to the plaza, I can’t show off my ELITE moves in this cramped space
+[OLIVER]
+Tongue Out
+All the better, but let’s move this to the plaza, I can’t show off my ELITE moves in a sweaty, cramped gym.
+
+[BACKGROUND]
+Plaza Area
+[ENVIRONMENT]
+You follow the two men outside onto the plaza, watching them prepare for their duel. A crowd of jocks and faculty watch in awe as they see the giant before them pull out a device that should be far too small for a giant to nimbly and efficiently use. As the phone begins to play the latest hit by KGB, the crowd watches as the beat of their hearts begin to match that of the song’s rhythm. The two men begin their valiant duel… TO DANCE, one for the honor of his Idols, the other for his pride. 
+
+[CHADWICK]
+Serious
+Alright, it’s time I show you my moves! I learned this move from watching the latest MV from KGB!
+
+[ENVIRONMENT]
+Chadwick masterfully twists and turns into an enchanting pose as he dances. The crowd watches in awe. 
+
+[OLIVER]
+Talk
+Heh, that's it? Psh, I could do that in my sleep, time to show you my ELITE MOVES!
+
+[ENVIRONMENT]
+The crowd of jocks gasp in offense, how could someone out-dance KGB?
+
+[ENVIRONMENT]
+Oliver then proceeds to break it down in a way unlike you have ever seen, Oliver’s ELITE execution stunned the crowd, and for a moment it seems like he’d win this match in a heartbea-
+
+OH SHI- 
+
+Oliver slips and falls on his side, a hush falling over the forming crowd as he groans and rolls on the floor. When he realizes people are watching him, he quickly jumps to his feet, brushing himself off and cockily smiling at Chadwick. He puffs his chest out and puts his hands on his hips triumphantly.
+
+[CHADWICK]
+Shock
+Oliver! You alright bro?
+
+[ENVIRONMENT]
+Chadwick rushes to Oliver’s side to see if his homie is alright
+
+[OLIVER]
+Mad
+Yeah I’m fine, It was my damn shoe’s fault! That’s it, if it weren’t for my shoe failing me, I would’ve won.
+
+[CHADWICK]
+Chill
+It’s alright bro, you just need to work on your coordination, and then maybe your shoe wouldn’t have failed you. Now let’s get you to the health office and get you checked out.
+
+[ENVIRONMENT]
+It’s clear that Oliver isn’t in great shape. He’s leaning over to one side, rubbing his thigh and wincing.
+
+[OLIVER]
+Frown
+Pah! I’m fine, I don't need anyone to walk me there, I can walk there by myself! HMPH!
+
+[ENVIRONMENT]
+Oliver then proceeds to limp away from the plaza, his head still held high.
+
+[PLAYER]
+I hope he’s ok.
+
+[CHADWICK]
+Smile
+Yeah, he’s stubborn and very proud, but he’s still a good friend of mine. I hope he comes around and starts stanning KGB, but he doesn’t really like my bias, Mimi.
+
+[PLAYER]
+Well that’s tough…
+
+[CHADWICK]
+Default
+So uh, what’d you think of my moves?
+
+[PLAYER]
+Oh they were pretty neat, especially with how you moved to the rhythm, it was awesome!
+
+[CHADWICK]
+Talk
+Gee, thanks! So about that band gig you were trying to tell me about, do you think I’m good enough to be in it?
+
+[PLAYER] 
+OH! Right, the competition is coming up and I was wondering if you'd like to join. After seeing you move that way, I think you’d be a great fit.
+
+[CHADWICK]
+Smile
+Say no more! How do I join?
+
+[PLAYER] 
+Would you be willing to duel me? So we could see how well we work as a band? 
+
+[CHADWICK]
+Talk
+Sure! Wanna go right now? 
+
+[ENVIRONMENT]
+Chadwick raises his fists, adopting a fighting stance.
+
+[PLAYER]
+Yeah!
 
 [RHYTHM]
