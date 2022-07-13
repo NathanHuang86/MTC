@@ -21,20 +21,20 @@ You arrive at class and students seem to be pouring out of the classroom. You wa
 [PLAYER]
 Sorry I’m a little bit late, what are we working on now?
 
-[TEACHER]
+[PROFESSOR]
 Oh are you *PLAYER*?
 Why weren’t you here today?
 
 [PLAYER]
 I am here though! I got stuck on the elevator for a bit, but-
 
-[TEACHER]
+[PROFESSOR]
 What matters now is that the first day of class is done, and you have homework to do.
 
 [PLAYER]
 Class is done?!
 
-[TEACHER]
+[PROFESSOR]
 Yes. why else would my class be leaving; The bell doesn’t dismiss you, I do.
 
 [COSPLAYER]
@@ -49,7 +49,7 @@ All the more reason to discipline you kids.
 You quickly write down the homework from the first day:
 Meet 5 people from your class and have them sign your notebook.
 
-[TEACHER]
+[PROFESSOR]
 Most of the class got their homework done in class, remember to have it signed and ready for tomorrow.
 
 [BACKGROUND]

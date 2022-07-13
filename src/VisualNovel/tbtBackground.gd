@@ -36,13 +36,15 @@ func nextScript(line):
 		get_node("sprCharacter").texture = load('res://assets/Images/Janitor Frames/Janitor ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
+		line = f.get_line()
 	
-	if line == "[COSPLAY]":
+	if line == "[COSPLAYER]":
 		get_node("CurrentCharacter").text = "[COSPLAYER]"
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Cosplayer Frames/Cosplay ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
+		line = f.get_line()
 	
 	if line == "[CHADWICK]":
 		get_node("CurrentCharacter").text = "[CHADWICK]"
@@ -50,6 +52,7 @@ func nextScript(line):
 		get_node("sprCharacter").texture = load('res://assets/Images/Chadwick Frames/Chadwick ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
+		line = f.get_line()
 	
 	if line == "[OLIVER]":
 		get_node("CurrentCharacter").text = "[OLIVER]"
@@ -57,6 +60,7 @@ func nextScript(line):
 		get_node("sprCharacter").texture = load('res://assets/Images/Oliver Frames/Oliver ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
+		line = f.get_line()
 	
 		if aniEnable == true:
 			$sprCharacter/aniCharacterEntrance.play("Entrance")
@@ -71,6 +75,10 @@ func nextScript(line):
 	
 	if line == "[ENVIRONMENT]":
 		get_node("CurrentCharacter").text = " "
+		line = f.get_line()
+	
+	if line == "[PROFESSOR]":
+		get_node("CurrentCharacter").text = "[PROFESSOR]"
 		line = f.get_line()
 	
 	if line == "[LEAVE]":
