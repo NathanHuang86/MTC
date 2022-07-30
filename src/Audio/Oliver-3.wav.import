@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Oliver-3.wav-003e4e330f6d573515996b60ffdf520b.sample"
+
+[deps]
+
+source_file="res://src/Audio/Oliver-3.wav"
+dest_files=[ "res://.import/Oliver-3.wav-003e4e330f6d573515996b60ffdf520b.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

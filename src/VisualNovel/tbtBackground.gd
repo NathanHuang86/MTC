@@ -31,7 +31,7 @@ func nextScript(line):
 		line = f.get_line()
 	
 	if line == "[JANITOR]":
-		get_node("CurrentCharacter").text = "[JANITOR]"
+		get_node("CurrentCharacter").text = "Janitor"
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Janitor Frames/Janitor ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
@@ -39,7 +39,7 @@ func nextScript(line):
 		line = f.get_line()
 	
 	if line == "[COSPLAYER]":
-		get_node("CurrentCharacter").text = "[COSPLAYER]"
+		get_node("CurrentCharacter").text = "Annie"
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Cosplayer Frames/Cosplay ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
@@ -47,7 +47,7 @@ func nextScript(line):
 		line = f.get_line()
 	
 	if line == "[CHADWICK]":
-		get_node("CurrentCharacter").text = "[CHADWICK]"
+		get_node("CurrentCharacter").text = "Chadwick"
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Chadwick Frames/Chadwick ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
@@ -55,7 +55,7 @@ func nextScript(line):
 		line = f.get_line()
 	
 	if line == "[OLIVER]":
-		get_node("CurrentCharacter").text = "[OLIVER]"
+		get_node("CurrentCharacter").text = "Oliver"
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Oliver Frames/Oliver ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
@@ -70,7 +70,7 @@ func nextScript(line):
 		line = f.get_line()
 	
 	if line == "[PLAYER]":
-		get_node("CurrentCharacter").text = "[" + sigGlobal.gamedata.strProtagName + "]"
+		get_node("CurrentCharacter").text = sigGlobal.gamedata.strProtagName
 		line = f.get_line()
 	
 	if line == "[ENVIRONMENT]":

@@ -1,42 +1,48 @@
-[COSPLAY]
+[BACKGROUND]
+Fountain Plaza 2
+[COSPLAYER]
 Smile
 [PLAYER]
 That sounded awesome. Is this really just a hobby for you?
 
+[COSPLAYER]
+Smile
 Thanks. yeah, I just make this stuff in my free time.
 
 [PLAYER]
-You know, I’m actually looking for someone to join me for the battle of the bands. you’re really talented, I would love to have you on the team. 
+You know, I’m actually looking for someone to join me for the battle of the bands. You’re really talented, I would love to have you on the team. 
 
-[COSPLAY]
+[COSPLAYER]
 Default
-Sure, I’d love to. I’ve been waiting for the chance to show off my music.
+Sure, I’d love to! I’ve been waiting for the chance to show off my music.
 
 [PLAYER]
 Awesome! It’s great to have you on the team… you know, I never got your name.
 
-[COSPLAY]
+[COSPLAYER]
 Smile
-Oh right. It’s hard to be in a band with someone if you don’t know their name. I’m Annie. Annie May. What about you?
+Oh right. It’s hard to be in a band with someone if you don’t know their name. 
+
+I’m Annie. Annie May.
 
 [PLAYER]
-I’m *PLAYER*. Thanks again for everything.
+Thanks again for everything.
 
-[COSPLAY]
+[COSPLAYER]
 Stare
 My pleasure. Hey, you don’t know anyone else in our class, right?
 
 [PLAYER]
 Yeah, I wasn’t able to meet anyone before the professor chewed me out.
 
-[COSPLAY]
+[COSPLAYER]
 Smirk
 If you need more signatures, I know for sure that Chad goes to lift at the weight room after every class.
 
 [PLAYER]
 Gotcha. Thanks again for your help.
 
-[COSPLAY]
+[COSPLAYER]
 Smile
 Don’t thank me just yet. We still have to win!
 
@@ -47,24 +53,24 @@ Right.
 [BACKGROUND]
 Path 1
 [ENVIRONMENT]
-As you walk towards the Fitness Center, you see a tall muscular man, taller than anyone you’ve ever seen on campus, even taller than the JANITOR you met in the elevator. You feel motivated to go and ask him for some tips on how to maintain a healthy lifestyle whilst on campus. As you walk into the center, you hear what sounds like cracks of thunder coming from the weight room.
-
-As you walk towards the GCC weight room, you see a huge, gigantic man lifting weights all by himself.
+As you walk towards the Fitness Center, you hear what sounds like cracks of thunder coming from the weight room.
 
 [BACKGROUND]
 Weight Room
+[ENVIRONMENT]
+Once inside, you see a huge, gigantic man lifting weights all by himself.
+
 [PLAYER]
 OMG is he really one of the students that goes to Music 101? He looks tough...
+
+[ENVIRONMENT]
+You feel motivated to go and ask him for some tips on how to maintain a healthy lifestyle whilst on campus. 
 
 [ENVIRONMENT]
 You worryingly approach the absolute unit. As you get closer and closer you start to hear what sounds like faint pop music in a language you don’t understand.
 
 Eventually you realize it is coming from the man’s earbuds. It sounds like he’s working to the rhythm of the music playing.
 
-[PLAYER]
-Oh no.
-
-[ENVIRONMENT]
 The man lifts his head, noticing your stares. He sets down his massive dumbbell and takes an earbud out.
 
 [CHADWICK]

@@ -1,0 +1,21 @@
+[remap]
+
+importer="wav"
+type="AudioStreamSample"
+path="res://.import/Top40s-1.wav-c1ab37239a98c77c1a5743e4d2c9ea1f.sample"
+
+[deps]
+
+source_file="res://src/Audio/Top40s-1.wav"
+dest_files=[ "res://.import/Top40s-1.wav-c1ab37239a98c77c1a5743e4d2c9ea1f.sample" ]
+
+[params]
+
+force/8_bit=false
+force/mono=false
+force/max_rate=false
+force/max_rate_hz=44100
+edit/trim=false
+edit/normalize=false
+edit/loop=false
+compress/mode=0

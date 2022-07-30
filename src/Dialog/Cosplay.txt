@@ -22,20 +22,20 @@ You arrive at class and students seem to be pouring out of the classroom. You wa
 Sorry I’m a little bit late, what are we working on now?
 
 [PROFESSOR]
-Oh are you *PLAYER*?
+Oh, you must be the new kid.
 Why weren’t you here today?
 
 [PLAYER]
 I am here though! I got stuck on the elevator for a bit, but-
 
 [PROFESSOR]
-What matters now is that the first day of class is done, and you have homework to do.
+What matters now is that the first day of class is over and you have homework to do.
 
 [PLAYER]
 Class is done?!
 
 [PROFESSOR]
-Yes. why else would my class be leaving; The bell doesn’t dismiss you, I do.
+Yes. why else would my class be leaving? The bell doesn’t dismiss you, I do.
 
 [COSPLAYER]
 Disinterest
@@ -47,7 +47,8 @@ All the more reason to discipline you kids.
 [ENVIRONMENT]
 [LEAVE]
 You quickly write down the homework from the first day:
-Meet 5 people from your class and have them sign your notebook.
+
+"Meet 5 people from your class and have them sign your notebook"
 
 [PROFESSOR]
 Most of the class got their homework done in class, remember to have it signed and ready for tomorrow.
@@ -55,14 +56,12 @@ Most of the class got their homework done in class, remember to have it signed a
 [BACKGROUND]
 Path 3
 [ENVIRONMENT]
-You walk outside the classroom into the hall,  and no-one is in sight, everyone has left.
+You walk outside the classroom into the hall and nobody's in sight, everyone has left.
 
 [PLAYER]
 Aw man, how am I gonna get these signatures? If everyone has already done the assignment, they won’t want to talk to me…
 
-
 But now that I think about it, this could be a great way to meet people to recruit for a band!
-
 
 Maybe some of the students from class are still around here somewhere. Surely not everyone has completely cleared out.
 
@@ -77,7 +76,7 @@ Alright. Who can I get to sign my paper? I don’t know if any of these people a
 [BACKGROUND]
 People Bench
 [ENVIRONMENT]
-You spot a woman on a bench using a laptop with headphones on. You recognize her as someone who spoke up to the professor after you got to class.
+You spot a woman on a bench using a laptop with headphones on.
 
 [PLAYER]
 Hey, I know her. She told off the professor earlier. I should ask her to sign my paper… and I should probably say thanks.
@@ -86,7 +85,9 @@ Hey, I know her. She told off the professor earlier. I should ask her to sign my
 You walk closer, your heartbeat speeding up.
 
 [PLAYER]
-Oh my gosh, this is the first person I’m going to meet in college. I’m so nervous.
+Oh my gosh, this is the first person I’m going to meet in college, I’m getting a little nervous.
+
+Here goes nothing!
 
 Hey! How's it going?
 
@@ -99,7 +100,7 @@ My first day’s been pretty rough so far. Thanks for nosing off to the professo
 
 [COSPLAYER]
 Disinterest
-Oh, my pleasure. That guy’s a jerk. I heard that last semester, he made everyone write an apology to him for not doing the homework, but it only happened because he forgot to post it.
+Oh, my pleasure. That guy’s a jerk. I heard that last semester, he made everyone write an apology to him for not doing the homework, but it only happened because he forgot to post it!
 
 [PLAYER]
 Sounds like a nightmare.
@@ -137,7 +138,9 @@ Do you cosplay every day?
 
 [COSPLAYER]
 Shock
-Oh yes. Cosplaying isn’t just for fun. It’s a lifestyle.
+Oh yes. Cosplaying isn’t just for fun. 
+
+It’s a lifestyle.
 
 [ENVIRONMENT]
 You both stare at each other wordlessly for a few seconds. You don’t really get it, but she seems to be taking it really seriously.
@@ -147,7 +150,11 @@ Stare
 Anyway, let me help you with the homework.
 
 [ENVIRONMENT]
-Exchanging papers, you sign hers, and notice she already has four names written on hers. No one you know, of course. It might be a good idea to ask her where you can find other people to sign yours. While the cosplayer is signing your notebook, you see that she has some kind of music software open on her computer.
+Exchanging papers, you sign hers, and notice she already has four names written on hers. No one you know, of course. 
+
+It might be a good idea to ask her where you can find other people to sign yours. 
+
+While the cosplayer is signing your notebook, you see that she has some kind of music software open on her computer.
 
 [PLAYER]
 Do you make music?

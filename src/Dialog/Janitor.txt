@@ -1,16 +1,15 @@
 ﻿[BACKGROUND]
 Outside
 [ENVIRONMENT]
-You walk up the campus you have seen online and in brochures a thousand times.
+You walk up to the campus you have seen online and in brochures a thousand times.
 
-Although you have never seen it in person before;
 In front of you stands a large courtyard with the GCC logo standing proud above it welcoming you to campus
 
 [PLAYER]
 Wow, I can’t believe I’m finally here! College is so busy and cool!
 
 [ENVIRONMENT]
-As you walk into the music building for the first time you are overwhelmed by the number of students here at GCC.
+As you walk into the music building for the first time you are overwhelmed by the number of students you see.
 
 [PLAYER]
 Whew, I finally made it to the music wing here at GCC.
@@ -20,20 +19,18 @@ Maybe I should look for some clubs to join.
 [BACKGROUND]
 Poster
 [ENVIRONMENT]
-Through all the bustling students going to and from you see a poster on a cork board that catches your eye. One advertising a battle of the bands. The winning band gets a…
+Through all the bustling students going to and from class you see a poster on a cork board that catches your eye. One advertising a battle of the bands. 
+
+The winning band gets a…
 
 1,200 dollar cash prize?! That’s amazing!
 
-
 Seems like a great opportunity, but it looks like you need at least 8 members to enter. Weird, that seems like a lot for a band.
-
 
 [PLAYER]
 Well that’s just too bad.
 
-
-I just moved here to GCC and don’t know anyone yet.
-
+I just moved here and don’t know anyone yet.
 
 Might be a fun thing to do another year, but for now I should just stick to getting to class on ti--.
 
@@ -44,7 +41,7 @@ Oh no! I was so caught up in exploring that I forgot about my classes! My first 
 [BACKGROUND]
 Stairs
 [PLAYER]
-But the stairs are wet.
+Shoot, the stairs are wet!
 
 I guess I’ll just have to use the elevator
 
@@ -66,21 +63,19 @@ Default
 It’s no problem, thanks for holding the doors open! Usually we clean the stairs after everyone’s gone home, but we got a new schedule and now we have to clean them every day around noon.
 
 [PLAYER]
-So you are a JANITOR here at GCC, that has to be fun!
-
-Oh yeah I should probably introduce myself. My name is {insert player name}.
+So you're a janitor here at GCC, that has to be fun!
 
 [JANITOR]
 Default
-Wow what a cool name, [PLAYER] really rolls off the tongue.
-
-My name is To--
+Yeah it's not too bad. I should introduce myself, my name is To--
 
 [PLAYER]
 I’m sorry, but I don’t really have time to chat, I’m running late for a class right now.
 
 [ENVIRONMENT]
-After awkwardly cutting off the janitor, the elevator shuts down and the two of you stand in silence until the janitor starts humming to the elevator music. and banging his mop handle against the door to the beat.
+After awkwardly cutting off the janitor, the elevator shuts down and you find yourselves stuck together.
+
+To ease the tension, the janitor starts humming to the elevator music and banging his mop handle against the door to the beat.
 The groove is infectious and you can't help but join in
 
 [RHYTHM]
