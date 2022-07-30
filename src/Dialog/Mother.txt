@@ -1,0 +1,196 @@
+[PLAYER]
+Wow, I never knew k-pop sounded so cool. You’re just what we need for the band.
+
+[CHADWICK]
+Smile
+Thanks, bro. You’ve got some good moves yourself. I’d definitely stan you.
+
+[PLAYER]
+Thanks. It’s getting late. I’ll see you at the competition.
+
+[CHADWICK]
+Default
+I’ll be there. We’re gonna wipe the floor with the competition... figuratively, I mean.
+
+[BACKGROUND]
+Dorm Room 4
+[ENVIRONMENT]
+[LEAVE]
+With the day reaching its end, you walk back to your dorm room.
+
+[PLAYER]
+Wow! my first day at GCC and I’ve already made some friends. I think this is going to be a good semester…
+
+I FORGOT TO DO THE HOMEWORK!
+
+[ENVIRONMENT]
+With only two signatures, you decide to get some sleep and find a way to get the rest tomorrow morning before class.
+
+[BACKGROUND]
+store
+[ENVIRONMENT]
+The next day as you’re walking to class, you pass by the same GCC store you saw on your way to campus but spot a familiar face through the window.
+
+[PLAYER]
+Is that someone from my music class?
+
+[ENVIRONMENT]
+Knowing that you still need more signatures, you muster your courage and walk towards her.
+
+[PLAYER]
+Oh hey…
+
+[ENVIRONMENT]
+As you call her name you suddenly remember that you don’t remember her name.
+
+Not only that but as you start to call out to her, you see a tiny hand reach out from behind an aisle and grab the hem of her dress.
+
+[CHILD]
+Mama, that stranger over there is looking at you.
+
+Mama, do you know that stranger?
+
+[MOTHER]
+Thought
+I don’t think they’re talking to us, sweetheart. We should leave them be.
+
+[ENVIRONMENT]
+Suddenly, as she starts to speak aloud you recall seeing her leave with her child the day you were late for class. 
+
+You wish you’d caught her name earlier. You decide to approach her.
+
+[PLAYER]
+Hey! We’re in the same music class.
+
+[CHILD]
+Why are you ugly? That’s an ugly name.
+
+[MOTHER]
+Default
+Don’t be mean now, sweetheart! 
+
+Hi! It’s nice to talk to someone in one of my classes. It’s hard making friends in college. 
+I’m Natalie, and this is my daughter, Ellie.
+
+[PLAYER]
+I can imagine. How long have you been going to school here?
+
+[MOTHER]
+Talk
+Only a few days, actually. I went to college when I was younger, but I didn’t really enjoy how my career panned out after that.
+
+I figured there was no harm in going back, and enrolled in a few courses this year to see how I like it.
+
+[PLAYER]
+Oh, that’s great. How are things going so far?
+
+[MOTHER]
+Happy
+I’m only just starting out, so it feels like a whole new world for me. I think I’m getting the hang of things pretty quickly though. 
+Being a mom means I’m used to being kept on my toes, so I’ve learned to adapt pretty quickly.
+
+[CHILD]
+Mom, let’s go. This person is smelly.
+
+[MOTHER]
+Mad
+No they are not. You should apologize now, Ellie. That’s a very mean thing to say!
+
+[CHILD]
+I don’t wanna!
+
+[PLAYER]
+I get the feeling she doesn’t like me.
+
+[MOTHER]
+Thought
+Oh, she does the same thing to everybody. She just likes to mess with people and she’s gotten really good at it.
+
+[PLAYER]
+I bet I could get her to like me. How about I play some music?
+
+[MOTHER]
+Happy
+I think that would be wonderful!
+
+I was just about to go outside to do some studying, would you mind coming with me to watch her?
+
+[PLAYER]
+Uhm… I'm not sure…
+
+[ENVIRONMENT]
+I still have a lot of signatures to get, I don't know if I have time for this...
+
+[MOTHER]
+Default
+It would be a really big help to me, and I can pay you a bit if you’d like!
+
+[ENVIRONMENT]
+MONEY???
+
+[PLAYER]
+Sure! That sounds great!
+
+[ENVIRONMENT]
+After Natalie finishes buying what looks like snacks for her child, you walk with the two of them to the campus plaza, where Natalie quickly unpacks her schoolwork. 
+She hands you her bag from the store.
+
+[BACKGROUND]
+Plaza Area
+[MOTHER-DEFAULT]
+Ellie loves her fruit snacks, so I’m sure she’ll want some now. I’ll also give you her tablet in case she wants to watch something on it. 
+
+Thank you so much for agreeing to watch her for a bit, I just have to finish up one of my assignments and we’ll be on our way, I promise.
+[PLAYER]
+Do you think you could sign my notebook? I don’t have enough signatures for our class yet.
+[MOTHER- HAPPY]
+Of course.
+[ENVIRONMENT]
+You hand her your notebook, watching as her pen glides across the page. She hands the notebook back to you, starting to pay attention to her own assignment.
+[MOTHER- SHOCK]
+Are you sure you’ll be able to handle Ellie?
+[PLAYER]
+Don’t worry about it! I love babysitting!
+[ENVIRONMENT]
+You do not. Children can be very mean.
+[ENVIRONMENT]
+You sit down with Ellie, giving her a packet of fruit snacks.
+[ELLIE]
+Yay! How did you know I liked fruit snacks?
+[PLAYER]
+Umm… Only cool kids like fruit snacks!
+[ELLIE]
+Good! Because I am so cool! You might be cool too because you have fruit snacks. Not as cool as me though.
+[ENVIRONMENT]
+You didn’t think that would work as well as it did.
+[PLAYER]
+So do you like the music your mom makes?
+[ELLIE]
+I guess, but I like the music on the show I watch more!
+[PLAYER]
+And what show is that?
+[ELLIE]
+Bubblegumpie! It’s my favorite show of all time!
+[ENVIRONMENT]
+You vaguely recall the show. It’s new, and the music is simple and catchy.
+[PLAYER]
+That’s so cool! Do you want to play some music from Bubblegumpies?
+[ENVIRONMENT]
+Her eyes immediately light up and she claps happily. You’re not so bad at this babysitting thing after all.
+[ELLIE]
+Let’s play Bubblegumpies!
+[ENVIRONMENT]
+She takes the tablet from you and turns the show on. Every so often, she points at the screen and tells you to look when you’re already watching. It’s not a bad show, considering it’s for kids.
+[ENVIRONMENT]
+Before you know it, you’ve watched an entire episode of Bubblegumpies with Ellie.
+[ELLIE]
+Do you know how to play Bubblegumpies?
+[PLAYER]
+I do! Do you want to play it with me?
+[ELLIE]
+Yes!
+[MUSIC SECTION]
+Perfect: Yay!
+Good: Awesome!
+Okay: Aw…
+Bad/Miss: Ew…

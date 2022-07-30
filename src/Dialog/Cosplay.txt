@@ -16,7 +16,7 @@ Sure thing kid. Ya got goooooood rhythm.
 Lecture Hall
 [ENVIRONMENT]
 [LEAVE]
-You arrive at class and students seem to be pouring out of the classroom. You walk in to see what is happening.
+You arrive at class and students seem to be pouring out of the classroom. You walk in to see what's happening.
 
 [PLAYER]
 Sorry I’m a little bit late, what are we working on now?
@@ -35,7 +35,7 @@ What matters now is that the first day of class is over and you have homework to
 Class is done?!
 
 [PROFESSOR]
-Yes. why else would my class be leaving? The bell doesn’t dismiss you, I do.
+Yes. Why else would my class be leaving? The bell doesn’t dismiss you, I do.
 
 [COSPLAYER]
 Disinterest
@@ -46,7 +46,7 @@ All the more reason to discipline you kids.
 
 [ENVIRONMENT]
 [LEAVE]
-You quickly write down the homework from the first day:
+You quickly write down the homework on a piece of paper:
 
 "Meet 5 people from your class and have them sign your notebook"
 
@@ -56,12 +56,14 @@ Most of the class got their homework done in class, remember to have it signed a
 [BACKGROUND]
 Path 3
 [ENVIRONMENT]
-You walk outside the classroom into the hall and nobody's in sight, everyone has left.
+You walk outside the classroom and into the hall; nobody's in sight, everyone has left.
 
 [PLAYER]
 Aw man, how am I gonna get these signatures? If everyone has already done the assignment, they won’t want to talk to me…
 
 But now that I think about it, this could be a great way to meet people to recruit for a band!
+
+I'm still not sure I'll be able to find enough people, but I have to try!
 
 Maybe some of the students from class are still around here somewhere. Surely not everyone has completely cleared out.
 
@@ -117,7 +119,7 @@ Smile
 Sure, just as long as I can get yours. Here, sit down.
 
 [ENVIRONMENT]
-You sit down on the bench, getting a closer look at her outfit. It’s a… sailor uniform? with a red skirt and puffy sleeves.
+You sit down on the bench, getting a closer look at her outfit. It’s a… sailor uniform? With a red skirt and puffy sleeves.
 
 [PLAYER]
 Hey, your outfit is pretty cool.
@@ -131,7 +133,7 @@ Why do you dress like them?
 
 [COSPLAYER]
 Smirk
-Because she’s a badass that always wears crazy outfits. Plus, it’s really fun to see people’s faces light up when they recognize the character. 
+Because she’s a badass who always wears crazy outfits. Plus it’s really fun to see people’s faces light up when they recognize the character. 
 
 [PLAYER]
 Do you cosplay every day? 

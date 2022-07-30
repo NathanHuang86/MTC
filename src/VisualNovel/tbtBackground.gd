@@ -49,7 +49,7 @@ func nextScript(line):
 	if line == "[CHADWICK]":
 		get_node("CurrentCharacter").text = "Chadwick"
 		line = f.get_line()
-		get_node("sprCharacter").texture = load('res://assets/Images/Chadwick Frames/Chadwick ' + line + '.png')
+		get_node("sprCharacter").texture = load('res://assets/Images/Himbo Frames/Himbo ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()

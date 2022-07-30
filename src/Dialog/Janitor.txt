@@ -3,7 +3,7 @@ Outside
 [ENVIRONMENT]
 You walk up to the campus you have seen online and in brochures a thousand times.
 
-In front of you stands a large courtyard with the GCC logo standing proud above it welcoming you to campus
+In front of you stands a large courtyard with the GCC logo standing proud above it welcoming you to campus.
 
 [PLAYER]
 Wow, I can’t believe I’m finally here! College is so busy and cool!
@@ -32,7 +32,7 @@ Well that’s just too bad.
 
 I just moved here and don’t know anyone yet.
 
-Might be a fun thing to do another year, but for now I should just stick to getting to class on ti--.
+Might be a fun thing to do another year, but for now I should just stick to getting to class on ti--
 
 Wait! Class!
 
@@ -48,7 +48,7 @@ I guess I’ll just have to use the elevator
 [BACKGROUND]
 Elevator Door
 [ENVIRONMENT]
-You go over to the elevator and press the button, looking at the time again. As you slide into the elevator and press for floor two you see a custodian coming from the basement with a mop.
+You go over to the elevator and press the up button, looking at the time again. As you slide into the elevator and press for floor two you see a custodian coming from the basement with a mop.
 
 [BACKGROUND]
 Elevator

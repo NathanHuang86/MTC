@@ -1,5 +1,5 @@
 [BACKGROUND]
-Fountain Plaza 2
+People Bench
 [COSPLAYER]
 Smile
 [PLAYER]
@@ -14,7 +14,7 @@ You know, I’m actually looking for someone to join me for the battle of the ba
 
 [COSPLAYER]
 Default
-Sure, I’d love to! I’ve been waiting for the chance to show off my music.
+Sure, I’d love to! I’ve been waiting for a chance to show off my music.
 
 [PLAYER]
 Awesome! It’s great to have you on the team… you know, I never got your name.
@@ -90,25 +90,30 @@ Ummm… no…?
 [CHADWICK]
 Smile
 They’re called KGB, which stands for Korean Girl Band. It’s one of the greatest K-pop groups of all time.
-Besides their amazing vocals, they did some of the best performances I’ve ever seen.
+
+Besides their amazing vocals, they've done some of the best performances I’ve ever seen.
 They are probably the greatest thing on this earth.
 
 [CHADWICK]
-Talk 
+Talk
 Oh, right, you were here for the weights right? 
 
 [PLAYER]
 Actually I was going to ask if you could sign my list for class, and maybe join this band I’m making.
 
 [ENVIRONMENT]
-He quickly takes your notebook with Annie’s name on it, scribbling something down and giving it back to you. His handwriting is pristine, and he’s written Chadwick with a heart instead of the dot over the “i”. You can’t help but look at it for a second before putting it back in your backpack.
+He quickly takes your notebook with Annie’s name on it, scribbling something down and giving it back to you. 
+
+His handwriting is pristine, and he’s written Chadwick with a heart instead of the dot over the “i”. 
+
+You can’t help but look at it for a second before putting it back in your backpack.
 
 [CHADWICK]
-Shock 
+Shock
 Band? What for?
 
 [PLAYER] 
-The school is hosting a battle of the bands contest, and whoever wins
+The school is hosting a battle of the bands contest, and whoever wins gets a big cash prize!
 
 [CHADWICK]
 Frown
@@ -123,7 +128,7 @@ Oi! Chadwick, I got your stupid bloody tickets for that dumb J-pop group you wan
 
 [OLIVER]
 Smile
-Oliver! Thank you very much, you’re the best! Oh and also it’s a k-pop band, not j-pop
+Oliver! Thank you very much, you’re the best! Oh and also it’s a K-pop band, not J-pop.
 
 [ENVIRONMENT]
 Chadwick takes the tickets, slipping them into his pocket and giving the man a bear hug.
@@ -165,7 +170,13 @@ All the better, but let’s move this to the plaza, I can’t show off my ELITE 
 [BACKGROUND]
 Plaza Area
 [ENVIRONMENT]
-You follow the two men outside onto the plaza, watching them prepare for their duel. A crowd of jocks and faculty watch in awe as they see the giant before them pull out a device that should be far too small for a giant to nimbly and efficiently use. As the phone begins to play the latest hit by KGB, the crowd watches as the beat of their hearts begin to match that of the song’s rhythm. The two men begin their valiant duel… TO DANCE, one for the honor of his Idols, the other for his pride. 
+You follow the two men outside onto the plaza, watching them prepare for their duel. 
+
+A crowd of jocks and faculty watch in awe as they see the giant before them pull out a device that should be far too small for a giant to nimbly and efficiently use. 
+
+As the phone begins to play the latest hit by KGB, the crowd watches as the beat of their hearts begin to match that of the song’s rhythm. 
+
+The two men begin their valiant duel… TO DANCE, one for the honor of his Idols, the other for his pride. 
 
 [CHADWICK]
 Serious
