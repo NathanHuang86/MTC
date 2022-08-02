@@ -1,0 +1,224 @@
+﻿Environment
+A brand new day greets you as you walk through campus. You don’t have any classes today, and you aren’t sure what to do with your newfound free time. You find yourself at the library, and decide it couldn’t hurt to check out a few books to help you with your courses.
+
+
+You walk through the library, eventually finding a couple books on music theory and beginner composition. You decide this’ll be sufficient just to get started, and you head to the front desk to check out.
+
+
+Player
+Hi, This is my first time checking books out here, is there anything special I have to do?
+
+
+Environment
+You look at the person operating the front desk. She’s dressed in all black, with heavy makeup and a gothic look. Her name tag says “Raven,” an equally gothic name. She nods as you speak.
+
+
+Raven
+Nah, I just need to swipe your student ID, your books, and you’re all set. There’s a website on the sticker that you can sign into to check the due dates of your books.
+
+
+Player
+Oh, that’s great! Here you go!
+
+
+Environment
+You hand over your books and fish out your student ID from your pocket, sliding it across the counter to her. She scans everything quickly, putting it into a small bag and handing it over to you with a receipt and your ID.
+
+
+Raven
+Are you a music student? Or just reading for fun?
+
+
+Player
+I’m a music student! This is my first week here and my first day where I don’t have any classes, so I figured it wouldn’t hurt to stop by.
+
+
+Raven
+So you’re just a freshman, huh. What’s your name?
+
+
+Player
+Oh! I’m *player name*. I’m guessing you’re Raven?
+
+
+Raven
+Hah, yeah. I guess it’s hard to be mysterious with a name tag. By the way, Do you know Annie?
+
+
+Player
+Yeah, I just met her the other day. She seems pretty popular.
+
+
+Raven
+She’s really outgoing, it doesn’t surprise me. Annie and I go way back. You said you didn’t have any classes today, right?
+
+
+Player
+Yeah.
+
+
+Raven
+Wanna study together? I’m a sophomore music performance major, so I think I could help you with your homework if you need it.
+
+
+Player
+Sure! When do you get off from work?
+
+
+Raven
+I think my shift is literally over in a minute, I’ll go clock out now.
+
+
+Environment
+She takes off her name tag, walking behind a door and reemerging a minute later with a large bag.
+
+
+Player
+Wow, is that all your stuff?
+Raven
+Eh, only some books I’ve checked out and my school stuff.
+
+
+Environment
+You hope you don’t have to carry around all that stuff next year. You wonder what the workload is going to be like.
+
+
+Raven
+Let me show you one of my favorite study spots on campus.
+
+
+Player
+Okay!
+
+
+Environment
+You both walk a ways away from the library, and into a small section of campus you’ve never seen before. As you continue, you notice less and less people idling about or walking around.
+
+
+You reach a set of benches and chairs tucked between a couple of the lecture halls, completely empty and closed off from the rest of the campus.
+
+
+Player
+This place is pretty quiet…
+
+
+Raven
+I love it. It’s outdoors, but it’s not full of people or really loud. It’s the perfect place to study.
+Environment
+Raven starts to unpack her bag, taking out her laptop, headphones, a notebook, and a couple of pens. You follow her lead, taking your books out.
+
+
+Raven
+So I’m guessing you’re taking Intro to Music, Music Theory, Music History, and Convocation, right? Am I missing anything?
+
+
+Player
+Nope, those are all my music courses.
+
+
+Raven
+Are you off to a good start so far?
+
+
+Player
+Well honestly, my Intro class wasn’t too great, I was kinda sitting next to this guy, and I don’t think he knew what he was talking about when he was trying to give me advice. I think we were going over time signatures?
+
+
+Environment
+You neglect to mention more about Oliver. 
+
+
+Raven
+Ah, that always sucks. Well, luckily time signatures are pretty easy to start with. Let’s just start with basic stuff.
+
+
+Environment
+You spend some time learning about time signatures. You actually get the hang of it quite quickly, and Raven pulls up a website to test you on it, where you get a decent score. You figure you would’ve learned this stuff if Oliver hadn’t insisted on ‘teaching’ you himself, but now isn’t a bad time to learn it the correct way.
+
+
+You finish up your makeshift lesson, and Raven smiles at you.
+Raven
+You’re a fast learner!
+
+
+Player
+Thank you, I feel a lot better about the class now
+
+
+Raven
+I’m glad I could help you with that. And hey, how do you like this spot for studying?
+
+
+Player
+It’s perfect, honestly. It’s nice to be outside without having to worry about the noise.
+
+
+Raven
+Now you get it. I think I have to do a bit more work, but you can find me here most days around this time studying.
+
+
+Player
+Cool. What are you working on?
+
+
+Raven
+Hah, I’ll show you, but you have to promise not to judge. It’s a personal project.
+
+
+Player
+I promise.
+
+
+Environment
+Raven pulls up her audio workstation and opens a file, hooking up her headphones and handing them to you. You listen to her work, in awe. It’s a masterpiece.
+
+
+Music Section
+
+
+Player
+Wow, this is amazing.
+Raven
+Thanks! I’ll admit I’ve been going back and forth on it for a while now, so that’s exciting to hear. I kinda needed fresh ears on it, so I’m glad this worked out.
+
+
+Player
+Would you be up for joining my band?
+
+Raven
+Oh wow, really?
+
+Player
+Yeah, I really like what I’m hearing. It’s for the battle of the bands competition coming up soon. I don’t really have enough members yet, and I think you’d be a great fit.
+
+
+Raven
+I’d love to! I’ll work a couple things out in my schedule and I should be all set to join.
+
+
+Player
+Awesome, It’s gonna be so great to have you. Annie’s actually in the band, too!
+
+
+Raven
+Makes sense, she’s super excited about competitions.
+
+
+Player
+Really? I didn’t think she was that competitive.
+
+
+Raven
+Oh yeah, she enters in every single cosplay contest she can get to. I can’t promise I’ll be as excited as her, but I’m happy to be a part of this.
+
+
+Environment
+You both spend some more time working on your separate projects, and part ways a couple hours later.
+
+
+Raven
+It was so nice to meet you! Feel free to swing by the library whenever. I work there quite a bit.
+
+
+Player
+Sure thing! Nice to meet you too!

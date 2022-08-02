@@ -1,146 +1,245 @@
+[BACKGROUND]
+Plaza Area
 [ELLIE]
 Wow! You’re so good at playing Bubblegumpies!
+
 [PLAYER]
 You are too! I think you’re really good at playing music. Maybe you can go to school for music like your mom!
+
 [ELLIE]
 I want to go to music school and be just like Momma now!
+
 [ENVIRONMENT]
 You notice that Natalie has finished her work, watching you and Ellie with a smile.
-[MOTHER- DEFAULT]
+
+[MOTHER]
+Default
 Thank you so much, *player*, I really appreciate your help. Ellie, are you ready to go now? Momma has to take you home for lunch!
+
 [ELLIE]
 Do we have to? I like playing Bubblegumpies with *player*...
-[MOTHER- HAPPY]
+
+[MOTHER]
+Happy
 I promise we’ll play more Bubblegumpies when we get home, okay?
+
 [ENVIRONMENT]
 Ellie jumps up, skipping over to her mother and hugging her. Natalie looks back to you, taking her and Ellie’s things and standing up to leave.
-[MOTHER- SHOCK]
+
+[MOTHER]
+Shock
 Thanks again for watching my Ellie. Is there anything I can help you with?
+
 [PLAYER]
 Well, I need more members for a band I’m making, would you like to be in it? It’s for a competition.
-[MOTHER-TALK]
+
+[MOTHER]
+Talk
 I’d be happy to! And I’m sure Ellie wouldn’t mind having someone else to talk about her shows with.
+
 [ENVIRONMENT]
 You part ways with the two of them, and you check the time. Watching that show with Natalie’s kid took longer than expected, and now you have to go straight to class. It’s not the same class you have with Annie, but you don’t think being late to this one would be a good idea.
 
-
-Overconfident (Oliver)
 [BACKGROUND]
 Lecture Hall
 [ENVIRONMENT]
 You rush to your class, looking around the lecture hall to see if you recognize anyone you’ve met so far. You don’t think you see anyone, until someone comes up to you.
-[OLIVER- SMILE]
+
+[OLIVER]
+Smile
 What’s up, cringelord?
+
 [PLAYER]
 Oh, hey. Oliver, right?
-[OLIVER- SMUG]
+
+[OLIVER]
+Smug
 Don’t you forget it! What are you doing here?
+
 [PLAYER]
 I’m here for my music course.
-[OLIVER- FROWN]
+
+[OLIVER]
+Frown
 Are you sure? This is a pretty high level course.
+
 [PLAYER]
 This is Music Concepts, right?
-[OLIVER- SMILE]
+
+[OLIVER]
+Smile
 Yeah!
+
 [PLAYER]
 Yeah, this is an intro course.
+
 [ENVIRONMENT]
 You both stare at each other in silence for a few seconds. Oliver seems annoyed.
-[OLIVER- STARE]
+
+[OLIVER]
+Smile
 Just as I expected. It’s obvious just by talking to you that you’re in the beginner course.
+
 [PLAYER]
 Aren’t you in this class?
-[OLIVER- FROWN]
+
+[OLIVER]
+Frown
 Yes, but I’m just taking it as a formality. It’s going to be an easy A for me.
+
 [PLAYER]
 So, how are you after yesterday? Did you end up going to the nurse’s office?
-[OLIVER- SMUG]
+
+[OLIVER]
+Smug
 No, I was perfectly fine. It takes more than a wardrobe malfunction to hurt me. Maybe Chadwick would’ve needed to go to the nurse’s office.
+
 [PLAYER]
 I’m pretty sure anyone would’ve needed to. It looked pretty painful.
+
 [ENVIRONMENT]
 Oliver ignores your statement.
-[OLIVER- DEFAULT]
+
+[OLIVER]
+Default
 Anyway, do you want to sit down with me? No doubt my expertise will help you in this class.
+
 [PLAYER]
 Sure. Hey, would you mind signing my notebook? It’s for another intro class.
-[OLIVER- SMILE]
+
+[OLIVER]
+Smile
 An autograph? Of course, let me get out my best pen!
+
 [ENVIRONMENT]
 Oliver pulls a calligraphy pen from his bag. It has a large feather taped to it. He takes your notebook, but looks at the page and scoffs.
-[OLIVER- MAD]
+
+[OLIVER]
+Mad
 You’ve already had that imbecile Chadwick sign it? I guess you’re just letting anyone do it, then.
+
 [PLAYER]
 That was the assignment, yeah.
+
 [ENVIRONMENT]
 Oliver quickly signs the notebook, giving it back to you without a second glance. His signature is taking up half the page, and a little bit of Chadwick’s name.
-[OLIVER- SMILE]
+
+[OLIVER]
+Smile
 So, if you’re smart enough to sit next to me, I have the best seat in the class.
+
 [ENVIRONMENT]
 You follow Oliver to his seat, a section in the middle. You notice that there’s no one sitting around him, and people seem to be sitting a cautious distance away.
+
 [PLAYER]
 Do you know anyone else here?
-[OLIVER- SMUG]
+
+[OLIVER]
+Smug
 No, I don’t really like to fraternize with the intro classes. Consider yourself incredibly lucky.
+
 [PLAYER]
 I’m considering myself something, alright.
-[OLIVER- TALK]
+
+[OLIVER]
+Talk
 Oh, shush. Class is about to start.
+
 [ENVIRONMENT]
 Your professor starts talking soon after that, and you assume class would’ve gone great if you weren’t sitting next to Oliver. Today’s lesson is on time signatures. It’s pretty easy, honestly.
-[OLIVER- FROWN]
+
+[OLIVER]
+Frown
 Ugh, this is so wrong. Everyone knows the best songs are in 11/4  time. Time means minutes, by the way, so good songs should be anywhere from 4 to 11 minutes.
+
 [PLAYER]
 Um, that’s not what that means at all.
-[OLIVER- MAD]
+
+[OLIVER]
+Mad
 It makes sense that as a beginner you wouldn’t know what you’re talking about at all. Just take notes based on what I tell you.
+
 [ENVIRONMENT]
-You decide not to question it, but you’re definitely not taking notes from Oliver. Ever.
+You decide not to question it, but in your judgement, you chose to not take notes from Oliver.
+
 [PROFESSOR]
 Now, when you’re working with music in different time signatures, especially if you’re less familiar with music, it’s important to double check your work.
-[OLIVER- FROWN]
+
+[OLIVER]
+Frown
 That’s wrong too. Seriously, how do they hire these idiots? I always just do it on a computer.
+
 [PLAYER]
 But you still have to double check if what you’re doing sounds good if you’re working digitally…
-[OLIVER- TALK]
+
+[OLIVER]
+Talk
 No you don’t. The computer does it for you.
+
 [PLAYER]
 That’s… not how it works at all…
+
 [ENVIRONMENT]
 The rest of class drags on, with Oliver attempting to ‘teach’ you about different music concepts, and somehow getting even the basic concepts wrong. Maybe he needs this class more than you do.
-[OLIVER- STARE]
+
+[OLIVER]
+Stare
 I hope you’re planning on studying all that later. All the stuff I told you is really important to know.
+
 [PLAYER]
 I’ll try to get around to it. I’ve been pretty busy trying to get people to join my band–
-[OLIVER- MAD]
-You have a band? 
+
+[OLIVER]
+Mad
+You have a band?
+
 [PLAYER]
 Yeah, it’s just made up of a couple of my friends I’ve made here so far, it’s for the battle of the bands competition.
-[OLIVER- SMUG]
+
+[OLIVER]
+Smug
 Aw, well I’m very flattered, but I’m much too busy to join your silly little band.
+
 [PLAYER]
 What?
-[OLIVER- TONGUE OUT]
+
+[OLIVER]
+Tongue Out
 You obviously want me to join, bringing it up so suddenly. Alas, I must decline.
+
 [PLAYER]
 Oh, I guess I could find someone else then.
-[OLIVER- FROWN]
+
+[OLIVER]
+Frown
 No wait! You need my expertise, you had no idea what was going on in class. I’d be happy to lead your little band.
+
 [PLAYER]
 What? No, we just need more members, we’re not looking for a lead or anything, it’s mostly just for fun.
-[OLIVER- TALK]
+
+[OLIVER]
+Talk
 So you don’t have a lead? Perfect.
+
 [PLAYER]
 Well, no, that’s not what I meant.
-[OLIVER- DEFAULT]
+
+[OLIVER]
+Default
 Oh, fine, I’ll join if you beg.
+
 [PLAYER]
 I’m not going to beg.
-[OLIVER- FROWN]
+
+[OLIVER]
+Frown
 Okay, I’ll join anyway.
+
 [PLAYER]
 Okay… Well can I see how you perform? Just so we know what direction we want to go with the band?
-[OLIVER- SMILE]
+
+[OLIVER]
+Smile
 I’d be happy to show off my skills.
+
 [RHYTHM]
