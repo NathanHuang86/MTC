@@ -1,3 +1,7 @@
+[BACKGROUND]
+Plaza Area
+[CHADWICK]
+Default
 [PLAYER]
 Wow, I never knew k-pop sounded so cool. You’re just what we need for the band.
 
@@ -15,6 +19,7 @@ I’ll be there. We’re gonna wipe the floor with the competition... figurative
 [BACKGROUND]
 Dorm Room 4
 [ENVIRONMENT]
+[LEAVE]
 With the day reaching its end, you walk back to your dorm room.
 
 [PLAYER]
@@ -23,7 +28,7 @@ Wow! my first day at GCC and I’ve already made some friends. I think this is g
 (day ends)
 
 [BACKGROUND]
-store
+Lounge 2
 [ENVIRONMENT]
 The next day as you’re walking to class, you pass by the same GCC store you saw on your way to campus but spot a familiar face through the window.
 

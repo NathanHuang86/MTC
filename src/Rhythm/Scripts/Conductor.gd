@@ -46,7 +46,7 @@ func _ready():
 		5:
 			audioStream = preload('res://src/Audio/Top40s-1.wav')
 		6:
-			audioStream = preload('res://src/Audio/Skater.wav')
+			audioStream = preload('res://src/Audio/Skater-1.wav')
 		7:
 			audioStream = preload('res://src/Audio/Ominous.wav')
 	self.set_stream(audioStream)

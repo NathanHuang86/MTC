@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/weight room.jpg-421b4bb432ccf3986a2c074ac800d82e.stex"
+path="res://.import/Weight Room.jpg-fc647eb4a9130a76189a97b9a263948d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Background/weight room.jpg"
-dest_files=[ "res://.import/weight room.jpg-421b4bb432ccf3986a2c074ac800d82e.stex" ]
+source_file="res://assets/Images/Background/Weight Room.jpg"
+dest_files=[ "res://.import/Weight Room.jpg-fc647eb4a9130a76189a97b9a263948d.stex" ]
 
 [params]
 

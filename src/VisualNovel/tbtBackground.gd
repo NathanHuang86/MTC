@@ -2,7 +2,7 @@ extends TextureButton
 
 onready var dialog = get_node("Dialog")
 onready var f = File.new()
-onready var scenes = ['res://src/Dialog/Janitor.txt', 'res://src/Dialog/Cosplay.txt', 'res://src/Dialog/Chadwick.txt']
+onready var scenes = ['res://src/Dialog/Janitor.txt', 'res://src/Dialog/Cosplay.txt', 'res://src/Dialog/Chadwick.txt', 'res://src/Dialog/Mother.txt' ]
 onready var imgBackGround = File.new()
 onready var tracker = 0
 onready var aniEnable = false
@@ -62,6 +62,17 @@ func nextScript(line):
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 	
+	if line == "[MOTHER]" or line == "[CHILD]":
+		if line == "[CHILD]":
+			get_node("CurrentCharacter").text = "Child"
+		else:
+			get_node("CurrentCharacter").text = "Mother"
+		line = f.get_line()
+		get_node("sprCharacter").texture = load('res://assets/Images/Mother Frames/Mother ' + line + '.png')
+		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
+		get_node("sprCharacter").position = Vector2(920, 584)
+		line = f.get_line()
+	
 		if aniEnable == true:
 			$sprCharacter/aniCharacterEntrance.play("Entrance")
 		else:
@@ -90,6 +101,7 @@ func nextScript(line):
 		return get_parent().get_node("Background/Dialog").text
 	
 	if line == "(day ends)":
+#		$sprCharacter/aniCharacterEntrance/colDayNight.visible = true
 		$sprCharacter/aniCharacterEntrance.play("DayNight")
 		self.disabled = true
 	
@@ -127,4 +139,3 @@ func _on_aniCharacterEntrance_animation_finished(anim_name):
 	if anim_name == "DayNight":
 		$sprCharacter/aniCharacterEntrance.play_backwards("DayNight")
 		self.disabled = false
-		

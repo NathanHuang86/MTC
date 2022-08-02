@@ -77,7 +77,7 @@ The man lifts his head, noticing your stares. He sets down his massive dumbbell 
 Default
 Oh, hey, what’s good? Sorry I didn’t notice you earlier, my favorite group just dropped a new EP.
 
-[PLAYER] 
+[PLAYER]
 Oh? What’s the group’s name? 
 
 [CHADWICK]
@@ -112,18 +112,18 @@ You can’t help but look at it for a second before putting it back in your back
 Shock
 Band? What for?
 
-[PLAYER] 
+[PLAYER]
 The school is hosting a battle of the bands contest, and whoever wins gets a big cash prize!
 
 [CHADWICK]
 Frown
 Oh well then I might join it, but are you sure you want me? 
 
-[PLAYER] 
+[PLAYER]
 Yeah! If you want, we could see how well our rhythm matches-
 
 [OLIVER]
-Default 
+Default
 Oi! Chadwick, I got your stupid bloody tickets for that dumb J-pop group you wanted! 
 
 [OLIVER]
@@ -148,7 +148,7 @@ That's a very rude thing to say, KGB is great!
 Smug
 So what? I’m just telling the truth, and besides that Mimi is just a fake and a fraud! 
 
-[CHADWICK] 
+[CHADWICK]
 Serious
 No one talks about my queen like that! Let’s duel! 
 
@@ -195,6 +195,7 @@ The crowd of jocks gasp in offense, how could someone out-dance KGB?
 [ENVIRONMENT]
 Oliver then proceeds to break it down in a way unlike you have ever seen, Oliver’s ELITE execution stunned the crowd, and for a moment it seems like he’d win this match in a heartbea-
 
+[OLIVER]
 OH SHI- 
 
 Oliver slips and falls on his side, a hush falling over the forming crowd as he groans and rolls on the floor. When he realizes people are watching him, he quickly jumps to his feet, brushing himself off and cockily smiling at Chadwick. He puffs his chest out and puts his hands on his hips triumphantly.
@@ -245,14 +246,14 @@ Oh they were pretty neat, especially with how you moved to the rhythm, it was aw
 Talk
 Gee, thanks! So about that band gig you were trying to tell me about, do you think I’m good enough to be in it?
 
-[PLAYER] 
+[PLAYER]
 OH! Right, the competition is coming up and I was wondering if you'd like to join. After seeing you move that way, I think you’d be a great fit.
 
 [CHADWICK]
 Smile
 Say no more! How do I join?
 
-[PLAYER] 
+[PLAYER]
 Would you be willing to duel me? So we could see how well we work as a band? 
 
 [CHADWICK]
