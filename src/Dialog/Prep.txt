@@ -14,7 +14,7 @@ Okay, have a good one, I guess.
 
 [ENVIRONMENT]
 You part ways with Oliver, confused on how he thinks so highly of himself.
-Preppy Woman (Vivian)
+
 [BACKGROUND]
 Hallway 1
 [ENVIRONMENT]
@@ -25,159 +25,249 @@ Oh no! You only got four people to write their names in your notebook! Man, you 
 
 
 CRASH!
-[PREP- MAD]
+
+[PREP]
+Mad
 Hey! What gives?!
+
 [ENVIRONMENT]
 As you were looking down at your phone and walking to class, you ran into another student! You see shopping bags scattered all over the floor around you, and scramble to help her recollect her belongings.
+
 [PLAYER]
 Oh my goodness! I’m so sorry!
+
 [ENVIRONMENT]
 The woman gets up quickly, brushing herself off and watching you pick up her things. She doesn’t seem interested in helping, instead taking her phone out and checking something on it.
-[PREP- BORED]
+
+[PREP]
+Bored
 Ugh, I know you probably weren’t even paying attention, so it’s okay. Where are you headed?
+
 [PLAYER]
 Intro to Sound, how about you?
-[PREP- SHOCK]
+
+[PREP]
+Shock
 Same here, wanna carry my bags?
+
 [ENVIRONMENT]
 You barely have time to answer before she starts walking away, presumably expecting you to carry her bags. You sigh, following her to class. 
+
 [PLAYER]
 So, do you like this class so far?
-[PREP- DEFAULT]
+
+[PREP]
+Default
 Absolutely not, I’m just taking it to get it over with. Our professor is a total drag.
+
 [PLAYER]
 Yeah, I think I agree with you so far.
-[PREP- BORED]
+
+[PREP]
+Bored
 Seriously, he said my bags were a ‘distraction’ when I put them on the seat next to me. He’s like, such a tightwad.
+
 [PLAYER]
 And the whole, “The bell doesn’t dismiss you, I do,” thing is so overdone.
-[PREP- THOUGHT]
+
+[PREP]
+Thought
 Oh, totally. He acts like a bad video game character. He’s so fake.
+
 [PLAYER]
 Nice, you play video games?
-[PREP- WINK]
+
+[PREP]
+Wink
 Uh, yeah. Of course I do. Doesn’t everyone these days?
+
 [ENVIRONMENT]
 You decide it would be best to change the subject.
+
 [PLAYER]
 So… Do you like video game music?
-[PREP- STARE]
+
+[PREP]
+Stare
 Sometimes, I guess it just depends on the game.
+
 [PLAYER]
 Well what kind of music do you like?
-[PREP- SMILE]
+
+[PREP]
+Smile
 I enjoy a lot of pop music, honestly. I listen to a bit of everything, but it’s easy for me to get bored of music sometimes.
+
 [PLAYER]
 Cool! Do you like any artists in particular?
-[PREP- DEFAULT]
+
+[PREP]
+Default
 I’m really liking the Smoke Chainers, their musical talent is unmatched.
+
 [ENVIRONMENT]
 You’ve heard the Smoke Chainers before. They’re popular, but they’ve never really stood out to you.
+
 [PLAYER]
 Oh, that’s cool–
-[PREP- SMILE]
+
+[PREP]
+Smile
 Honestly, I feel like no one is appreciating the message they’re trying to spread. 
+
 [PLAYER]
 What message is that?
+
 [ENVIRONMENT]
 She looks back at you, and you get the feeling she was expecting you to understand.
-[PREP- BORED]
+
+[PREP]
+Bored
 Ugh, this is exactly what I was talking about.
 
-
 They’re about more than the surface level popular music, it’s just the medium they use to deconstruct the industry, y’know?
+
 [PLAYER]
 That makes sense, I guess I didn’t really examine them critically.
-[PREP- THOUGHT]
+
+[PREP]
+Thought
 Not many people do, but that’s okay. They can stay in the dark if they want to.
+
 [BACKGROUND]
 Lecture Hall
 [ENVIRONMENT]
 You both enter the lecture hall, where the woman leads you to her usual seat near the front. You set her bags down beside her, and sit a seat away from her. You unpack your supplies for class, and as you open your notebook, you remember you only have four people written down!
+
 [PLAYER]
 Hey, would you mind writing your name in my–
-[PREP- DEFAULT]
+
+[PREP]
+Default
 Notebook? Yeah, as long as you sign mine.
+
 [ENVIRONMENT]
 You silently exchange notebooks, quickly scribbling your name down in hers and looking at the other signatures. You see she’s already gotten Annie and Oliver to sign hers, along with two other names you don't recognize. You wonder if they’re in this class.
 
-
 She gives your notebook back, and you give it a glance. Her name is written neatly, but it still doesn’t look as nice as Chadwick’s.
+
 [PLAYER]
 Vivian? That’s a nice name.
-[VIVIAN- SMILE]
+
+[PREP]
+Smile
 Thank you. *player name* is a nice name too. I don’t think I’ve heard it before.
+
 [PLAYER]
 Hm. I guess I always assumed it was a common name.
+
 [ENVIRONMENT]
 The professor walks into class just on time, immediately getting started with class. He quickly walks around the room, checking everyone’s notebooks. He stops when he gets to you and Vivian.
+
 [PROFESSOR]
 Wow, *player name*, was it? I’m glad you got your work done for this class! No more elevator mishaps?
+
 [PLAYER]
 Uhm, no… That ended up being fixed pretty quickly, I haven’t had any more issues with it since.
+
 [PROFESSOR]
 That’s great to hear, I hope I’ll get to see your face in all of class from now on.
+
 [ENVIRONMENT]
 The professor quickly marks your notebook and moves on to grading the rest of the class. You look down at it, and…
 
-
 You got an A! Granted, it was a simple assignment, but at least you got it over with and made some friends in the process.
 
-
 The rest of the class is uneventful, just going over questions on the first real assignment. You figure you should start on that soon, but just as you think that, Vivian is talking to you again.
-[VIVIAN- SMILE]
+
+[PREP]
+Smile
 Are you busy after class today? I was thinking of grabbing some lunch from the Union. 
+
 [ENVIRONMENT]
 While you were off in your own little world, class had ended. 
+
 [PLAYER]
 Huh? Oh yeah, let’s head out.
+
 [BACKGROUND]
 Lounge 2
 [ENVIRONMENT]
 As you walk with Vivian, you start to talk about music with her.
-[VIVIAN- SHOCK]
+
+[PREP]
+Shock
 What kind of artists do you like?
+
 [PLAYER]
 Well, I don’t really have a favorite genre. I’m kinda like you, I listen to it all
-[VIVIAN- ]
+
+[VIVIAN]
+Default
 Yeah? What have you listened to lately?
+
 [PLAYER]
 Well…
+
 [ENVIRONMENT]
 You think about the music you’ve heard today. First it was Ellie’s children’s music, and then… Oliver’s music. You decide not to tell Vivian about either.
+
 [PLAYER]
 I listened to a pop artist recently actually, I think it was The Weekday?
-[VIVIAN- ]
+
+[PREP]
+Default
 Oh wow, I love his work! He’s so subversive.
+
 [PLAYER]
 Really? I guess I wasn’t really listening that much.
-[VIVIAN- ]
+
+[PREP]
+Default
 Yeah, he’s amazing. He puts really subtle symbolism in his albums, it’s like this whole anthology across his body of work.
+
 [PLAYER]
 Do you like to write any music?
-[VIVIAN- ]
+
+[PREP]
+Default
 Yeah, sometimes. I’m an audio production major and my instrument is voice, so I work with a lot of lyrics already.
+
 [PLAYER]
 That’s really cool! I’m undeclared right now, but I was considering voice.
-[VIVIAN- ]
+
+[PREP]
+Default
 It’s pretty cool. 
+
 [PLAYER]
 Do you do a lot of vocal work in your free time?
-[VIVIAN- ]
+
+[PREP]
+Default
 It’s funny that you ask. I’m not working on anything right now, but I heard you were getting a band together for the competition and I wanted to ask if you already had a vocalist.
+
 [PLAYER]
 Oh, how did you know about that?
-[VIVIAN- ]
+
+[PREP]
+Default
 Annie couldn’t stop talking about it. We’re rooming together this year, so I heard all about it. She wanted me to ask if I could audition or whatever.
+
 [PLAYER]
 Yeah, we don’t have a vocalist yet! Would you want to join?
-[VIVIAN- ]
+
+[PREP]
+Default
 Um, absolutely! Would I get to write my own lyrics?
+
 [PLAYER]
 Of course, you know what you’re doing better than I do, hah.
 
-
 Would you mind showing me something you have worked on though?
-[VIVIAN- ]
+
+[PREP]
+Default
 Sure, I have something I’ve done a bit of work for, as long as you can keep up with it.
+
 [RHYTHM]
