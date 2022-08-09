@@ -126,7 +126,7 @@ Yeah! If you want, we could see how well our rhythm matches-
 Default
 Oi! Chadwick, I got your stupid bloody tickets for that dumb J-pop group you wanted! 
 
-[OLIVER]
+[CHADWICK]
 Smile
 Oliver! Thank you very much, you’re the best! Oh and also it’s a K-pop band, not J-pop.
 
@@ -170,6 +170,7 @@ All the better, but let’s move this to the plaza, I can’t show off my ELITE 
 [BACKGROUND]
 Plaza Area
 [ENVIRONMENT]
+[LEAVE]
 You follow the two men outside onto the plaza, watching them prepare for their duel. 
 
 A crowd of jocks and faculty watch in awe as they see the giant before them pull out a device that should be far too small for a giant to nimbly and efficiently use. 
@@ -196,8 +197,10 @@ The crowd of jocks gasp in offense, how could someone out-dance KGB?
 Oliver then proceeds to break it down in a way unlike you have ever seen, Oliver’s ELITE execution stunned the crowd, and for a moment it seems like he’d win this match in a heartbea-
 
 [OLIVER]
+Shock
 OH SHI- 
 
+[ENVIRONMENT]
 Oliver slips and falls on his side, a hush falling over the forming crowd as he groans and rolls on the floor. When he realizes people are watching him, he quickly jumps to his feet, brushing himself off and cockily smiling at Chadwick. He puffs his chest out and puts his hands on his hips triumphantly.
 
 [CHADWICK]
