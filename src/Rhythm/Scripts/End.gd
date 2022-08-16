@@ -17,6 +17,8 @@ func _ready():
 			background = preload('res://assets/Images/Background/Lecture Hall.jpg')
 		5:
 			background = preload('res://assets/Images/Background/Hallway 1.jpg')
+		6:
+			background = preload('res://assets/Images/Background/Path 6.jpg')
 		
 	$TextureRect.set_texture(background)
 	#sprites[RhythmGlobal.sceneInt]

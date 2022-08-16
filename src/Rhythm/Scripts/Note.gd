@@ -2,15 +2,16 @@ extends Area2D
 
 const TARGET_Y = 164
 
-const SPAWN_Y = -16
+var speeds = [-16, -16, -16, -16, -16, -16, -120, -16, ]
+var SPAWN_Y = speeds[RhythmGlobal.sceneInt]
 #this adjusts the speed at which the arrows fall, but they still reach the "receptors" at the same time no matter what
 
-const DIST_TO_TARGET = TARGET_Y - SPAWN_Y
+var DIST_TO_TARGET = TARGET_Y - SPAWN_Y
 
-const LEFT_LANE_SPAWN = Vector2(80, SPAWN_Y)
-const UP_LANE_SPAWN = Vector2(120, SPAWN_Y)
-const DOWN_LANE_SPAWN = Vector2(160, SPAWN_Y)
-const RIGHT_LANE_SPAWN = Vector2(200, SPAWN_Y)
+var LEFT_LANE_SPAWN = Vector2(80, SPAWN_Y)
+var UP_LANE_SPAWN = Vector2(120, SPAWN_Y)
+var DOWN_LANE_SPAWN = Vector2(160, SPAWN_Y)
+var RIGHT_LANE_SPAWN = Vector2(200, SPAWN_Y)
 
 var speed = 0
 var hit = false

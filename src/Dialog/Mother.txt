@@ -46,6 +46,7 @@ As you call her name you suddenly remember that you don’t remember her name.
 Not only that but as you start to call out to her, you see a tiny hand reach out from behind an aisle and grab the hem of her dress.
 
 [CHILD]
+Default
 Mama, that stranger over there is looking at you.
 Mama, do you know that stranger?
 

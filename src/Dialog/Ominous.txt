@@ -1,136 +1,214 @@
-﻿[Environment]
-A brand new day greets you as you walk through campus. You don’t have any classes today, and you aren’t sure what to do with your newfound free time. You find yourself at the library, and decide it couldn’t hurt to check out a few books to help you with your courses.
+﻿[BACKGROUND]
+Lecture Hall Door
+[ENVIRONMENT]
+A brand new day greets you as you walk through campus. 
 
-You walk through the library, eventually finding a couple books on music theory and beginner composition. You decide this’ll be sufficient just to get started, and you head to the front desk to check out.
+You don’t have any classes today, and you aren’t sure what to do with your newfound free time. 
 
-[Player]
+[BACKGROUND]
+Lounge 3
+[ENVIRONMENT]
+You find yourself at the library, and decide it couldn’t hurt to check out a few books to help you with your courses.
+
+You walk through the library, eventually finding a couple books on music theory and beginner composition. 
+
+You decide this’ll be sufficient just to get started, and you head to the front desk to check out.
+
+[PLAYER]
 Hi, This is my first time checking books out here, is there anything special I have to do?
 
-[Environment]
-You look at the person operating the front desk. She’s dressed in all black, with heavy makeup and a gothic look. Her name tag says “[Raven],” an equally gothic name. She nods as you speak.
+[ENVIRONMENT]
+You look at the person operating the front desk. She’s dressed in all black, with heavy makeup and a gothic look. 
 
-[Raven]
-Nah, I just need to swipe your student ID, your books, and you’re all set. There’s a website on the sticker that you can sign into to check the due dates of your books.
+Her name tag says “Raven”, an equally gothic name. She nods as you speak.
 
-[Player]
+[RAVEN]
+Default
+Nah, I just need to swipe your student ID, your books, and you’re all set. 
+
+There’s a website on the sticker that you can sign into to check the due dates of your books.
+
+[PLAYER]
 Oh, that’s great! Here you go!
 
-[Environment]
-You hand over your books and fish out your student ID from your pocket, sliding it across the counter to her. She scans everything quickly, putting it into a small bag and handing it over to you with a receipt and your ID.
+[ENVIRONMENT]
+You hand over your books and fish out your student ID from your pocket, sliding it across the counter to her. 
 
-[Raven]
+She scans everything quickly, putting it into a small bag and handing it over to you with a receipt and your ID.
+
+[RAVEN]
+Laugh
 Are you a music student? Or just reading for fun?
 
-[Player]
+[PLAYER]
 I’m a music student! This is my first week here and my first day where I don’t have any classes, so I figured it wouldn’t hurt to stop by.
 
-[Raven]
-So you’re just a freshman, huh. What’s your name?
+[RAVEN]
+Shocked
+So you’re just a freshman, huh. How are you liking your classes?
 
-[Player]
-Oh! I’m *[Player] name*. I’m guessing you’re [Raven]?
+[PLAYER]
+Well, besides one bad teacher they're pretty great, I have so much to learn and it's all so interesting.
 
-[Raven]
-Hah, yeah. I guess it’s hard to be mysterious with a name tag. By the way, Do you know Annie?
+Also, is your name really Raven?
 
-[Player]
+[RAVEN]
+Laugh
+Hah, yeah, that's me. I know my name can be a little unusual for other people to hear but it is my name.
+
+[PLAYER]
+Well hey I think its a great name, definitely suits you.
+
+[RAVEN]
+Wink
+Thanks!
+
+By the way, do you know Annie?
+
+[PLAYER]
 Yeah, I just met her the other day. She seems pretty popular.
 
-[Raven]
-She’s really outgoing, it doesn’t surprise me. Annie and I go way back. You said you didn’t have any classes today, right?
+[RAVEN]
+Laugh
+She’s really outgoing, it doesn’t surprise me. 
 
-[Player]
-Yeah.
+Annie and I go way back. You said you didn’t have any classes today, right?
 
-[Raven]
+[PLAYER]
+Yup.
+
+[RAVEN]
+Default
 Wanna study together? I’m a sophomore music performance major, so I think I could help you with your homework if you need it.
 
-[Player]
+[PLAYER]
 Sure! When do you get off from work?
 
-[Raven]
+[RAVEN]
+Default
 I think my shift is literally over in a minute, I’ll go clock out now.
 
-[Environment]
+[ENVIRONMENT]
 She takes off her name tag, walking behind a door and reemerging a minute later with a large bag.
 
-[Player]
+[PLAYER]
 Wow, is that all your stuff?
 
-[Raven]
+[RAVEN]
+Wink
 Eh, only some books I’ve checked out and my school stuff.
 
-[Environment]
-You hope you don’t have to carry around all that stuff next year. You wonder what the workload is going to be like.
+[ENVIRONMENT]
+You hope you don’t have to carry around all that stuff next year. 
 
-[Raven]
-Let me show you one of my favorite study spots on campus.
+You wonder what the workload is going to be like.
 
-[Player]
+[RAVEN]
+Default
+Here, let me show you something.
+
+[PLAYER]
 Okay!
 
-[Environment]
-You both walk a ways away from the library, and into a small section of campus you’ve never seen before. As you continue, you notice less and less people idling about or walking around.
+[BACKGROUND]
+Path 7
+[ENVIRONMENT]
+You both walk a ways away from the library, and into a small section of campus you’ve never seen before. 
 
-You reach a set of benches and chairs tucked between a couple of the lecture halls, completely empty and closed off from the rest of the campus.
+As you continue, you notice less and less people idling about or walking around.
 
-[Player]
-This place is pretty quiet…
+You eventually reach a dorm building tucked away between two old lecture halls.
 
-[Raven]
-I love it. It’s outdoors, but it’s not full of people or really loud. It’s the perfect place to study.
+The building is discrete but charming, and you can't help but feel comforted in this seemingly strange environment
 
-[Environment]
-Raven starts to unpack her bag, taking out her laptop, headphones, a notebook, and a couple of pens. You follow her lead, taking your books out.
+[PLAYER]
+I had no clue there was a dorm building over here…
 
-[Raven]
-So I’m guessing you’re taking Intro to Music, Music Theory, Music History, and Convocation, right? Am I missing anything?
+[RAVEN]
+Default
+I love it. It’s very quiet and not many students even live here. 
 
-[Player]
+It’s the perfect place to study.
+
+Here, lets head up to my dorm.
+
+[ENVIRONMENT]
+You walk up a flight of stairs to the second floor, where Raven gets out a key and unlocks the door to her dorm.
+
+[BACKGROUND]
+Dorm Room 2
+[ENVIRONMENT]
+Once inside, Raven starts to unpack her bag, taking out her laptop, headphones, a notebook, and a couple of pens. 
+
+You follow her lead, taking your books out.
+
+[RAVEN]
+Stare
+So I’m guessing you’re taking Intro to Music, Music Theory, Music History, and Convocation, right? 
+
+Am I missing anything?
+
+[PLAYER]
 Nope, those are all my music courses.
 
-[Raven]
+[RAVEN]
+Default
 Are you off to a good start so far?
 
-[Player]
-Well honestly, my Intro class wasn’t too great, I was kinda sitting next to this guy, and I don’t think he knew what he was talking about when he was trying to give me advice. I think we were going over time signatures?
+[PLAYER]
+Well honestly, my Intro class wasn’t too great, I was kinda sitting next to this guy and I don’t think he knew what he was talking about when he was trying to give me advice. 
 
-[Environment]
+I think we were going over time signatures?
+
+[ENVIRONMENT]
 You neglect to mention more about Oliver. 
 
-[Raven]
-Ah, that always sucks. Well, luckily time signatures are pretty easy to start with. Let’s just start with basic stuff.
+[RAVEN]
+Smirk
+Ah, that always sucks. 
 
-[Environment]
-You spend some time learning about time signatures. You actually get the hang of it quite quickly, and [Raven] pulls up a website to test you on it, where you get a decent score. You figure you would’ve learned this stuff if Oliver hadn’t insisted on ‘teaching’ you himself, but now isn’t a bad time to learn it the correct way.
+Well, luckily time signatures are pretty easy to start with. Let’s just start with basic stuff.
+
+[ENVIRONMENT]
+You spend some time learning about time signatures. 
+
+You actually get the hang of it quite quickly, and Raven pulls up a website to test you on it, where you get a decent score. 
+
+You figure you would’ve learned this stuff if Oliver hadn’t insisted on ‘teaching’ you himself, but now isn’t a bad time to learn it the correct way.
 
 You finish up your makeshift lesson, and Raven smiles at you.
 
-[Raven]
+[RAVEN]
+Laugh
 You’re a fast learner!
 
-[Player]
+[PLAYER]
 Thank you, I feel a lot better about the class now
 
-[Raven]
-I’m glad I could help you with that. And hey, how do you like this spot for studying?
+[RAVEN]
+Default
+I’m glad I could help you with that. And hey, do you get what I was saying about this dorm being great for studying?
 
-[Player]
-It’s perfect, honestly. It’s nice to be outside without having to worry about the noise.
+[PLAYER]
+It’s perfect, honestly. It’s nice to be focused without having to worry about the noise.
 
-[Raven]
+[RAVEN]
+Default
 Now you get it. I think I have to do a bit more work, but you can find me here most days around this time studying.
 
-[Player]
+[PLAYER]
 Cool. What are you working on?
 
-[Raven]
+[RAVEN]
+Smirk
 Hah, I’ll show you, but you have to promise not to judge. It’s a personal project.
 
-[Player]
+[PLAYER]
 I promise.
 
-[Environment]
-Raven pulls up her audio workstation and opens a file, hooking up her headphones and handing them to you. You listen to her work, in awe. It’s a masterpiece.
+[ENVIRONMENT]
+Raven pulls up her audio workstation and opens a file, hooking up her headphones and handing them to you. 
+
+You listen to her work, in awe. It’s a masterpiece.
 
 [RHYTHM]

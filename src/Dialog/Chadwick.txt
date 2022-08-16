@@ -201,7 +201,10 @@ Shock
 OH SHI- 
 
 [ENVIRONMENT]
-Oliver slips and falls on his side, a hush falling over the forming crowd as he groans and rolls on the floor. When he realizes people are watching him, he quickly jumps to his feet, brushing himself off and cockily smiling at Chadwick. He puffs his chest out and puts his hands on his hips triumphantly.
+Oliver slips and falls on his side, a hush falling over the forming crowd as he groans and rolls on the floor. 
+
+When he realizes people are watching him, he quickly jumps to his feet, brushing himself off and cockily smiling at Chadwick. 
+He puffs his chest out and puts his hands on his hips triumphantly.
 
 [CHADWICK]
 Shock
@@ -216,7 +219,9 @@ Yeah I’m fine, It was my damn shoe’s fault! That’s it, if it weren’t for
 
 [CHADWICK]
 Chill
-It’s alright bro, you just need to work on your coordination, and then maybe your shoe wouldn’t have failed you. Now let’s get you to the health office and get you checked out.
+It’s alright bro, you just need to work on your coordination, and then maybe your shoe wouldn’t have failed you. 
+
+Now let’s get you to the health office and get you checked out.
 
 [ENVIRONMENT]
 It’s clear that Oliver isn’t in great shape. He’s leaning over to one side, rubbing his thigh and wincing.
@@ -233,10 +238,12 @@ I hope he’s ok.
 
 [CHADWICK]
 Smile
-Yeah, he’s stubborn and very proud, but he’s still a good friend of mine. I hope he comes around and starts stanning KGB, but he doesn’t really like my bias, Mimi.
+Yeah, he’s stubborn and very proud, but he’s still a good friend of mine. 
 
-[PLAYER]
-Well that’s tough…
+I hope he comes around and starts stanning KGB, but he doesn’t really like my bias, Mimi.
+
+[ENVIRONMENT]
+You don't really understand what Chad is talking about but you can tell that he cares for his friend, he seems like a good guy.
 
 [CHADWICK]
 Default

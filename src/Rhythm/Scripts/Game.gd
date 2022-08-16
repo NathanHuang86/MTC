@@ -1,11 +1,11 @@
 extends Node2D
 
 onready var map = File.new()
-onready var scripts = ['res://src/Rhythm/Maps/Janitor.txt','res://src/Rhythm/Maps/Cosplay.txt','res://src/Rhythm/Maps/Himbo.txt', 'res://src/Rhythm/Maps/Mother.txt', 'res://src/Rhythm/Maps/Oliver.txt', 'res://src/Rhythm/Maps/Woman.txt', 'res://src/Rhythm/Maps/Skater.txt', 'res://src/Rhythm/Maps/Ominous.txt']
+onready var scripts = ['res://src/Rhythm/Maps/Janitor.txt','res://src/Rhythm/Maps/Cosplay.txt','res://src/Rhythm/Maps/Himbo.txt', 'res://src/Rhythm/Maps/Mother.txt', 'res://src/Rhythm/Maps/Oliver.txt', 'res://src/Rhythm/Maps/Woman.txt', 'res://src/Rhythm/Maps/Ominous.txt', 'res://src/Rhythm/Maps/Skater.txt']
 onready var sprites = ['Janitor', 'Cosplayer', 'Himbo', 'Mother', 'Oliver', 'Shoppin', 'Skater', 'Ominous'] #add skater and ominous when you can
-var song_bpm = [90, 350, 220, 320, 200, 240, 360, 200]
+var song_bpm = [90, 350, 220, 320, 200, 240, 800, 360]
 #Janitor, cosplay(brodie), himbo 110, mother160, 
-#oliver 100, woman, skater, ominous
+#oliver 100, woman, ominous, skater
 
 
 var score = 0
@@ -67,6 +67,8 @@ func _ready():
 			background = preload('res://assets/Images/Background/Lecture Hall.jpg')
 		5:
 			background = preload('res://assets/Images/Background/Hallway 1.jpg')
+		6:
+			background = preload('res://assets/Images/Background/Path 6.jpg')
 	$TextureRect.set_texture(background)
 	randomize()
 	$Conductor.play_with_beat_offset(8)

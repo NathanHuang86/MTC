@@ -61,6 +61,14 @@ func nextScript(line):
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
+		
+	if line == "[RAVEN]":
+		get_node("CurrentCharacter").text = "Raven"
+		line = f.get_line()
+		get_node("sprCharacter").texture = load('res://assets/Images/Ominous Frames/Ominous ' + line + '.png')
+		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
+		get_node("sprCharacter").position = Vector2(920, 584)
+		line = f.get_line()
 	
 	if line == "[MOTHER]" or line == "[CHILD]":
 		if line == "[CHILD]":
