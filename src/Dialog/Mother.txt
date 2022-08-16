@@ -61,6 +61,7 @@ Suddenly, as she starts to speak aloud you recall seeing her leave with her chil
 Hey! We’re in the same music class. I’m *player name*. 
 
 [CHILD]
+Default
 Why are you ugly? That’s an ugly name.
 
 [MOTHER]
@@ -82,6 +83,7 @@ Happy
 I’m only just starting out, so it feels like a whole new world for me. I think I’m getting the hang of things pretty quickly though. Being a mom means I’m used to being kept on my toes, so I’ve learned to adapt pretty quickly.
 
 [CHILD]
+Happy
 Mom, let’s go. This person is smelly.
 
 [MOTHER]
@@ -89,6 +91,7 @@ Mad
 No they are not. You should apologize now, Ellie. That’s a very mean thing to say!
 
 [CHILD]
+Mad
 I don’t wanna!
 
 [PLAYER]
@@ -153,12 +156,14 @@ You do not. Children can be very mean.
 You sit down with Ellie, giving her a packet of fruit snacks.
 
 [ELLIE]
+Default
 Yay! How did you know I liked fruit snacks?
 
 [PLAYER]
 Umm… Only cool kids like fruit snacks!
 
 [ELLIE]
+Default
 Good! Because I am so cool! You might be cool too because you have fruit snacks. Not as cool as me though.
 
 [ENVIRONMENT]
@@ -168,12 +173,14 @@ You didn’t think that would work as well as it did.
 So do you like the music your mom makes?
 
 [ELLIE]
+Default
 I guess, but I like the music on the show I watch more!
 
 [PLAYER]
 And what show is that?
 
 [ELLIE]
+Default
 Bubblegumpie! It’s my favorite show of all time!
 
 [ENVIRONMENT]
@@ -186,6 +193,7 @@ That’s so cool! Do you want to play some music from Bubblegumpies?
 Her eyes immediately light up and she claps happily. You’re not so bad at this babysitting thing after all.
 
 [ELLIE]
+Default
 Let’s play Bubblegumpies!
 
 [ENVIRONMENT]
@@ -195,13 +203,14 @@ She takes the tablet from you and turns the show on. Every so often, she points 
 Before you know it, you’ve watched an entire episode of Bubblegumpies with Ellie.
 
 [ELLIE]
+Default
 Do you know how to play Bubblegumpies?
 
 [PLAYER]
 I do! Do you want to play it with me?
 
 [ELLIE]
+Default
 Yes!
 
 [RHYTHM]
-

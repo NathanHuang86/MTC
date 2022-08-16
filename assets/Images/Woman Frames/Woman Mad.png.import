@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Woman Mad.png-18af0e4cec7dabdbeea8a54cc9996adf.stex"
+path="res://.import/Woman Mad.png-32c8375dff91951f1aeb27c9f41a9dee.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Women Frames/Woman Mad.png"
-dest_files=[ "res://.import/Woman Mad.png-18af0e4cec7dabdbeea8a54cc9996adf.stex" ]
+source_file="res://assets/Images/Woman Frames/Woman Mad.png"
+dest_files=[ "res://.import/Woman Mad.png-32c8375dff91951f1aeb27c9f41a9dee.stex" ]
 
 [params]
 
@@ -28,6 +28,7 @@ process/fix_alpha_border=true
 process/premult_alpha=false
 process/HDR_as_SRGB=false
 process/invert_color=false
+process/normal_map_invert_y=false
 stream=false
 size_limit=0
 detect_3d=true

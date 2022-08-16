@@ -5,7 +5,6 @@
 [ext_resource path="res://assets/Fonts/Bulletto Killa.ttf" type="DynamicFontData" id=3]
 [ext_resource path="res://src/Main Menu/btnStart.gd" type="Script" id=4]
 [ext_resource path="res://src/Main Menu/btnQuit.gd" type="Script" id=5]
-[ext_resource path="res://assets/Images/Janitor.png" type="Texture" id=6]
 [ext_resource path="res://src/Main Menu/btnOptions.gd" type="Script" id=7]
 [ext_resource path="res://src/Main Menu/btnLoad.gd" type="Script" id=8]
 [ext_resource path="res://src/Audio/TitleThemeDemo.wav" type="AudioStream" id=9]
@@ -58,6 +57,10 @@ tracks/0/keys = {
 "values": [ Color( 0, 0, 0, 0.25 ) ]
 }
 
+[sub_resource type="StreamTexture" id=5]
+flags = 4
+load_path = "res://.import/Cosplay Default.png-63e5d80a772cb69265e649c04bd6da85.stex"
+
 [sub_resource type="DynamicFont" id=4]
 size = 80
 outline_size = 4
@@ -79,9 +82,9 @@ texture = ExtResource( 1 )
 
 [node name="sprCharacter" type="Sprite" parent="."]
 modulate = Color( 0, 0, 0, 0.25 )
-position = Vector2( 1461, 613 )
-scale = Vector2( 0.715, 0.6625 )
-texture = ExtResource( 6 )
+position = Vector2( 1528, 552 )
+scale = Vector2( 0.313331, 0.256015 )
+texture = SubResource( 5 )
 
 [node name="sprTitle" type="Sprite" parent="."]
 position = Vector2( 704, 256 )

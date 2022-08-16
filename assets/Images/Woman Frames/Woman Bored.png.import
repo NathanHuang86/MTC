@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Woman Bored.png-4828b75fe3e3c1c2ccea3c8f080c3e96.stex"
+path="res://.import/Woman Bored.png-5807fa60239002f9a141d4f2e91f40e4.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Women Frames/Woman Bored.png"
-dest_files=[ "res://.import/Woman Bored.png-4828b75fe3e3c1c2ccea3c8f080c3e96.stex" ]
+source_file="res://assets/Images/Woman Frames/Woman Bored.png"
+dest_files=[ "res://.import/Woman Bored.png-5807fa60239002f9a141d4f2e91f40e4.stex" ]
 
 [params]
 

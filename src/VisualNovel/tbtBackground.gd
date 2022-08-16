@@ -18,8 +18,6 @@ func _ready():
 		while lineLeft != 0:
 				nextScript(f.get_line())
 				lineLeft = lineLeft - 1
-	
-	aniEnable = true
 
 func nextScript(line):
 	
@@ -70,9 +68,11 @@ func nextScript(line):
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 	
-	if line == "[MOTHER]" or line == "[CHILD]":
+	if line == "[MOTHER]" or line == "[CHILD]" or line == "[ELLIE]":
 		if line == "[CHILD]":
 			get_node("CurrentCharacter").text = "Child"
+		elif line == "[ELLIE]":
+			get_node("CurrentCharacter").text = "Ellie"
 		else:
 			get_node("CurrentCharacter").text = "Mother"
 		line = f.get_line()
@@ -81,12 +81,16 @@ func nextScript(line):
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 	
-		if aniEnable == true:
-			$sprCharacter/aniCharacterEntrance.play("Entrance")
-		else:
-			get_node("sprCharacter").modulate = Color(0,0,0,255)
-		
+	if line == "[PREP]":
+		get_node("CurrentCharacter").text = "Prep"
 		line = f.get_line()
+		get_node("sprCharacter").texture = load('res://assets/Images/Woman Frames/Woman ' + line + '.png')
+		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
+		get_node("sprCharacter").position = Vector2(920, 584)
+		line = f.get_line()
+	
+	if aniEnable == true:
+		pass
 	
 	if line == "[PLAYER]":
 		get_node("CurrentCharacter").text = sigGlobal.gamedata.strProtagName
@@ -130,12 +134,13 @@ func nextScript(line):
 
 func _pressed():
 	if $Dialog/aniText.is_playing():
-		$Dialog/aniText.advance(4)
-		
+		$Dialog/aniText.advance(999)
 	else:
 		var line = f.get_line()
 		if not line == "":
 			dialog.text = nextScript(line)
+			$Dialog/aniText.playback_speed = float(1.0 / dialog.text.length())
+			$Dialog/aniText.play("Text Crawl")
 
 func _on_liePlayerInput_text_entered(new_text):
 	self.disabled = false

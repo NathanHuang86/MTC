@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Woman Stare.png-2447baa2d14935eb6ae8ed8ec6ae96e4.stex"
+path="res://.import/Woman Wink.png-86e244df14254452c175db61aa7bdd7d.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Women Frames/Woman Stare.png"
-dest_files=[ "res://.import/Woman Stare.png-2447baa2d14935eb6ae8ed8ec6ae96e4.stex" ]
+source_file="res://assets/Images/Woman Frames/Woman Wink.png"
+dest_files=[ "res://.import/Woman Wink.png-86e244df14254452c175db61aa7bdd7d.stex" ]
 
 [params]
 

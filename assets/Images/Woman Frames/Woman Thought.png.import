@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Woman Thought.png-f36396251788940645bcd24524bec906.stex"
+path="res://.import/Woman Thought.png-8fe4f8b5ab1927b5a807135a5e3cc820.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Women Frames/Woman Thought.png"
-dest_files=[ "res://.import/Woman Thought.png-f36396251788940645bcd24524bec906.stex" ]
+source_file="res://assets/Images/Woman Frames/Woman Thought.png"
+dest_files=[ "res://.import/Woman Thought.png-8fe4f8b5ab1927b5a807135a5e3cc820.stex" ]
 
 [params]
 
