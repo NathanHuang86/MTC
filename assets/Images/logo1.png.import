@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Janitor Default.png-12a468fe047377b2762c985e5a110581.stex"
+path="res://.import/logo1.png-b90b33ad8e23343cb9fda7c520285427.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Janitor Frames/Janitor Default.png"
-dest_files=[ "res://.import/Janitor Default.png-12a468fe047377b2762c985e5a110581.stex" ]
+source_file="res://assets/Images/logo1.png"
+dest_files=[ "res://.import/logo1.png-b90b33ad8e23343cb9fda7c520285427.stex" ]
 
 [params]
 
