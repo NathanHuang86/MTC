@@ -1,6 +1,6 @@
 extends Node
 
 var gamedata = {
-	"intScene" : 6,
+	"intScene" : 0,
 	"strProtagName" : "Player",
 	"scriptLine" : null}
