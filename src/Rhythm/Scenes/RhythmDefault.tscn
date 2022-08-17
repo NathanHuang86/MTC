@@ -27,9 +27,9 @@
 [ext_resource path="res://assets/Images/Himbo Frames/Himbo Smile.png" type="Texture" id=25]
 [ext_resource path="res://assets/Images/Himbo Frames/Himbo Default.png" type="Texture" id=26]
 [ext_resource path="res://assets/Images/Mother Frames/Mother Happy.png" type="Texture" id=27]
-[ext_resource path="res://assets/Images/Women Frames/Woman Shock.png" type="Texture" id=28]
-[ext_resource path="res://assets/Images/Women Frames/Woman Bored.png" type="Texture" id=29]
-[ext_resource path="res://assets/Images/Women Frames/Woman Smile.png" type="Texture" id=30]
+[ext_resource path="res://assets/Images/Woman Frames/Woman Shock.png" type="Texture" id=28]
+[ext_resource path="res://assets/Images/Woman Frames/Woman Bored.png" type="Texture" id=29]
+[ext_resource path="res://assets/Images/Woman Frames/Woman Smile.png" type="Texture" id=30]
 [ext_resource path="res://assets/Images/Ominous Frames/Ominous Smile.png" type="Texture" id=31]
 [ext_resource path="res://assets/Images/Ominous Frames/Ominous Wink.png" type="Texture" id=32]
 
@@ -49,24 +49,24 @@ animations = [ {
 "name": "Himbo",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 21 ), ExtResource( 31 ), ExtResource( 32 ) ],
-"loop": true,
-"name": "Ominous",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
 "loop": true,
 "name": "Cosplayer",
 "speed": 5.0
 }, {
-"frames": [  ],
+"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
 "loop": true,
-"name": "Skater",
+"name": "Oliver",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ) ],
 "loop": true,
 "name": "Mother",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 21 ), ExtResource( 31 ), ExtResource( 32 ) ],
+"loop": true,
+"name": "Ominous",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 29 ), ExtResource( 28 ), ExtResource( 30 ) ],
@@ -79,9 +79,9 @@ animations = [ {
 "name": "Janitor",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
+"frames": [  ],
 "loop": true,
-"name": "Oliver",
+"name": "Skater",
 "speed": 5.0
 } ]
 
