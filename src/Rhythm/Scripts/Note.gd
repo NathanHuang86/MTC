@@ -2,7 +2,7 @@ extends Area2D
 
 const TARGET_Y = 164
 
-var speeds = [-16, -16, -16, -16, -16, -16, -120, -16, ]
+var speeds = [-16, -16, -50, -16, -16, -16, -120, -16, ]
 var SPAWN_Y = speeds[RhythmGlobal.sceneInt]
 #this adjusts the speed at which the arrows fall, but they still reach the "receptors" at the same time no matter what
 

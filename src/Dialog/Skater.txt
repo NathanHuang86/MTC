@@ -1,179 +1,208 @@
-[Player]
+[BACKGROUND]
+Dorm Room 2
+[PLAYER]
 Wow, this is amazing.
 
-[Raven]
-Thanks! I’ll admit I’ve been going back and forth on it for a while now, so that’s exciting to hear. I kinda needed fresh ears on it, so I’m glad this worked out.
+[RAVEN]
+Default
+Thanks! 
 
-[Player]
+I’ll admit I’ve been going back and forth on it for a while now, so that’s exciting to hear. 
+
+I kinda needed fresh ears on it, so I’m glad this worked out.
+
+[PLAYER]
 Would you be up for joining my band?
 
-[Raven]
+[RAVEN]
+Smile
 Oh wow, really?
 
-[Player]
-Yeah, I really like what I’m hearing. It’s for the battle of the bands competition coming up soon. I don’t really have enough members yet, and I think you’d be a great fit.
+[PLAYER]
+Yeah, I really like what I’m hearing!
+
+I'm making a band for the battle of the bands competition coming up soon. 
+
+I don’t really have enough members yet, and I think you’d be a great fit.
 
 
-[Raven]
-I’d love to! I’ll work a couple things out in my schedule and I should be all set to join.
+[RAVEN]
+Laugh
+I’d love to! 
+
+I’ll work a couple things out in my schedule and I should be all set to join.
 
 
-[Player]
-Awesome, It’s gonna be so great to have you. Annie’s actually in the band, too!
+[PLAYER]
+Awesome, It’s gonna be so great to have you. 
+
+Annie’s actually in the band, too!
 
 
-[Raven]
+[RAVEN]
+Smirk
 Makes sense, she’s super excited about competitions.
 
 
-[Player]
+[PLAYER]
 Really? I didn’t think she was that competitive.
 
 
-[Raven]
-Oh yeah, she enters in every single cosplay contest she can get to. I can’t promise I’ll be as excited as her, but I’m happy to be a part of this.
+[RAVEN]
+Default
+Oh yeah, she enters in every single cosplay contest she can get to. 
+
+I can’t promise I’ll be as excited as her, but I’m happy to be a part of this.
 
 
-[Environment]
+[ENVIRONMENT]
 You both spend some more time working on your separate projects, and part ways a couple hours later.
 
 
-[Raven]
-It was so nice to meet you! Feel free to swing by the library whenever. I work there quite a bit.
+[RAVEN]
+It was so nice to meet you! 
+
+Feel free to swing by the library whenever, I work there quite a bit.
 
 
-[Player]
+[PLAYER]
 Sure thing! Nice to meet you too!
 
-[Environment]
+[ENVIRONMENT]
 With your studying all taken care of for the day, you decide to spend more time walking around campus and seeing everything it has to offer.
 
-As you walk towards the student union, you see a couple people skateboarding near the side of the building. You don’t have a lot of experience with skating, but you see a bench nearby and decide to sit down. One of the people skating has a small speaker playing some music near the bench.
+[BACKGROUND]
+Path 5
+[ENVIRONMENT]
+As you walk towards the student union, you see a couple people skateboarding near the side of the building. 
 
-Before you can sit, you hear a little bit of commotion between one of the Skater and… your [Professor].
+You don’t have a lot of experience with skating, but you see a bench nearby and decide to sit down. 
 
-[Skater]
+One of the people skating has a small speaker playing some music near the bench.
+
+Before you can sit, you hear a little bit of commotion between one of the skaters and your grumpy professor.
+
+[SKATER]
+Frown
 Hey, what are you doing?
 
-[Professor]
+[PROFESSOR]
 Like I said, you kids can’t skate here! What if you hurt someone with one of those things?
 
-[Skater]
-Actually, there’s a sign right over there that says skating is permitted, and we got permission
+[SKATER]
+Smirk
+Actually, there’s a sign right over there that says skating is permitted, plus we got permission from the head office!
 
-[Professor]
-I’m tired of you kids and your excuses! Not to mention this awful music! Stop this instant, or I’ll be forced to take down your names and give them to the dean!
+[PROFESSOR]
+I’m tired of you kids and your excuses! Not to mention this awful music! 
 
-[Skater]
+Stop this instant, or I’ll be forced to take down your names and give them to the dean!
+
+[SKATER]
+Shocked
 But he’s the one we got permission from!
 
-[Professor]
+[PROFESSOR]
 Ugh, I’ll see about that.
 
-[Environment]
-You see your Professor storm away and decide to head over.
+[ENVIRONMENT]
+You see your professor storm away and decide to head over.
 
-[Player]
+[PLAYER]
 Hey, trouble with the Professor?
 
-[Skater]
-Yeah dude, he’s so stubborn already and school’s barely even started yet. I mean I already have all my homework done, so what’s his damage?
+[SKATER]
+Stare
+Yeah dude, he’s so stubborn already and school’s barely even started yet. 
 
-[Player]
+I mean I already have all my homework done, so what’s his damage?
+
+[PLAYER]
 I feel you, apparently he’s just like that.
 
-[Skater]
-Ugh, I hope the dean can get through to him at least. I got permission to skate here with my buddies before school even started, it’d be a shame to have to stop just because one guy likes to start trouble.
+[SKATER]
+Frown
+Ugh, I hope the dean can get through to him at least. 
 
-[Player]
+I got permission to skate here with my buddies before school even started, it’d be a shame to have to stop just because one guy likes to start trouble.
+
+[PLAYER]
 I hope so too.
 
-[Skater]
+[SKATER]
+Smile
 You’re pretty chill, dude. You skate?
 
-[Player]
-No, unfortunately. I think it’s cool but I don’t really have the time to learn now that school’s started.
+[PLAYER]
+No, unfortunately. 
 
-[Skater]
-Aw, that’s really too bad. I could always teach you or something if you wanted to learn.
+I think it’s cool but I don’t really have the time to learn now that school’s started.
 
-[Player]
+[SKATER]
+Default
+Aw, that’s really too bad. 
+
+I could always teach you or something if you wanted to learn.
+
+[PLAYER]
 Really? For free?
 
-[Skater]
-I mean yeah. I’m only a beginner myself, imagine how weird it would be if I charged you for some janky lessons.
+[SKATER]
+Shocked
+I mean yeah. 
 
-[Player]
-I guess so, but don’t sell yourself short! You really held your own against that guy earlier. By the way, what’s your name?
+I’m only a beginner myself, imagine how weird it would be if I charged you for some janky lessons.
 
-[Skater]
-All my friends here call me [Skater].
+[PLAYER]
+I guess so, but don’t sell yourself short! 
 
-[Player]
+You really held your own against that guy earlier. 
+
+By the way, what’s your name?
+
+[SKATER]
+Laugh
+All my friends here call me Luke.
+
+[PLAYER]
 Oh, nice!
 
-[Skater]
-What’s yours?
+By the way, if you do want to teach me to skate I have something I could offer in return.
 
-[Player]
-Oh, I’m just *[Player]*, I don’t have any cool nicknames or anything. I do have an offer for you if you want to teach me to skate though.
-
-[Skater]
+[SKATER]
+Stare
 What’s up?
 
-[Player]
+[PLAYER]
 Do you play music?
 
-[Skater]
-Yeah, just a little bit though. I mostly play bass, but I also dabble in synth every now and again.
+[SKATER]
+Default
+Yeah, just a little bit though. 
 
-[Player]
+I mostly play bass, but I also dabble in the trumpet every now and again.
+
+[PLAYER]
 Wanna be a part of my band?
 
-[Skater]
-Oh wow, that’s a big ask. Are you sure you want me for the job?
+[SKATER]
+Shocked
+Oh wow, that’s a big ask. 
 
-[Player]
+Are you sure you want me for the job?
+
+[PLAYER]
 Well how about this, I’ll listen to you play, and then you can teach me how to skate.
 
-[Skater]
-Sounds like a deal. Just so happens that my speaker is playing something I’ve been working on since summer started. It’s all finished now, so I have plenty of time to rehearse with you guys.
+[SKATER]
+Smile
+Sounds like a deal. 
+
+Just so happens that my speaker is playing something I’ve been working on since summer started. 
+
+It’s all finished now, so I have plenty of time to rehearse with you guys.
+
+[ENVIRONMENT]
+You start to pay more attention to the song playing from Luke's speaker and start feeling a strong urge to start skating...
 
 [RHYTHM]
-
-[Player]
-That was awesome!
-
-[Skater]
-Pretty sick right? Yeah, I stayed up all night for a while working on it. I think it’s some of my best work so far.
-
-[Player]
-It definitely shows. You said you’re available to rehearse right?
-
-[Skater]
-Yeah, now that my schedule’s all figured out with school, I have tons of time to work on something new.
-
-[Player]
-That’s great! You’re gonna do great.
-
-[Skater]
-Thanks dude, that means a lot to me. So, you still wanna learn to shred it?
-
-[Environment]
-You spend around an hour learning with [Skater], and by the end you can’t really do much but ride on the board.
-Your balance could definitely get better, but considering you started not knowing how to do anything on a board, you’re pretty proud of yourself! Skater also seems to be pretty proud of you, and lets you get the hang of it without hassling you
-
-[Skater]
-Hey dude, you did great out there today! You must be a fast learner, huh?
-
-[Player]
-I guess so! It’ll be so nice having you in the band.
-
-[Skater]
-Likewise! You’re a pretty cool person to chill with. Feel free to let me know if you want more lessons, I’ll have to take you down to the real skate park sometime.
-
-[Player]
-Thank you, will do!
-
-[Environment]
-With all of the requirements met for getting a band together, you start making plans to rehearse for the Battle of the Bands. You can’t believe you already have everything ready to start practicing! You sleep easy that night, ready for the day

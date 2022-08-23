@@ -7,7 +7,7 @@
 [ext_resource path="res://assets/Images/Cosplayer Frames/Cosplay Smile.png" type="Texture" id=5]
 [ext_resource path="res://src/Rhythm/Scripts/End.gd" type="Script" id=6]
 [ext_resource path="res://assets/Images/Himbo Frames/Himbo Smile.png" type="Texture" id=7]
-[ext_resource path="res://assets/Images/Women Frames/Woman Smile.png" type="Texture" id=8]
+[ext_resource path="res://assets/Images/Woman Frames/Woman Smile.png" type="Texture" id=8]
 [ext_resource path="res://assets/Images/Janitor Frames/Janitor Laugh.png" type="Texture" id=9]
 [ext_resource path="res://src/Rhythm/Scripts/EndButton.gd" type="Script" id=10]
 [ext_resource path="res://assets/Images/Ominous Frames/Ominous Wink.png" type="Texture" id=11]
