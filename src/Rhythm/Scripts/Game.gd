@@ -207,6 +207,7 @@ func increment_score(by):
 		okay += 1
 	else:
 		missed += 1
+		score -= 100
 	
 	
 	score += (by * 100)
