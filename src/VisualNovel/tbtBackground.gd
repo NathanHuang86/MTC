@@ -130,7 +130,6 @@ func nextScript(line):
 	tracker= tracker + 1
 	
 	return script
-	
 
 func _pressed():
 	if $Dialog/aniText.is_playing():
