@@ -1,12 +1,14 @@
 [BACKGROUND]
 Plaza Area
 [ELLIE]
+Happy
 Wow! You’re so good at playing Bubblegumpies!
 
 [PLAYER]
 You are too! I think you’re really good at playing music. Maybe you can go to school for music like your mom!
 
 [ELLIE]
+Happy
 I want to go to music school and be just like Momma now!
 
 [ENVIRONMENT]
@@ -17,6 +19,7 @@ Default
 Thank you so much, *player*, I really appreciate your help. Ellie, are you ready to go now? Momma has to take you home for lunch!
 
 [ELLIE]
+Default
 Do we have to? I like playing Bubblegumpies with *player*...
 
 [MOTHER]
@@ -38,6 +41,7 @@ Talk
 I’d be happy to! And I’m sure Ellie wouldn’t mind having someone else to talk about her shows with.
 
 [ENVIRONMENT]
+[LEAVE]
 You part ways with the two of them, and you check the time. Watching that show with Natalie’s kid took longer than expected, and now you have to go straight to class. It’s not the same class you have with Annie, but you don’t think being late to this one would be a good idea.
 
 [BACKGROUND]

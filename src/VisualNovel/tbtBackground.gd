@@ -2,7 +2,7 @@ extends TextureButton
 
 onready var dialog = get_node("Dialog")
 onready var f = File.new()
-onready var scenes = ['res://src/Dialog/Janitor.txt', 'res://src/Dialog/Cosplay.txt', 'res://src/Dialog/Chadwick.txt', 'res://src/Dialog/Mother.txt', 'res://src/Dialog/Oliver.txt', 'res://src/Dialog/Prep.txt', 'res://src/Dialog/Ominous.txt', 'res://src/Dialog/S.txt']
+onready var scenes = ['res://src/Dialog/Janitor.txt', 'res://src/Dialog/Cosplay.txt', 'res://src/Dialog/Chadwick.txt', 'res://src/Dialog/Mother.txt', 'res://src/Dialog/Oliver.txt', 'res://src/Dialog/Prep.txt', 'res://src/Dialog/Ominous.txt', 'res://src/Dialog/Skater.txt', 'res://src/Dialog/End.txt']
 onready var imgBackGround = File.new()
 onready var tracker = 0
 onready var aniEnable = false
@@ -89,6 +89,14 @@ func nextScript(line):
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 	
+	if line == "[SKATER]":
+		get_node("CurrentCharacter").text = "Skater"
+		line = f.get_line()
+		get_node("sprCharacter").texture = load('res://assets/Images/Skater Frames/Skater ' + line + '.png')
+		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
+		get_node("sprCharacter").position = Vector2(920, 584)
+		line = f.get_line()
+	
 	if aniEnable == true:
 		pass
 	
@@ -101,7 +109,7 @@ func nextScript(line):
 		line = f.get_line()
 	
 	if line == "[PROFESSOR]":
-		get_node("CurrentCharacter").text = "[PROFESSOR]"
+		get_node("CurrentCharacter").text = "Professor"
 		line = f.get_line()
 	
 	if line == "[LEAVE]":

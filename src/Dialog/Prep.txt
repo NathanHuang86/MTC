@@ -1,3 +1,5 @@
+[BACKGROUND]
+Lecture Hall
 [OLIVER]
 Smug
 How did I do?
@@ -12,12 +14,10 @@ I look forward to being the lead, I think I can take this band to new heights. A
 [PLAYER]
 Okay, have a good one, I guess.
 
-[ENVIRONMENT]
-You part ways with Oliver, confused on how he thinks so highly of himself.
-
 [BACKGROUND]
 Hallway 1
 [ENVIRONMENT]
+[LEAVE]
 After your… interesting class with Oliver, you start to head to your next class. You look at your schedule and see-
 
 
@@ -202,7 +202,7 @@ What kind of artists do you like?
 [PLAYER]
 Well, I don’t really have a favorite genre. I’m kinda like you, I listen to it all
 
-[VIVIAN]
+[PREP]
 Default
 Yeah? What have you listened to lately?
 

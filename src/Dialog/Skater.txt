@@ -60,6 +60,7 @@ You both spend some more time working on your separate projects, and part ways a
 
 
 [RAVEN]
+Smile
 It was so nice to meet you! 
 
 Feel free to swing by the library whenever, I work there quite a bit.
@@ -69,6 +70,7 @@ Feel free to swing by the library whenever, I work there quite a bit.
 Sure thing! Nice to meet you too!
 
 [ENVIRONMENT]
+[LEAVE]
 With your studying all taken care of for the day, you decide to spend more time walking around campus and seeing everything it has to offer.
 
 [BACKGROUND]
