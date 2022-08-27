@@ -2,7 +2,7 @@ extends Node2D
 
 onready var map = File.new()
 onready var scripts = ['res://src/Rhythm/Maps/Janitor.txt','res://src/Rhythm/Maps/Cosplay.txt','res://src/Rhythm/Maps/Himbo.txt', 'res://src/Rhythm/Maps/Mother.txt', 'res://src/Rhythm/Maps/Oliver.txt', 'res://src/Rhythm/Maps/Woman.txt', 'res://src/Rhythm/Maps/Ominous.txt', 'res://src/Rhythm/Maps/Skater.txt']
-onready var sprites = ['Janitor', 'Cosplayer', 'Himbo', 'Mother', 'Oliver', 'Shoppin', 'Skater', 'Ominous'] #add skater and ominous when you can
+onready var sprites = ['Janitor', 'Cosplayer', 'Himbo', 'Mother', 'Oliver', 'Shoppin', 'Ominous', 'Skater'] #add skater and ominous when you can
 var song_bpm = [90, 350, 220, 320, 200, 240, 800, 360]
 #Janitor, cosplay(brodie), himbo 110, mother160, 
 #oliver 100, woman, ominous, skater
@@ -68,7 +68,9 @@ func _ready():
 		5:
 			background = preload('res://assets/Images/Background/Hallway 1.jpg')
 		6:
-			background = preload('res://assets/Images/Background/Path 6.jpg')
+			background = preload('res://assets/Images/Background/Dorm Room 2.jpg')
+		7:
+			background = preload('res://assets/Images/Background/Path 5.jpg')
 	$TextureRect.set_texture(background)
 	randomize()
 	$Conductor.play_with_beat_offset(8)
@@ -207,6 +209,7 @@ func increment_score(by):
 		okay += 1
 	else:
 		missed += 1
+		score -= 100
 	
 	
 	score += (by * 100)

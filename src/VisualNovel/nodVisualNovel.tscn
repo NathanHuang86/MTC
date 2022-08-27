@@ -248,7 +248,6 @@ script = ExtResource( 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-
 [connection signal="animation_finished" from="Background/sprCharacter/aniCharacterEntrance" to="Background" method="_on_aniCharacterEntrance_animation_finished"]
 [connection signal="pressed" from="Background/Dialog/btnSave" to="Background/Dialog/btnSave" method="_on_btnSave_pressed"]
 [connection signal="pressed" from="Background/Dialog/btnLoad" to="Background/Dialog/btnLoad" method="_on_btnLoad_pressed"]

@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/Janitor Default.png-12a468fe047377b2762c985e5a110581.stex"
+path="res://.import/stage_final.jpg-597488d29a673568fca7fc65ba73d7dc.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://assets/Images/Janitor Frames/Janitor Default.png"
-dest_files=[ "res://.import/Janitor Default.png-12a468fe047377b2762c985e5a110581.stex" ]
+source_file="res://assets/Images/Background/stage_final.jpg"
+dest_files=[ "res://.import/stage_final.jpg-597488d29a673568fca7fc65ba73d7dc.stex" ]
 
 [params]
 

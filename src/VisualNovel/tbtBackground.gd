@@ -120,6 +120,10 @@ func nextScript(line):
 		nodTransition.goto_scene("res://src/Rhythm/Scenes/RhythmDefault.tscn")
 		return get_parent().get_node("Background/Dialog").text
 	
+	if line == "[CREDITS]":
+		nodTransition.goto_scene("res://src/VisualNovel/Credits.tscn")
+		return get_parent().get_node("Background/Dialog").text
+	
 	if line == "(day ends)":
 #		$sprCharacter/aniCharacterEntrance/colDayNight.visible = true
 		$sprCharacter/aniCharacterEntrance.play("DayNight")
