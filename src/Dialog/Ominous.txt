@@ -1,4 +1,45 @@
 ﻿[BACKGROUND]
+Lounge 2
+[PREP]
+Default
+So, what do you think?
+
+Do I have what it takes for your group?
+
+[PLAYER]
+Yeah definitely, that was amazing!
+
+Consider yourself the new vocalist of our group!
+
+[PREP]
+Smile
+Nice!
+
+I have to run now, I'm meeting some friends at the mall, but let me know when our first band practice is.
+
+[PLAYER]
+You got it!
+
+[PREP]
+Wink
+See ya!
+
+[ENVIRONMENT]
+[LEAVE]
+After saying goodbye to Vivian, you realize how exhausted you are.
+
+You met so many new people today and made major progress on forming your band.
+
+However it's about time you head back to your dorm and get some rest.
+
+[BACKGROUND]
+Dorm Room 4
+[ENVIRONMENT]
+As soon as you lay down on your bed you feel yourself drifting off to sleep.
+
+You quickly set an alarm before passing out on your bed.
+
+[BACKGROUND]
 Lecture Hall Door
 [ENVIRONMENT]
 A brand new day greets you as you walk through campus. 

@@ -2,36 +2,127 @@
 That was awesome!
 
 [SKATER]
-Pretty sick right? Yeah, I stayed up all night for a while working on it. I think it’s some of my best work so far.
+Smile
+Pretty sick right? 
+
+Yeah, I stayed up all night for a while working on it. 
+
+I think it’s some of my best work so far.
 
 [PLAYER]
 It definitely shows. You said you’re available to rehearse right?
 
 [SKATER]
+Default
 Yeah, now that my schedule’s all figured out with school, I have tons of time to work on something new.
 
 [PLAYER]
 That’s great! You’re gonna do great.
 
 [SKATER]
-Thanks dude, that means a lot to me. So, you still wanna learn to shred it?
+Wink
+Thanks dude, that means a lot to me. 
+
+So, you still wanna learn to shred it?
 
 [ENVIRONMENT]
-You spend around an hour learning with [SKATER], and by the end you can’t really do much but ride on the board.
-Your balance could definitely get better, but considering you started not knowing how to do anything on a board, you’re pretty proud of yourself! Skater also seems to be pretty proud of you, and lets you get the hang of it without hassling you
+You spend around an hour learning with Luke, and by the end you can’t really do much but balence on the board.
+
+Your balance could definitely get better, but considering you started not knowing how to do anything on a board, you’re pretty proud of yourself! 
+
+Luke also seems to be pretty proud of you, and lets you get the hang of it without hassling you.
 
 [SKATER]
-Hey dude, you did great out there today! You must be a fast learner, huh?
+Shocked
+Hey dude, you did great out there today! 
+
+You must be a fast learner, huh?
 
 [PLAYER]
-I guess so! It’ll be so nice having you in the band.
+I guess so! 
+
+It’ll be so nice having you in the band.
 
 [SKATER]
-Likewise! You’re a pretty cool person to chill with. Feel free to let me know if you want more lessons, I’ll have to take you down to the real skate park sometime.
+Default
+Likewise! 
+
+You’re a pretty cool person to chill with.
+
+Feel free to let me know if you want more lessons, I’ll have to take you down to the real skate park sometime.
 
 [PLAYER]
 Thank you, will do!
 
 [ENVIRONMENT]
-With all of the requirements met for getting a band together, you start making plans to rehearse for the Battle of the Bands. You can’t believe you already have everything ready to start practicing! You sleep easy that night, ready for the day
+[LEAVE]
+With all of the requirements met for getting a band together, you start making plans to rehearse for the Battle of the Bands. 
+
+You can’t believe you already have everything ready to start practicing!
+
+[BACKGROUND]
+Dorm Room 4
+[ENVIRONMENT]
+After heading back to your dorm, you start sending out texts and emails to all your bandmates to set up your first rehearsal 
+
+After you contact everyone you set down your phone and close your eyes.
+
+[PLAYER]
+To think that only a few days ago I didn't know anyone in this school.
+
+I would have never belived that I'd already have a band to play with, or that I'd be entering a battle of the bands concert.
+
+[ENVIRONMENT]
+You sleep easy that night, getting rested for the days of practice ahead.
+
+[BACKGROUND]
+Hallway 2
+[ENVIRONMENT]
+For the next two weeks you got together with your band to rehearse your performance.
+
+At first, it was difficult for everyone's different musical styles to mesh together.
+
+However, once everyone started to get to know each other the band's sound became more and more refined.
+
+Before you knew it, it was the day of the battle and you felt more confident than ever.
+
+[BACKGROUND]
+stage_final
+[PLAYER]
+Alright, is everyone here?
+
+[CHADWICK]
+Smile
+Yup!
+
+[OLIVER]
+Smirk
+Of course! What would you do without me?
+
+[COSPLAYER]
+Laugh
+Right here!
+
+[ELLIE]
+Default
+Mom do I have to watch your concert?
+
+[MOTHER]
+Smile
+Yes Ellie, and if you're good tonight I'll let you watch more Bubblegumpies when we get home!
+
+[ELLIE]
+Smile
+Yayyy!!!
+
+[SKATER]
+Yo!
+
+[PREP]
+Wink
+I made it!
+
+[RAVEN]
+Don't forget me!
+
 
