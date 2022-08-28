@@ -110,9 +110,6 @@ custom_fonts/font = SubResource( 4 )
 text = "LOAD"
 flat = true
 script = ExtResource( 8 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="btnOptions" type="Button" parent="."]
 margin_left = 112.0
@@ -139,6 +136,7 @@ __meta__ = {
 
 [node name="aspBGM" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
+
 [connection signal="animation_finished" from="aniCharacterChange" to="." method="_on_aniCharacterChange_animation_finished"]
 [connection signal="pressed" from="btnLoad" to="btnLoad" method="_on_btnLoad_pressed"]
 [connection signal="finished" from="aspBGM" to="." method="_on_aspBGM_finished"]

@@ -15,9 +15,10 @@ func _ready():
 	
 	if sigGlobal.gamedata["scriptLine"] != null:
 		var lineLeft = sigGlobal.gamedata.scriptLine
-		while lineLeft != 0:
-				nextScript(f.get_line())
+		while lineLeft != 1:
+				dialog.text = nextScript(f.get_line())
 				lineLeft = lineLeft - 1
+				print(lineLeft)
 
 func nextScript(line):
 	
@@ -97,9 +98,6 @@ func nextScript(line):
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 	
-	if aniEnable == true:
-		pass
-	
 	if line == "[PLAYER]":
 		get_node("CurrentCharacter").text = sigGlobal.gamedata.strProtagName
 		line = f.get_line()
@@ -163,3 +161,26 @@ func _on_aniCharacterEntrance_animation_finished(anim_name):
 	if anim_name == "DayNight":
 		$sprCharacter/aniCharacterEntrance.play_backwards("DayNight")
 		self.disabled = false
+
+func _on_btnMainMenu_pressed():
+	sigGlobal.gamedata["intScene"] = 0
+	sigGlobal.gamedata["strProtagName"] = "???"
+	sigGlobal.gamedata["scriptLine"] = null
+	get_tree().change_scene("res://src/Main Menu/nodMainMenu.tscn")
+
+func _on_btnSave_pressed():
+	var save_game = File.new()
+	save_game.open("user://game-data.json", File.WRITE)
+	sigGlobal.gamedata["scriptLine"] = get_parent().get_node("Background").tracker
+	save_game.store_string(to_json(sigGlobal.gamedata))
+	save_game.close()
+
+
+func _on_btnLoad_pressed():
+	var file = File.new()
+	if file.file_exists("user://game-data.json"):
+		file.open("user://game-data.json", File.READ)
+		var data = parse_json(file.get_as_text())
+		file.close()
+		sigGlobal.gamedata = data
+		get_tree().change_scene("res://src/VisualNovel/nodVisualNovel.tscn")
