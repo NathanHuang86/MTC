@@ -1,9 +1,9 @@
 extends Node2D
 
-var sceneInt = 4
+var sceneInt = 0
 
 var score = 0
-var totalNotes = [46, 286, 302, 404, 311, 428, 1, 1]
+var totalNotes = [46, 286, 302, 404, 311, 428, 1107, 321]
 #remember to customize
 var percent = 0
 

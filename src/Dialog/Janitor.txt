@@ -12,18 +12,24 @@ Wow, I can’t believe I’m finally here! College is so busy and cool!
 As you walk into the music building for the first time you are overwhelmed by the number of students you see.
 
 [PLAYER]
-Whew, I finally made it to the music wing here at GCC. I have a lot of tough classes ahead of me, but I should also remember to have fun. Maybe I should look for some clubs to join.
+Whew, I finally made it to the music wing here at GCC. 
+
+I have a lot of tough classes ahead of me, but I should also remember to have fun. 
+Maybe I should look for some clubs to join.
 
 [BACKGROUND]
 Poster
 [ENVIRONMENT]
-Through all the bustling students going to and from class you see a poster on a cork board that catches your eye. One advertising a battle of the bands. 
+Through all the bustling students going to and from class you see a poster on a cork board that catches your eye. 
+
+One advertising a battle of the bands. 
 
 The winning band gets a…
 
 1,200 dollar cash prize?! That’s amazing!
 
-Seems like a great opportunity, but it looks like you need at least 8 members to enter. Weird, that seems like a lot for a band.
+Seems like a great opportunity, but it looks like you need at least 9 members to enter. 
+Weird, that seems like a lot for a band.
 
 [PLAYER]
 Well that’s just too bad.

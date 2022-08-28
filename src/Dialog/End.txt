@@ -1,3 +1,5 @@
+[BACKGROUND]
+Path 5
 [PLAYER]
 That was awesome!
 
@@ -96,11 +98,11 @@ Smile
 Yup!
 
 [OLIVER]
-Smirk
+Smug
 Of course! What would you do without me?
 
 [COSPLAYER]
-Laugh
+Smile
 Right here!
 
 [ELLIE]
@@ -108,14 +110,15 @@ Default
 Mom do I have to watch your concert?
 
 [MOTHER]
-Smile
+Happy
 Yes Ellie, and if you're good tonight I'll let you watch more Bubblegumpies when we get home!
 
 [ELLIE]
-Smile
+Happy
 Yayyy!!!
 
 [SKATER]
+Smile
 Yo!
 
 [PREP]
@@ -123,6 +126,122 @@ Wink
 I made it!
 
 [RAVEN]
+Default
 Don't forget me!
 
+[PLAYER]
+[LEAVE]
+Ok perfect, we're all here.
 
+Let's go get checked in and then we can warm up before the battle.
+
+[ENVIRONMENT]
+You walk over to the check in area with the band.
+
+There is a woman there with a clipboard writing down the names of the competing bands
+
+[PLAYER]
+Excuse me, we'd like to enter the competition.
+
+[ENVIRONMENT]
+The woman looks at you and your band, then back at her clipboard, then back at your band.
+
+[STAFF]
+I'm sorry, it looks like you don't have enough members to compete.
+
+The requirement for this event is nine members per band, and I only see eight here.
+
+[ENVIRONMENT]
+You do a quick head count and sure enough, you only have eight members including yourself.
+
+Your heart drops to the floor.
+
+All the time you had spent practicing would be for nothing, all because you forgot to double check the requirements.
+
+[PLAYER]
+I-
+
+I'm so sorry everyone, this is all my fault.
+
+[CHADWICK]
+Shock
+It's ok bro, we all make mistakes
+
+[PREP]
+Bored
+Yeah don't worry about it, we can always enter the next one.
+
+[ENVIRONMENT]
+[LEAVE]
+Despite their reassurance, you can't help but feel like a failure.
+
+As you begin to gather your gear you notice a familiar face mopping the floor in the corner.
+
+[JANITOR]
+Smile
+Doo doo doo, moppin the floor.
+
+[ENVIRONMENT]
+You remember the janitor from your first day of school, and how you two jammed out for a while in the elevator.
+
+You realize there might be a way your band can perform after all. 
+
+[PLAYER]
+Hey, Mr. Janitor, I need your help.
+
+[JANITOR]
+Shock
+What can I do for ya buddy?
+
+[ENVIRONMENT]
+You explain to the janitor your situation while he continues to mop the floor.
+
+[JANITOR]
+Nod
+So you need me to play in the band with you?
+
+[PLAYER]
+I know that's a lot to ask, but you'd be doing us a big favor.
+
+[JANITOR]
+Wink
+Sure thing kid.
+
+[Janitor]
+Shock
+But what instrument should I play?
+
+[PLAYER]
+Hmmm...
+
+Could you keep rhythm with your mop?
+
+[JANITOR]
+Smile
+I suppose I could.
+
+[PLAYER]
+Perfect!
+
+We're back in the battle of the bands!
+
+[ENVIRONMENT]
+[LEAVE]
+You walk back up to the check in area and get your band entered into the concert.
+
+After rehearsing for a while it's time to perform.
+
+Everyone takes their place on stage, waiting for your signal.
+
+[PLAYER]
+Alright, here we go.
+
+1...
+
+2...
+
+3...
+
+4!
+
+[CREDITS]

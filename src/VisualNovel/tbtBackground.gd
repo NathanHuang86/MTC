@@ -109,6 +109,10 @@ func nextScript(line):
 	if line == "[PROFESSOR]":
 		get_node("CurrentCharacter").text = "Professor"
 		line = f.get_line()
+		
+	if line == "[STAFF]":
+		get_node("CurrentCharacter").text = "Concert Staff"
+		line = f.get_line()
 	
 	if line == "[LEAVE]":
 		get_node("sprCharacter").texture = StreamTexture.new()
