@@ -28,6 +28,6 @@ func _on_aniCharacterChange_animation_finished(anim_name):
 			imageTracking = 0
 		
 		get_node("sprCharacter").texture = load(next[imageTracking])
-		get_node("sprCharacter").scale = Vector2(0.313, 0.256)
-		get_node("sprCharacter").position = Vector2(1480, 568)
+		get_node("sprCharacter").scale = Vector2(0.245, 0.211)
+		get_node("sprCharacter").position = Vector2(1440, 576)
 		$aniCharacterChange.play("Fade In")

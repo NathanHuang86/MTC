@@ -144,7 +144,7 @@ func nextScript(line):
 		return get_parent().get_node("Background/Dialog").text
 	
 	if line == "(day ends)":
-#		$sprCharacter/aniCharacterEntrance/colDayNight.visible = true
+		$sprCharacter/aniCharacterEntrance/colDayNight.visible = true
 		$sprCharacter/aniCharacterEntrance.play("DayNight")
 		self.disabled = true
 	
@@ -181,7 +181,7 @@ func _on_liePlayerInput_text_entered(new_text):
 
 func _on_aniCharacterEntrance_animation_finished(anim_name):
 	if anim_name == "DayNight":
-		$sprCharacter/aniCharacterEntrance.play_backwards("DayNight")
+		$sprCharacter/aniCharacterEntrance/colDayNight.visible = false
 		self.disabled = false
 
 func _on_btnSave_pressed():
