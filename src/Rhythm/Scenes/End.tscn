@@ -1,4 +1,4 @@
-[gd_scene load_steps=14 format=2]
+[gd_scene load_steps=15 format=2]
 
 [ext_resource path="res://assets/Images/Background/elevator.jpg" type="Texture" id=1]
 [ext_resource path="res://src/Rhythm/Fonts/Brookliness.tres" type="DynamicFont" id=2]
@@ -12,6 +12,7 @@
 [ext_resource path="res://src/Rhythm/Scripts/EndButton.gd" type="Script" id=10]
 [ext_resource path="res://assets/Images/Ominous Frames/Ominous Wink.png" type="Texture" id=11]
 [ext_resource path="res://assets/Images/Skater Frames/Skater Wink.png" type="Texture" id=12]
+[ext_resource path="res://src/Rhythm/Scripts/MainMenu.gd" type="Script" id=13]
 
 [sub_resource type="SpriteFrames" id=1]
 animations = [ {
@@ -250,12 +251,12 @@ position = Vector2( 259.646, 97.779 )
 scale = Vector2( 0.03, 0.03 )
 frames = SubResource( 1 )
 
-[node name="Button" type="Button" parent="."]
+[node name="PassFailbtn" type="Button" parent="."]
 modulate = Color( 0.952941, 0.741176, 1, 1 )
-margin_left = 105.878
-margin_top = 131.114
-margin_right = 657.878
-margin_bottom = 366.114
+margin_left = 156.899
+margin_top = 141.294
+margin_right = 565.899
+margin_bottom = 310.294
 rect_scale = Vector2( 0.16, 0.16 )
 custom_fonts/font = ExtResource( 2 )
 text = "Retry?"
@@ -263,4 +264,19 @@ script = ExtResource( 10 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
-[connection signal="pressed" from="Button" to="Button" method="_on_Button_pressed"]
+
+[node name="PassFailbtn2" type="Button" parent="."]
+modulate = Color( 0.952941, 0.741176, 1, 1 )
+margin_left = 76.7331
+margin_top = 141.294
+margin_right = 485.733
+margin_bottom = 310.294
+rect_scale = Vector2( 0.16, 0.16 )
+custom_fonts/font = ExtResource( 2 )
+text = "Main Menu"
+script = ExtResource( 13 )
+__meta__ = {
+"_edit_use_anchors_": false
+}
+[connection signal="pressed" from="PassFailbtn" to="PassFailbtn" method="_on_Button_pressed"]
+[connection signal="pressed" from="PassFailbtn2" to="PassFailbtn2" method="_on_Button_pressed"]

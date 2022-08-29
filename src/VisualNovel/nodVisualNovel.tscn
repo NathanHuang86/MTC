@@ -8,7 +8,7 @@
 
 [sub_resource type="Animation" id=1]
 resource_name = "DayNight"
-length = 6.0
+length = 3.0
 tracks/0/type = "value"
 tracks/0/path = NodePath("Background/sprCharacter/aniCharacterEntrance/colDayNight:color")
 tracks/0/interp = 1
@@ -16,10 +16,10 @@ tracks/0/loop_wrap = true
 tracks/0/imported = false
 tracks/0/enabled = true
 tracks/0/keys = {
-"times": PoolRealArray( 0, 3, 6 ),
-"transitions": PoolRealArray( 1, 1, 1 ),
+"times": PoolRealArray( 0, 3 ),
+"transitions": PoolRealArray( 1, 1 ),
 "update": 0,
-"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
+"values": [ Color( 0, 0, 0, 0 ), Color( 0, 0, 0, 1 ) ]
 }
 
 [sub_resource type="Animation" id=2]
@@ -159,7 +159,7 @@ anims/RESET = SubResource( 4 )
 visible = false
 margin_right = 1920.0
 margin_bottom = 1080.0
-color = Color( 0, 0, 0, 1 )
+color = Color( 0, 0, 0, 0 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -210,6 +210,9 @@ margin_bottom = 280.0
 custom_fonts/font = SubResource( 10 )
 text = "MAIN MENU"
 flat = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
 
 [node name="CurrentCharacter" type="Label" parent="Background"]
 margin_top = 768.0
@@ -233,7 +236,6 @@ __meta__ = {
 
 [node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
 stream = ExtResource( 9 )
-
 [connection signal="animation_finished" from="Background/sprCharacter/aniCharacterEntrance" to="Background" method="_on_aniCharacterEntrance_animation_finished"]
 [connection signal="pressed" from="Background/Dialog/btnSave" to="Background" method="_on_btnSave_pressed"]
 [connection signal="pressed" from="Background/Dialog/btnLoad" to="Background" method="_on_btnLoad_pressed"]

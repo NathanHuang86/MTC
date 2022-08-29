@@ -1,9 +1,10 @@
-[gd_scene load_steps=7 format=2]
+[gd_scene load_steps=9 format=2]
 
 [ext_resource path="res://assets/Images/Background/stage.jpg" type="Texture" id=1]
 [ext_resource path="res://assets/Fonts/Bulletto Killa.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://assets/Images/Cosplayer Frames/Cosplay Smile.png" type="Texture" id=3]
 [ext_resource path="res://assets/Images/Oliver Frames/Oliver Smug.png" type="Texture" id=4]
+[ext_resource path="res://src/Rhythm/Scripts/MainMenu.gd" type="Script" id=5]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
@@ -12,6 +13,12 @@ font_data = ExtResource( 2 )
 [sub_resource type="DynamicFont" id=2]
 size = 55
 extra_spacing_bottom = 20
+font_data = ExtResource( 2 )
+
+[sub_resource type="DynamicFont" id=3]
+size = 74
+outline_size = 5
+outline_color = Color( 0.345098, 0.0823529, 0.0823529, 1 )
 font_data = ExtResource( 2 )
 
 [node name="Credits" type="Node2D"]
@@ -60,6 +67,19 @@ Brodie Miller: Music
 Heliosion: Character Design, Art
 Special Thanks To: Aurora and Johann Strubbe"
 autowrap = true
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Main Menu" type="Button" parent="."]
+margin_left = 1440.72
+margin_top = 839.5
+margin_right = 1910.72
+margin_bottom = 978.5
+custom_fonts/font = SubResource( 3 )
+text = "Main Menu"
+flat = true
+script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
