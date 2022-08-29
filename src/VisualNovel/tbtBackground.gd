@@ -113,7 +113,10 @@ func nextScript(line):
 		line = f.get_line()
 	
 	if line == "[PLAYER]":
-		get_node("CurrentCharacter").text = sigGlobal.gamedata.strProtagName
+		if sigGlobal.gamedata["strProtagName"] == null:
+			get_node("CurrentCharacter").text = "Player"
+		else:
+			get_node("CurrentCharacter").text = sigGlobal.gamedata.strProtagName
 		line = f.get_line()
 	
 	if line == "[ENVIRONMENT]":
@@ -145,7 +148,8 @@ func nextScript(line):
 		$sprCharacter/aniCharacterEntrance.play("DayNight")
 		self.disabled = true
 	
-	if line == "Oh cool, so you are a JANITOR here at GCC, that has to be fun. Oh yeah I should probably introduce myself. My name is":
+	if tracker == 23 and sigGlobal.gamedata["intScene"] == 0 and sigGlobal.gamedata["strProtagName"] == null:
+		print("Player name here...")
 		script = str(script) + "\n" + str(line)
 		self.disabled = true
 		get_node("liePlayerInput").visible = true

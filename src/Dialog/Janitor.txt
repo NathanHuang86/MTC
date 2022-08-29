@@ -69,6 +69,8 @@ It’s no problem, thanks for holding the doors open! Usually we clean the stair
 [PLAYER]
 So you're a janitor here at GCC, that has to be fun!
 
+Oh by the way, my name is...
+
 [JANITOR]
 Default
 Yeah it's not too bad. I should introduce myself, my name is To--

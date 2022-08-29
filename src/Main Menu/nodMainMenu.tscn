@@ -110,9 +110,6 @@ custom_fonts/font = SubResource( 4 )
 text = "LOAD"
 flat = true
 script = ExtResource( 8 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="btnOptions" type="Button" parent="."]
 margin_left = 112.0
