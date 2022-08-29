@@ -1,6 +1,6 @@
 extends Node2D
 
-var sceneInt = 0
+var sceneInt = sigGlobal.gamedata["intScene"]
 
 var score = 0
 var totalNotes = [46, 286, 302, 404, 311, 428, 1107, 321]

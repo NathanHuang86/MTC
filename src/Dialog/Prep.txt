@@ -30,7 +30,6 @@ Man, you really don’t want to get a bad grade on your first assignment of the 
 
 Maybe you’ll just find someone in class who will sign it quickly before class starts.
 
-
 CRASH!
 
 [PREP]
@@ -189,7 +188,7 @@ She gives your notebook back, and you give it a glance. Her name is written neat
 [PLAYER]
 Vivian? That’s a nice name.
 
-[PREP]
+[VIVIAN]
 Smile
 Thank you.
 
@@ -226,7 +225,7 @@ The rest of the class was quite uneventful, just going over questions on the fir
 
 You figure you should start on that soon, but before you can focus on the assignment Vivian begins talking to you again.
 
-[PREP]
+[VIVIAN]
 Smile
 Are you busy after class today? 
 
@@ -243,14 +242,14 @@ Lounge 2
 [ENVIRONMENT]
 As you walk with Vivian, you start to talk about music with her.
 
-[PREP]
+[VIVIAN]
 Shock
 Well I told you the music I like, so what about you?
 
 [PLAYER]
 Well, I don’t really have a favorite genre. I’m kinda like you, I listen to it all
 
-[PREP]
+[VIVIAN]
 Default
 Yeah? What have you listened to lately?
 
@@ -267,7 +266,7 @@ You decide not to tell Vivian about either.
 [PLAYER]
 I listened to a pop artist recently actually, I think it was The Weekday?
 
-[PREP]
+[VIVIAN]
 Default
 Oh wow, I love his work! 
 
@@ -276,7 +275,7 @@ He’s so subversive.
 [PLAYER]
 Really? I guess I wasn’t really listening that much.
 
-[PREP]
+[VIVIAN]
 Default
 Yeah, he’s amazing. 
 
@@ -285,7 +284,7 @@ He puts really subtle symbolism in his albums, it’s like this whole anthology 
 [PLAYER]
 Do you like to write any music?
 
-[PREP]
+[VIVIAN]
 Default
 Yeah, sometimes. 
 
@@ -300,14 +299,14 @@ Yeah that’s really cool!
 
 I’m undeclared right now, but I was considering voice.
 
-[PREP]
+[VIVIAN]
 Default
 It’s pretty cool. 
 
 [PLAYER]
 Do you do a lot of vocal work in your free time?
 
-[PREP]
+[VIVIAN]
 Default
 It’s funny that you ask. 
 
@@ -316,7 +315,7 @@ I’m not working on anything right now, but I heard you were getting a band tog
 [PLAYER]
 Oh, how did you know about that?
 
-[PREP]
+[VIVIAN]
 Default
 Annie couldn’t stop talking about it. 
 
@@ -329,7 +328,7 @@ Yeah, we don’t have a vocalist yet!
 
 Would you want to join?
 
-[PREP]
+[VIVIAN]
 Default
 Um, absolutely! 
 
@@ -340,7 +339,7 @@ Of course, you know what you’re doing better than I do, hah.
 
 Would you mind showing me something you have worked on though?
 
-[PREP]
+[VIVIAN]
 Default
 Sure, I have something I’ve done a bit of work for, as long as you can keep up with it.
 

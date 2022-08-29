@@ -1,6 +1,6 @@
 ﻿[BACKGROUND]
 Lounge 2
-[PREP]
+[VIVIAN]
 Default
 So, what do you think?
 
@@ -11,7 +11,7 @@ Yeah definitely, that was amazing!
 
 Consider yourself the new vocalist of our group!
 
-[PREP]
+[VIVIAN]
 Smile
 Nice!
 
@@ -20,7 +20,7 @@ I have to run now, I'm meeting some friends at the mall, but let me know when ou
 [PLAYER]
 You got it!
 
-[PREP]
+[VIVIAN]
 Wink
 See ya!
 
@@ -63,7 +63,7 @@ You look at the person operating the front desk. She’s dressed in all black, w
 
 Her name tag says “Raven”, an equally gothic name. She nods as you speak.
 
-[RAVEN]
+[OMINOUS]
 Default
 Nah, I just need to swipe your student ID, your books, and you’re all set. 
 
@@ -77,14 +77,14 @@ You hand over your books and fish out your student ID from your pocket, sliding 
 
 She scans everything quickly, putting it into a small bag and handing it over to you with a receipt and your ID.
 
-[RAVEN]
+[OMINOUS]
 Laugh
 Are you a music student? Or just reading for fun?
 
 [PLAYER]
 I’m a music student! This is my first week here and my first day where I don’t have any classes, so I figured it wouldn’t hurt to stop by.
 
-[RAVEN]
+[OMINOUS]
 Shocked
 So you’re just a freshman, huh. How are you liking your classes?
 

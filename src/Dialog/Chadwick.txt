@@ -19,7 +19,7 @@ Sure, I’d love to! I’ve been waiting for a chance to show off my music.
 [PLAYER]
 Awesome! It’s great to have you on the team… you know, I never got your name.
 
-[COSPLAYER]
+[ANNIE]
 Smile
 Oh right. It’s hard to be in a band with someone if you don’t know their name. 
 
@@ -28,21 +28,21 @@ I’m Annie. Annie May.
 [PLAYER]
 Thanks again for everything.
 
-[COSPLAYER]
+[ANNIE]
 Stare
 My pleasure. Hey, you don’t know anyone else in our class, right?
 
 [PLAYER]
 Yeah, I wasn’t able to meet anyone before the professor chewed me out.
 
-[COSPLAYER]
+[ANNIE]
 Smirk
 If you need more signatures, I know for sure that Chad goes to lift at the weight room after every class.
 
 [PLAYER]
 Gotcha. Thanks again for your help.
 
-[COSPLAYER]
+[ANNIE]
 Smile
 Don’t thank me just yet. We still have to win!
 

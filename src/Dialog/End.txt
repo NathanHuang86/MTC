@@ -3,7 +3,7 @@ Path 5
 [PLAYER]
 That was awesome!
 
-[SKATER]
+[LUKE]
 Smile
 Pretty sick right? 
 
@@ -14,14 +14,14 @@ I think it’s some of my best work so far.
 [PLAYER]
 It definitely shows. You said you’re available to rehearse right?
 
-[SKATER]
+[LUKE]
 Default
 Yeah, now that my schedule’s all figured out with school, I have tons of time to work on something new.
 
 [PLAYER]
 That’s great! You’re gonna do great.
 
-[SKATER]
+[LUKE]
 Wink
 Thanks dude, that means a lot to me. 
 
@@ -34,7 +34,7 @@ Your balance could definitely get better, but considering you started not knowin
 
 Luke also seems to be pretty proud of you, and lets you get the hang of it without hassling you.
 
-[SKATER]
+[LUKE]
 Shocked
 Hey dude, you did great out there today! 
 
@@ -45,7 +45,7 @@ I guess so!
 
 It’ll be so nice having you in the band.
 
-[SKATER]
+[LUKE]
 Default
 Likewise! 
 
@@ -101,7 +101,7 @@ Yup!
 Smug
 Of course! What would you do without me?
 
-[COSPLAYER]
+[ANNIE]
 Smile
 Right here!
 
@@ -109,7 +109,7 @@ Right here!
 Default
 Mom do I have to watch your concert?
 
-[MOTHER]
+[NATALIE]
 Happy
 Yes Ellie, and if you're good tonight I'll let you watch more Bubblegumpies when we get home!
 
@@ -117,11 +117,11 @@ Yes Ellie, and if you're good tonight I'll let you watch more Bubblegumpies when
 Happy
 Yayyy!!!
 
-[SKATER]
+[LUKE]
 Smile
 Yo!
 
-[PREP]
+[VIVIAN]
 Wink
 I made it!
 
@@ -167,7 +167,7 @@ I'm so sorry everyone, this is all my fault.
 Shock
 It's ok bro, we all make mistakes
 
-[PREP]
+[VIVIAN]
 Bored
 Yeah don't worry about it, we can always enter the next one.
 
@@ -207,7 +207,7 @@ I know that's a lot to ask, but you'd be doing us a big favor.
 Wink
 Sure thing kid.
 
-[Janitor]
+[JANITOR]
 Shock
 But what instrument should I play?
 
