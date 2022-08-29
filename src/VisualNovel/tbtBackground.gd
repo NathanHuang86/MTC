@@ -202,6 +202,6 @@ func _on_btnLoad_pressed():
 
 func _on_btnMainMenu_pressed():
 	sigGlobal.gamedata["intScene"] = 0
-	sigGlobal.gamedata["strProtagName"] = "???"
+	sigGlobal.gamedata["strProtagName"] = null
 	sigGlobal.gamedata["scriptLine"] = null
 	get_tree().change_scene("res://src/Main Menu/nodMainMenu.tscn")
