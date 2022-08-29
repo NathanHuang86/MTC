@@ -24,7 +24,7 @@ Ellie, are you ready to go now? Momma has to take you home for lunch!
 
 [ELLIE]
 Default
-Do we have to? I like playing Bubblegumpies with *player*...
+Do we have to? I like playing Bubblegumpies...
 
 [NATALIE]
 Happy
@@ -61,7 +61,9 @@ It’s not the same class you have with Annie, but you don’t think being late 
 [BACKGROUND]
 Lecture Hall
 [ENVIRONMENT]
-You rush to your class, looking around the lecture hall to see if you recognize anyone you’ve met so far. You don’t think you see anyone, until someone comes up to you.
+You rush to your class, looking around the lecture hall to see if you recognize anyone you’ve met so far. 
+
+You don’t think you see anyone, until someone comes up to you.
 
 [OLIVER]
 Smile
@@ -103,58 +105,81 @@ Aren’t you in this class?
 
 [OLIVER]
 Frown
-Yes, but I’m just taking it as a formality. It’s going to be an easy A for me.
+Yes, but I’m just taking it as a formality. 
+
+It’s going to be an easy A for me.
 
 [PLAYER]
-So, how are you after yesterday? Did you end up going to the nurse’s office?
+So, how are you after yesterday? 
+
+Did you end up going to the nurse’s office?
 
 [OLIVER]
 Smug
-No, I was perfectly fine. It takes more than a wardrobe malfunction to hurt me. Maybe Chadwick would’ve needed to go to the nurse’s office.
+No, I was perfectly fine. 
+
+It takes more than a wardrobe malfunction to hurt me. 
+
+Maybe Chadwick would’ve needed to go to the nurse’s office.
 
 [PLAYER]
-I’m pretty sure anyone would’ve needed to. It looked pretty painful.
+I’m pretty sure anyone would’ve needed to. 
+It looked pretty painful.
 
 [ENVIRONMENT]
 Oliver ignores your statement.
 
 [OLIVER]
 Default
-Anyway, do you want to sit down with me? No doubt my expertise will help you in this class.
+Anyway, do you want to sit down with me? 
+No doubt my expertise will help you in this class.
 
 [PLAYER]
-Sure. Hey, would you mind signing my notebook? It’s for another intro class.
+Sure. Hey, would you mind signing my notebook? 
+
+It’s for another intro class.
 
 [OLIVER]
 Smile
 An autograph? Of course, let me get out my best pen!
 
 [ENVIRONMENT]
-Oliver pulls a calligraphy pen from his bag. It has a large feather taped to it. He takes your notebook, but looks at the page and scoffs.
+Oliver pulls a calligraphy pen from his bag. 
+It has a large feather taped to it. 
+
+He takes your notebook, but looks at the page and scoffs.
 
 [OLIVER]
 Mad
-You’ve already had that imbecile Chadwick sign it? I guess you’re just letting anyone do it, then.
+You’ve already had that imbecile Chadwick sign it? 
+
+I guess you’re just letting anyone do it, then.
 
 [PLAYER]
 That was the assignment, yeah.
 
 [ENVIRONMENT]
-Oliver quickly signs the notebook, giving it back to you without a second glance. His signature is taking up half the page, and a little bit of Chadwick’s name.
+Oliver quickly signs the notebook, giving it back to you without a second glance. 
+
+His signature is taking up half the page, and a little bit of Chadwick’s name.
 
 [OLIVER]
 Smile
-So, if you’re smart enough to sit next to me, I have the best seat in the class.
+So, if you’re smart enough to sit next to me, you'll see I have the best seat in the class.
 
 [ENVIRONMENT]
-You follow Oliver to his seat, a section in the middle. You notice that there’s no one sitting around him, and people seem to be sitting a cautious distance away.
+You follow Oliver to his seat, a section in the middle. 
+
+You notice that there’s no one sitting around him, and people seem to be sitting a cautious distance away.
 
 [PLAYER]
 Do you know anyone else here?
 
 [OLIVER]
 Smug
-No, I don’t really like to fraternize with the intro classes. Consider yourself incredibly lucky.
+No, I don’t really like to fraternize with the intro classes. 
+
+Consider yourself incredibly lucky.
 
 [PLAYER]
 I’m considering myself something, alright.
@@ -164,18 +189,25 @@ Talk
 Oh, shush. Class is about to start.
 
 [ENVIRONMENT]
-Your professor starts talking soon after that, and you assume class would’ve gone great if you weren’t sitting next to Oliver. Today’s lesson is on time signatures. It’s pretty easy, honestly.
+Your professor starts talking soon after that, and you assume class would’ve gone great if you weren’t sitting next to Oliver. 
+Today’s lesson is on time signatures. It’s pretty easy, honestly.
 
 [OLIVER]
 Frown
-Ugh, this is so wrong. Everyone knows the best songs are in 11/4  time. Time means minutes, by the way, so good songs should be anywhere from 4 to 11 minutes.
+Ugh, this is so wrong. 
+
+Everyone knows the best songs are in 11/4  time. 
+
+Time means minutes, by the way, so good songs should be anywhere from 4 to 11 minutes.
 
 [PLAYER]
 Um, that’s not what that means at all.
 
 [OLIVER]
 Mad
-It makes sense that as a beginner you wouldn’t know what you’re talking about at all. Just take notes based on what I tell you.
+It makes sense that as a beginner you wouldn’t know what you’re talking about at all. 
+
+Just take notes based on what I tell you.
 
 [ENVIRONMENT]
 You decide not to question it, but in your judgement, you chose to not take notes from Oliver.
@@ -185,7 +217,9 @@ Now, when you’re working with music in different time signatures, especially i
 
 [OLIVER]
 Frown
-That’s wrong too. Seriously, how do they hire these idiots? I always just do it on a computer.
+That’s wrong too. 
+
+Seriously, how do they hire these idiots? I always just do it on a computer.
 
 [PLAYER]
 But you still have to double check if what you’re doing sounds good if you’re working digitally…
@@ -198,11 +232,15 @@ No you don’t. The computer does it for you.
 That’s… not how it works at all…
 
 [ENVIRONMENT]
-The rest of class drags on, with Oliver attempting to ‘teach’ you about different music concepts, and somehow getting even the basic concepts wrong. Maybe he needs this class more than you do.
+The rest of class drags on, with Oliver attempting to ‘teach’ you about different music concepts, and somehow getting even the basic concepts wrong. 
+
+Maybe he needs this class more than you do.
 
 [OLIVER]
 Stare
-I hope you’re planning on studying all that later. All the stuff I told you is really important to know.
+I hope you’re planning on studying all that later. 
+
+All the stuff I told you is really important to know.
 
 [PLAYER]
 I’ll try to get around to it. I’ve been pretty busy trying to get people to join my band–
@@ -230,7 +268,9 @@ Oh, I guess I could find someone else then.
 
 [OLIVER]
 Frown
-No wait! You need my expertise, you had no idea what was going on in class. I’d be happy to lead your little band.
+No wait! You need my expertise, you had no idea what was going on in class. 
+
+I’d be happy to lead your little band.
 
 [PLAYER]
 What? No, we just need more members, we’re not looking for a lead or anything, it’s mostly just for fun.
@@ -244,7 +284,7 @@ Well, no, that’s not what I meant.
 
 [OLIVER]
 Default
-Oh, fine, I’ll join if you beg.
+Oh fine, I’ll join if you beg.
 
 [PLAYER]
 I’m not going to beg.

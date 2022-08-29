@@ -15,6 +15,7 @@ As you walk into the music building for the first time you are overwhelmed by th
 Whew, I finally made it to the music wing here at GCC. 
 
 I have a lot of tough classes ahead of me, but I should also remember to have fun. 
+
 Maybe I should look for some clubs to join.
 
 [BACKGROUND]
@@ -29,6 +30,7 @@ The winning band gets a…
 1,200 dollar cash prize?! That’s amazing!
 
 Seems like a great opportunity, but it looks like you need at least 9 members to enter. 
+
 Weird, that seems like a lot for a band.
 
 [PLAYER]
@@ -52,7 +54,9 @@ I guess I’ll just have to use the elevator.
 [BACKGROUND]
 Elevator Door
 [ENVIRONMENT]
-You go over to the elevator and press the up button, looking at the time again. As you slide into the elevator and press for floor two you see a custodian coming from the basement with a mop.
+You go over to the elevator and press the up button, looking at the time again. 
+
+As you slide into the elevator and press for floor two you see a custodian coming from the basement with a mop.
 
 [BACKGROUND]
 Elevator
@@ -64,7 +68,9 @@ Sorry, I was going to use the stairs, but they’re wet.
 
 [JANITOR]
 Default
-It’s no problem, thanks for holding the doors open! Usually we clean the stairs after everyone’s gone home, but we got a new schedule and now we have to clean them every day around noon.
+It’s no problem, thanks for holding the doors open! 
+
+Usually we clean the stairs after everyone’s gone home, but we got a new schedule and now we have to clean them every day around noon.
 
 [PLAYER]
 So you're a janitor here at GCC, that has to be fun!
@@ -81,6 +87,7 @@ I’m sorry, but I don’t really have time to chat, I’m running late for a cl
 [ENVIRONMENT]
 After awkwardly cutting off the janitor, the elevator shuts down and you find yourselves stuck together.
 
-To ease the tension, the janitor starts humming to the elevator music and banging his mop handle against the door to the beat. The groove is infectious and you can't help but join in.
+To ease the tension, the janitor starts humming to the elevator music and banging his mop handle against the door to the beat. 
+The groove is infectious and you can't help but join in.
 
 [RHYTHM]

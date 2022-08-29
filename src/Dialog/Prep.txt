@@ -183,7 +183,9 @@ You see she’s already gotten Annie and Oliver to sign hers, along with two oth
 
 You wonder if they’re in this class.
 
-She gives your notebook back, and you give it a glance. Her name is written neatly, but it still doesn’t look as nice as Chadwick’s.
+She gives your notebook back, and you give it a glance. 
+
+Her name is written neatly, but it still doesn’t look as nice as Chadwick’s.
 
 [PLAYER]
 Vivian? That’s a nice name.

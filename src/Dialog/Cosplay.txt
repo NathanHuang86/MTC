@@ -16,13 +16,16 @@ Sure thing kid. Ya got goooooood rhythm.
 Lecture Hall
 [ENVIRONMENT]
 [LEAVE]
-You arrive at class and students seem to be pouring out of the classroom. You walk in to see what's happening.
+You arrive at class and students seem to be pouring out of the classroom. 
+
+You walk in to see what's happening.
 
 [PLAYER]
 Sorry I’m a little bit late, what are we working on now?
 
 [PROFESSOR]
 Oh, you must be the new kid.
+
 Why weren’t you here today?
 
 [PLAYER]
@@ -35,7 +38,8 @@ What matters now is that the first day of class is over and you have homework to
 Class is done?!
 
 [PROFESSOR]
-Yes. Why else would my class be leaving? The bell doesn’t dismiss you, I do.
+Yes. Why else would my class be leaving? 
+The bell doesn’t dismiss you, I do.
 
 [COSPLAYER]
 Disinterest
