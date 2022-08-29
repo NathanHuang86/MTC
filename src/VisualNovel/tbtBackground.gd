@@ -37,8 +37,11 @@ func nextScript(line):
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 	
-	if line == "[COSPLAYER]":
-		get_node("CurrentCharacter").text = "Annie"
+	if line == "[COSPLAYER]" or line == "[ANNIE]":
+		if line == "[COSPLAYER]":
+			get_node("CurrentCharacter").text = "Cosplayer"
+		elif line == "[ANNIE]":
+			get_node("CurrentCharacter").text = "Annie"
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Cosplayer Frames/Cosplay ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
@@ -61,19 +64,24 @@ func nextScript(line):
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 		
-	if line == "[RAVEN]":
-		get_node("CurrentCharacter").text = "Raven"
+	if line == "[RAVEN]" or line == "[OMINOUS]":
+		if line == "[RAVEN]":
+			get_node("CurrentCharacter").text = "Raven"
+		elif line == "[OMINOUS]":
+			get_node("CurrentCharacter").text = "Ominous"
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Ominous Frames/Ominous ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 	
-	if line == "[MOTHER]" or line == "[CHILD]" or line == "[ELLIE]":
+	if line == "[MOTHER]" or line == "[CHILD]" or line == "[ELLIE]" or line == "[NATALIE]":
 		if line == "[CHILD]":
 			get_node("CurrentCharacter").text = "Child"
 		elif line == "[ELLIE]":
 			get_node("CurrentCharacter").text = "Ellie"
+		elif line == "[NATALIE]":
+			get_node("CurrentCharacter").text = "Natalie"
 		else:
 			get_node("CurrentCharacter").text = "Mother"
 		line = f.get_line()
@@ -82,16 +90,22 @@ func nextScript(line):
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 	
-	if line == "[PREP]":
-		get_node("CurrentCharacter").text = "Prep"
+	if line == "[PREP]" or line == "[VIVIAN]":
+		if line == "[PREP]":
+			get_node("CurrentCharacter").text = "Prep"
+		elif line == "[VIVIAN]":
+			get_node("CurrentCharacter").text = "Vivian"
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Woman Frames/Woman ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
 		get_node("sprCharacter").position = Vector2(920, 584)
 		line = f.get_line()
 	
-	if line == "[SKATER]":
-		get_node("CurrentCharacter").text = "Skater"
+	if line == "[SKATER]" or line == "[LUKE]":
+		if line == "[SKATER]":
+			get_node("CurrentCharacter").text = "Skater"
+		elif line == "[LUKE]":
+			get_node("CurrentCharacter").text = "Luke"
 		line = f.get_line()
 		get_node("sprCharacter").texture = load('res://assets/Images/Skater Frames/Skater ' + line + '.png')
 		get_node("sprCharacter").scale = Vector2(0.219, 0.211)
