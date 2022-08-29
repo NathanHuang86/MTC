@@ -58,46 +58,60 @@ I don’t think they’re talking to us, sweetheart. We should leave them be.
 Suddenly, as she starts to speak aloud you recall seeing her leave with her child the day you were late for class. You wish you’d caught her name earlier. You decide to approach her.
 
 [PLAYER]
-Hey! We’re in the same music class. I’m *player name*. 
+Hey! We’re in the same music class. 
 
 [CHILD]
 Default
-Why are you ugly? That’s an ugly name.
+Why are you ugly?
 
 [MOTHER]
 Default
-Don’t be mean now, sweetheart! Hi, *player name*. It’s nice to talk to someone in one of my classes. It’s hard making friends in college. I’m Natalie, and this is my daughter, Ellie.
+Don’t be mean now, sweetheart! 
+
+Hi, nice to meet you. 
+
+It’s nice to talk to someone in one of my classes. 
+
+[NATALIE]
+Smile
+It’s hard making friends in college. I’m Natalie, and this is my daughter, Ellie.
 
 [PLAYER]
 I can imagine. How long have you been going to school here?
 
-[MOTHER]
+[NATALIE]
 Talk
-Only a few days, actually. I went to college when I was younger, but I didn’t really enjoy how my career panned out after that. I figured there was no harm in going back, and enrolled in a few courses this year to see how I like it.
+Only a few days, actually. I went to college when I was younger, but I didn’t really enjoy how my career panned out after that. 
+
+I figured there was no harm in going back, and enrolled in a few courses this year to see how I like it.
 
 [PLAYER]
 Oh, that’s great. How are things going so far?
 
-[MOTHER]
+[NATALIE]
 Happy
-I’m only just starting out, so it feels like a whole new world for me. I think I’m getting the hang of things pretty quickly though. Being a mom means I’m used to being kept on my toes, so I’ve learned to adapt pretty quickly.
+I’m only just starting out, so it feels like a whole new world for me. 
 
-[CHILD]
+I think I’m getting the hang of things pretty quickly though. 
+
+Being a mom means I’m used to being kept on my toes, so I’ve learned to adapt pretty quickly.
+
+[ELLIE]
 Happy
 Mom, let’s go. This person is smelly.
 
-[MOTHER]
+[NATALIE]
 Mad
 No they are not. You should apologize now, Ellie. That’s a very mean thing to say!
 
-[CHILD]
+[ELLIE]
 Mad
 I don’t wanna!
 
 [PLAYER]
 I get the feeling she doesn’t like me.
 
-[MOTHER]
+[NATALIE]
 Thought
 Oh, she does the same thing to everybody. She just likes to mess with people.
 
@@ -106,14 +120,16 @@ And she’s gotten really good at it.
 [PLAYER]
 I bet I could get her to like me. How about I play some music?
 
-[MOTHER]
+[NATALIE]
 Happy
-I think that would be wonderful, actually. I was just about to go outside to do some studying, would you mind coming with me to watch her?
+I think that would be wonderful, actually. 
+
+I was just about to go outside to do some studying, would you mind coming with me to watch her?
 
 [PLAYER]
 Uhm… I don’t know…
 
-[MOTHER]
+[NATALIE]
 Default
 It would be a really big help to me, and I can pay you a bit if you’d like!
 
@@ -121,28 +137,32 @@ It would be a really big help to me, and I can pay you a bit if you’d like!
 Sure! That sounds great!
 
 [ENVIRONMENT]
-After Natalie finishes buying what looks like snacks for her child, you walk with the two of them to the campus plaza, where Natalie quickly unpacks her schoolwork. She hands you her bag from the store.
+After Natalie finishes buying what looks like snacks for her child, you walk with the two of them to the campus plaza, where Natalie quickly unpacks her schoolwork. 
+She hands you her bag from the store.
 
 [BACKGROUND]
 Plaza Area
-[MOTHER]
+[NATALIE]
 Default
-Ellie loves her fruit snacks, so I’m sure she’ll want some now. I’ll also give you her tablet in case she wants to watch something on it. 
+Ellie loves her fruit snacks, so I’m sure she’ll want some now. 
 
+I’ll also give you her tablet in case she wants to watch something on it. 
 
 Thank you so much for agreeing to watch her for a bit, I just have to finish up one of my assignments and we’ll be on our way, I promise.
 
 [PLAYER]
 Do you think you could sign my notebook? I don’t have enough signatures for our class yet.
 
-[MOTHER]
+[NATALIE]
 Happy
 Of course.
 
 [ENVIRONMENT]
-You hand her your notebook, watching as her pen glides across the page. She hands the notebook back to you, starting to pay attention to her own assignment.
+You hand her your notebook, watching as her pen glides across the page. 
 
-[MOTHER]
+She hands the notebook back to you, starting to pay attention to her own assignment.
+
+[NATALIE]
 Shock
 Are you sure you’ll be able to handle Ellie?
 
@@ -197,7 +217,11 @@ Default
 Let’s play Bubblegumpies!
 
 [ENVIRONMENT]
-She takes the tablet from you and turns the show on. Every so often, she points at the screen and tells you to look when you’re already watching. It’s not a bad show, considering it’s for kids.
+She takes the tablet from you and turns the show on. 
+
+Every so often, she points at the screen and tells you to look when you’re already watching. 
+
+It’s not a bad show, considering it’s for kids.
 
 [ENVIRONMENT]
 Before you know it, you’ve watched an entire episode of Bubblegumpies with Ellie.

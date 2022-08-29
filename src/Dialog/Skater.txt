@@ -171,14 +171,14 @@ Oh, nice!
 
 By the way, if you do want to teach me to skate I have something I could offer in return.
 
-[SKATER]
+[LUKE]
 Stare
 What’s up?
 
 [PLAYER]
 Do you play music?
 
-[SKATER]
+[LUKE]
 Default
 Yeah, just a little bit though. 
 
@@ -187,7 +187,7 @@ I mostly play bass, but I also dabble in the trumpet every now and again.
 [PLAYER]
 Wanna be a part of my band?
 
-[SKATER]
+[LUKE]
 Shocked
 Oh wow, that’s a big ask. 
 
@@ -196,7 +196,7 @@ Are you sure you want me for the job?
 [PLAYER]
 Well how about this, I’ll listen to you play, and then you can teach me how to skate.
 
-[SKATER]
+[LUKE]
 Smile
 Sounds like a deal. 
 

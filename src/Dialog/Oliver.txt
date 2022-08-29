@@ -5,7 +5,9 @@ Happy
 Wow! You’re so good at playing Bubblegumpies!
 
 [PLAYER]
-You are too! I think you’re really good at playing music. Maybe you can go to school for music like your mom!
+You are too! I think you’re really good at playing music. 
+
+Maybe you can go to school for music like your mom!
 
 [ELLIE]
 Happy
@@ -14,35 +16,47 @@ I want to go to music school and be just like Momma now!
 [ENVIRONMENT]
 You notice that Natalie has finished her work, watching you and Ellie with a smile.
 
-[MOTHER]
+[NATALIE]
 Default
-Thank you so much, *player*, I really appreciate your help. Ellie, are you ready to go now? Momma has to take you home for lunch!
+Thank you so much, I really appreciate your help. 
+
+Ellie, are you ready to go now? Momma has to take you home for lunch!
 
 [ELLIE]
 Default
 Do we have to? I like playing Bubblegumpies with *player*...
 
-[MOTHER]
+[NATALIE]
 Happy
 I promise we’ll play more Bubblegumpies when we get home, okay?
 
 [ENVIRONMENT]
-Ellie jumps up, skipping over to her mother and hugging her. Natalie looks back to you, taking her and Ellie’s things and standing up to leave.
+Ellie jumps up, skipping over to her mother and hugging her. 
 
-[MOTHER]
+Natalie looks back to you, taking her and Ellie’s things and standing up to leave.
+
+[NATALIE]
 Shock
-Thanks again for watching my Ellie. Is there anything I can help you with?
+Thanks again for watching my Ellie. 
+
+Is there anything I can help you with?
 
 [PLAYER]
-Well, I need more members for a band I’m making, would you like to be in it? It’s for a competition.
+Well, I need more members for a band I’m making, would you like to be in it? 
 
-[MOTHER]
+It’s for a competition.
+
+[NATALIE]
 Talk
 I’d be happy to! And I’m sure Ellie wouldn’t mind having someone else to talk about her shows with.
 
 [ENVIRONMENT]
 [LEAVE]
-You part ways with the two of them, and you check the time. Watching that show with Natalie’s kid took longer than expected, and now you have to go straight to class. It’s not the same class you have with Annie, but you don’t think being late to this one would be a good idea.
+You part ways with the two of them, and you check the time. 
+
+Watching that show with Natalie’s kid took longer than expected, and now you have to go straight to class. 
+
+It’s not the same class you have with Annie, but you don’t think being late to this one would be a good idea.
 
 [BACKGROUND]
 Lecture Hall
