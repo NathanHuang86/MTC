@@ -166,19 +166,12 @@ func _on_aniCharacterEntrance_animation_finished(anim_name):
 		$sprCharacter/aniCharacterEntrance.play_backwards("DayNight")
 		self.disabled = false
 
-func _on_btnMainMenu_pressed():
-	sigGlobal.gamedata["intScene"] = 0
-	sigGlobal.gamedata["strProtagName"] = "???"
-	sigGlobal.gamedata["scriptLine"] = null
-	get_tree().change_scene("res://src/Main Menu/nodMainMenu.tscn")
-
 func _on_btnSave_pressed():
 	var save_game = File.new()
 	save_game.open("user://game-data.json", File.WRITE)
 	sigGlobal.gamedata["scriptLine"] = get_parent().get_node("Background").tracker
 	save_game.store_string(to_json(sigGlobal.gamedata))
 	save_game.close()
-
 
 func _on_btnLoad_pressed():
 	var file = File.new()
@@ -188,3 +181,9 @@ func _on_btnLoad_pressed():
 		file.close()
 		sigGlobal.gamedata = data
 		get_tree().change_scene("res://src/VisualNovel/nodVisualNovel.tscn")
+
+func _on_btnMainMenu_pressed():
+	sigGlobal.gamedata["intScene"] = 0
+	sigGlobal.gamedata["strProtagName"] = "???"
+	sigGlobal.gamedata["scriptLine"] = null
+	get_tree().change_scene("res://src/Main Menu/nodMainMenu.tscn")
