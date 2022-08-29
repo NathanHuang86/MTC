@@ -140,9 +140,6 @@ margin_bottom = 1080.0
 texture_normal = ExtResource( 2 )
 expand = true
 script = ExtResource( 5 )
-__meta__ = {
-"_edit_use_anchors_": false
-}
 
 [node name="sprCharacter" type="Sprite" parent="Background"]
 position = Vector2( 976, 584 )
@@ -165,24 +162,22 @@ __meta__ = {
 }
 
 [node name="Dialog" type="Label" parent="Background"]
+margin_left = 40.0
 margin_top = 800.0
-margin_right = 1920.0
+margin_right = 1880.0
 margin_bottom = 1080.0
 custom_fonts/font = SubResource( 5 )
 text = "Bob the builder"
 autowrap = true
-__meta__ = {
-"_edit_use_anchors_": false
-}
+
+[node name="Sprite" type="Sprite" parent="Background/Dialog"]
+show_behind_parent = true
+position = Vector2( 920, 120 )
+texture = ExtResource( 7 )
 
 [node name="aniText" type="AnimationPlayer" parent="Background/Dialog"]
 anims/RESET = SubResource( 6 )
 "anims/Text Crawl" = SubResource( 7 )
-
-[node name="Sprite" type="Sprite" parent="Background/Dialog"]
-show_behind_parent = true
-position = Vector2( 960, 120 )
-texture = ExtResource( 7 )
 
 [node name="btnSave" type="Button" parent="Background/Dialog"]
 margin_left = 680.0
@@ -215,9 +210,10 @@ __meta__ = {
 }
 
 [node name="CurrentCharacter" type="Label" parent="Background"]
+margin_left = 16.0
 margin_top = 768.0
-margin_right = 1920.0
-margin_bottom = 816.0
+margin_right = 1936.0
+margin_bottom = 822.0
 custom_fonts/font = SubResource( 5 )
 text = "Bob the builder"
 autowrap = true
