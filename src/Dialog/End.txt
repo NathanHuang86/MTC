@@ -1,5 +1,7 @@
 [BACKGROUND]
 Path 5
+[LUKE]
+Smile
 [PLAYER]
 That was awesome!
 

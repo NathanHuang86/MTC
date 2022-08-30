@@ -39,6 +39,7 @@ Class is done?!
 
 [PROFESSOR]
 Yes. Why else would my class be leaving? 
+
 The bell doesn’t dismiss you, I do.
 
 [COSPLAYER]
@@ -60,10 +61,12 @@ Most of the class got their homework done in class, remember to have it signed a
 [BACKGROUND]
 Path 3
 [ENVIRONMENT]
-You walk outside the classroom and into the hall; nobody's in sight, everyone has left.
+You walk outside the classroom and into the hall; nobody's in sight.
 
 [PLAYER]
-Aw man, how am I gonna get these signatures? If everyone has already done the assignment, they won’t want to talk to me…
+Aw man, how am I gonna get these signatures? 
+
+If everyone has already done the assignment, they won’t want to talk to me…
 
 But now that I think about it, this could be a great way to meet people to recruit for a band!
 
@@ -102,11 +105,16 @@ Default
 I’m doing pretty well. How ‘bout yourself?
 
 [PLAYER]
-My first day’s been pretty rough so far. Thanks for nosing off to the professor earlier, by the way.
+My first day’s been pretty rough so far. 
+Thanks for nosing off to the professor earlier.
 
 [COSPLAYER]
 Disinterest
-Oh, my pleasure. That guy’s a jerk. I heard that last semester, he made everyone write an apology to him for not doing the homework, but it only happened because he forgot to post it!
+Oh, my pleasure. That guy’s a jerk. 
+
+I heard that last semester, he made everyone write an apology to him for not doing the homework...
+
+But it only happened because he forgot to post it!
 
 [PLAYER]
 Sounds like a nightmare.
@@ -149,7 +157,9 @@ Oh yes. Cosplaying isn’t just for fun.
 It’s a lifestyle.
 
 [ENVIRONMENT]
-You both stare at each other wordlessly for a few seconds. You don’t really get it, but she seems to be taking it really seriously.
+You both stare at each other wordlessly for a few seconds. 
+
+You don’t really get it, but she seems to be taking this really seriously.
 
 [COSPLAYER]
 Stare

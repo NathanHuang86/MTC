@@ -17,7 +17,7 @@ Default
 Sure, I’d love to! I’ve been waiting for a chance to show off my music.
 
 [PLAYER]
-Awesome! It’s great to have you on the team… you know, I never got your name.
+Awesome! It’s great to have you in the band... you know, I never got your name.
 
 [ANNIE]
 Smile
@@ -61,13 +61,15 @@ Weight Room
 Once inside, you see a huge, gigantic man lifting weights all by himself.
 
 [PLAYER]
-OMG is he really one of the students that goes to Music 101? He looks tough...
+Wow, is he really one of the students in Music 101? He looks tough...
 
 [ENVIRONMENT]
 You feel motivated to go and ask him for some tips on how to maintain a healthy lifestyle whilst on campus. 
 
 [ENVIRONMENT]
-You worryingly approach the absolute unit. As you get closer and closer you start to hear what sounds like faint pop music in a language you don’t understand.
+You worryingly approach the absolute unit.
+
+As you get closer and closer you start to hear what sounds like faint pop music in a language you don’t understand.
 
 Eventually you realize it is coming from the man’s earbuds. It sounds like he’s working to the rhythm of the music playing.
 
@@ -150,7 +152,9 @@ So what? I’m just telling the truth, and besides that Mimi is just a fake and 
 
 [CHADWICK]
 Serious
-No one talks about my queen like that! Let’s duel! 
+No one talks about my queen like that! 
+
+Let’s duel! 
 
 [OLIVER]
 Tongue Out
@@ -194,7 +198,7 @@ Heh, that's it? Psh, I could do that in my sleep, time to show you my ELITE MOVE
 The crowd of jocks gasp in offense, how could someone out-dance KGB?
 
 [ENVIRONMENT]
-Oliver then proceeds to break it down in a way unlike you have ever seen, Oliver’s ELITE execution stunned the crowd, and for a moment it seems like he’d win this match in a heartbea-
+Oliver then proceeds to break it down in a way unlike you have ever seen, Oliver’s elite execution stunned the crowd, and for a moment it seems like he’d win this match in a heartbea-
 
 [OLIVER]
 Shock
@@ -204,6 +208,7 @@ OH SHI-
 Oliver slips and falls on his side, a hush falling over the forming crowd as he groans and rolls on the floor. 
 
 When he realizes people are watching him, he quickly jumps to his feet, brushing himself off and cockily smiling at Chadwick. 
+
 He puffs his chest out and puts his hands on his hips triumphantly.
 
 [CHADWICK]
@@ -234,6 +239,7 @@ Pah! I’m fine, I don't need anyone to walk me there, I can walk there by mysel
 Oliver then proceeds to limp away from the plaza, his head still held high.
 
 [PLAYER]
+[LEAVE]
 I hope he’s ok.
 
 [CHADWICK]
@@ -243,7 +249,7 @@ Yeah, he’s stubborn and very proud, but he’s still a good friend of mine.
 I hope he comes around and starts stanning KGB, but he doesn’t really like my bias, Mimi.
 
 [ENVIRONMENT]
-You don't really understand what Chad is talking about but you can tell that he cares for his friend, he seems like a good guy.
+You don't really understand what Chad is talking about, but you can tell that he cares for his friend; he seems like a good guy.
 
 [CHADWICK]
 Default

@@ -10,11 +10,19 @@ Smile
 Thanks, bro. You’ve got some good moves yourself. I’d definitely stan you.
 
 [PLAYER]
-Thanks. It’s getting late. I’ll see you at the competition.
+Thanks! 
+
+It’s getting late, I think I'm gonna head back to my dorm now.
+
+I’ll see you later!
 
 [CHADWICK]
 Default
-I’ll be there. We’re gonna wipe the floor with the competition... figuratively, I mean.
+See ya!
+
+We’re gonna wipe the floor with the competition... 
+
+Figuratively, I mean.
 
 [BACKGROUND]
 Dorm Room 4
@@ -73,7 +81,7 @@ Hi, nice to meet you.
 It’s nice to talk to someone in one of my classes. 
 
 [NATALIE]
-Smile
+Happy
 It’s hard making friends in college. I’m Natalie, and this is my daughter, Ellie.
 
 [PLAYER]

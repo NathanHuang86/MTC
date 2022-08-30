@@ -54,24 +54,19 @@ animations = [ {
 "name": "Himbo",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 33 ) ],
+"loop": true,
+"name": "Skater",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 17 ), ExtResource( 9 ), ExtResource( 12 ) ],
 "loop": true,
 "name": "Janitor",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
-"loop": true,
-"name": "Cosplayer",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 29 ), ExtResource( 28 ), ExtResource( 30 ) ],
 "loop": true,
 "name": "Shoppin",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
-"loop": true,
-"name": "Oliver",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ) ],
@@ -84,9 +79,14 @@ animations = [ {
 "name": "Ominous",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 33 ) ],
+"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
 "loop": true,
-"name": "Skater",
+"name": "Oliver",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "Cosplayer",
 "speed": 5.0
 } ]
 

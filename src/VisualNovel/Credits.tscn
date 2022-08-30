@@ -1,10 +1,11 @@
-[gd_scene load_steps=9 format=2]
+[gd_scene load_steps=10 format=2]
 
 [ext_resource path="res://assets/Images/Background/stage.jpg" type="Texture" id=1]
 [ext_resource path="res://assets/Fonts/Bulletto Killa.ttf" type="DynamicFontData" id=2]
 [ext_resource path="res://assets/Images/Cosplayer Frames/Cosplay Smile.png" type="Texture" id=3]
 [ext_resource path="res://assets/Images/Oliver Frames/Oliver Smug.png" type="Texture" id=4]
 [ext_resource path="res://src/Rhythm/Scripts/MainMenu.gd" type="Script" id=5]
+[ext_resource path="res://src/Audio/KPop-1.wav" type="AudioStream" id=6]
 
 [sub_resource type="DynamicFont" id=1]
 size = 100
@@ -83,3 +84,8 @@ script = ExtResource( 5 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 6 )
+volume_db = -15.294
+autoplay = true

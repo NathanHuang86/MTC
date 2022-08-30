@@ -8,7 +8,7 @@
 [ext_resource path="res://assets/Images/Janitor Frames/Janitor Default.png" type="Texture" id=6]
 [ext_resource path="res://src/Main Menu/btnOptions.gd" type="Script" id=7]
 [ext_resource path="res://src/Main Menu/btnLoad.gd" type="Script" id=8]
-[ext_resource path="res://src/Audio/TitleThemeDemo.wav" type="AudioStream" id=9]
+[ext_resource path="res://src/Audio/TitleTheme3.wav" type="AudioStream" id=9]
 [ext_resource path="res://src/Main Menu/nodMainMenu.gd" type="Script" id=10]
 
 [sub_resource type="Animation" id=1]
@@ -139,6 +139,7 @@ __meta__ = {
 
 [node name="aspBGM" type="AudioStreamPlayer" parent="."]
 stream = ExtResource( 9 )
+volume_db = -15.0
 [connection signal="animation_finished" from="aniCharacterChange" to="." method="_on_aniCharacterChange_animation_finished"]
 [connection signal="pressed" from="btnLoad" to="btnLoad" method="_on_btnLoad_pressed"]
 [connection signal="finished" from="aspBGM" to="." method="_on_aspBGM_finished"]
