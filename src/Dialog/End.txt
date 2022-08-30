@@ -21,7 +21,7 @@ Default
 Yeah, now that my schedule’s all figured out with school, I have tons of time to work on something new.
 
 [PLAYER]
-That’s great! You’re gonna do great.
+That’s great! You’re gonna do amazing.
 
 [LUKE]
 Wink
@@ -79,12 +79,14 @@ I would have never belived that I'd already have a band to play with, or that I'
 [ENVIRONMENT]
 You sleep easy that night, getting rested for the days of practice ahead.
 
+(day ends)
+
 [BACKGROUND]
 Hallway 2
 [ENVIRONMENT]
-For the next two weeks you got together with your band to rehearse your performance.
+For the next two weeks you get together with your band to rehearse your performance.
 
-At first, it was difficult for everyone's different musical styles to mesh together.
+At first, it's difficult for everyone's different musical styles to mesh together.
 
 However, once everyone started to get to know each other the band's sound became more and more refined.
 

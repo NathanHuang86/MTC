@@ -12,6 +12,7 @@ func _ready():
 		text = "Retry?"
 	else:
 		text = "Continue"
+		
  # Replace with function body.
 
 

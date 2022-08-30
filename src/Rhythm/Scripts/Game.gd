@@ -56,17 +56,17 @@ func _ready():
 	$Sprite.set_animation(sprites[RhythmGlobal.sceneInt])
 	match RhythmGlobal.sceneInt:
 		0:
-			background = preload('res://assets/Images/Background/elevator.jpg')
+			background = preload('res://assets/Images/Background/Elevator.jpg')
 		1:
 			background = preload('res://assets/Images/Background/People Bench.jpg')
 		2:
-			background = preload('res://assets/Images/Background/plaza area.jpg')
+			background = preload('res://assets/Images/Background/Plaza Area.jpg')
 		3:
-			background = preload('res://assets/Images/Background/plaza area.jpg')
+			background = preload('res://assets/Images/Background/Plaza Area.jpg')
 		4:
 			background = preload('res://assets/Images/Background/Lecture Hall.jpg')
 		5:
-			background = preload('res://assets/Images/Background/Hallway 1.jpg')
+			background = preload('res://assets/Images/Background/Lounge 2.jpg')
 		6:
 			background = preload('res://assets/Images/Background/Dorm Room 2.jpg')
 		7:
@@ -78,10 +78,6 @@ func _ready():
 	$Sprite.set_animation(sprites[RhythmGlobal.sceneInt])
 
 
-func _input(event):
-	if event.is_action("escape"):
-		if get_tree().change_scene("res://Scenes/Menu.tscn") != OK:
-			print ("Error changing scene to Menu")
 
 
 func _on_Conductor_measure(position):

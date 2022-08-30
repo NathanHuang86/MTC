@@ -7,7 +7,7 @@ That sounded awesome. Is this really just a hobby for you?
 
 [COSPLAYER]
 Smile
-Thanks. yeah, I just make this stuff in my free time.
+Thanks. Yeah, I just make this stuff in my free time.
 
 [PLAYER]
 You know, I’m actually looking for someone to join me for the battle of the bands. You’re really talented, I would love to have you on the team. 
@@ -98,7 +98,7 @@ They are probably the greatest thing on this earth.
 
 [CHADWICK]
 Talk
-Oh, right, you were here for the weights right? 
+Oh, right, you were here for the weights? 
 
 [PLAYER]
 Actually I was going to ask if you could sign my list for class, and maybe join this band I’m making.
@@ -106,7 +106,7 @@ Actually I was going to ask if you could sign my list for class, and maybe join 
 [ENVIRONMENT]
 He quickly takes your notebook with Annie’s name on it, scribbling something down and giving it back to you. 
 
-His handwriting is pristine, and he’s written Chadwick with a heart instead of the dot over the “i”. 
+His handwriting is pristine, and he’s written Chadwick with a heart instead of a dot over the “i”. 
 
 You can’t help but look at it for a second before putting it back in your backpack.
 
@@ -220,7 +220,7 @@ Chadwick rushes to Oliver’s side to see if his homie is alright
 
 [OLIVER]
 Mad
-Yeah I’m fine, It was my damn shoe’s fault! That’s it, if it weren’t for my shoe failing me, I would’ve won.
+Yeah I’m fine, it was my damn shoe’s fault! That’s it, if it weren’t for my shoe failing me, I would’ve won.
 
 [CHADWICK]
 Chill

@@ -19,7 +19,7 @@
 [ext_resource path="res://assets/Images/Janitor Frames/Janitor Smile.png" type="Texture" id=17]
 [ext_resource path="res://assets/Images/Oliver Frames/Oliver Default.png" type="Texture" id=18]
 [ext_resource path="res://src/Rhythm/Scripts/Janitor.gd" type="Script" id=19]
-[ext_resource path="res://assets/Images/Background/elevator.jpg" type="Texture" id=20]
+[ext_resource path="res://assets/Images/Background/Elevator.jpg" type="Texture" id=20]
 [ext_resource path="res://assets/Images/Ominous Frames/Ominous Laugh.png" type="Texture" id=21]
 [ext_resource path="res://assets/Images/Mother Frames/Mother Talk.png" type="Texture" id=22]
 [ext_resource path="res://assets/Images/Mother Frames/Mother Default.png" type="Texture" id=23]
@@ -54,14 +54,24 @@ animations = [ {
 "name": "Himbo",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 21 ), ExtResource( 31 ), ExtResource( 32 ) ],
+"loop": true,
+"name": "Ominous",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 9 ), ExtResource( 17 ), ExtResource( 12 ) ],
+"loop": true,
+"name": "Janitor",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"loop": true,
+"name": "Cosplayer",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 33 ) ],
 "loop": true,
 "name": "Skater",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 17 ), ExtResource( 9 ), ExtResource( 12 ) ],
-"loop": true,
-"name": "Janitor",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 29 ), ExtResource( 28 ), ExtResource( 30 ) ],
@@ -69,24 +79,14 @@ animations = [ {
 "name": "Shoppin",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ) ],
-"loop": true,
-"name": "Mother",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 21 ), ExtResource( 31 ), ExtResource( 32 ) ],
-"loop": true,
-"name": "Ominous",
-"speed": 5.0
-}, {
 "frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
 "loop": true,
 "name": "Oliver",
 "speed": 5.0
 }, {
-"frames": [ ExtResource( 15 ), ExtResource( 13 ), ExtResource( 14 ) ],
+"frames": [ ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ) ],
 "loop": true,
-"name": "Cosplayer",
+"name": "Mother",
 "speed": 5.0
 } ]
 

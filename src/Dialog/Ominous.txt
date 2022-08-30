@@ -39,6 +39,8 @@ As soon as you lay down on your bed you feel yourself drifting off to sleep.
 
 You quickly set an alarm before passing out on your bed.
 
+(day ends)
+
 [BACKGROUND]
 Lecture Hall Door
 [ENVIRONMENT]
@@ -56,7 +58,7 @@ You walk through the library, eventually finding a couple books on music theory 
 You decide this’ll be sufficient just to get started, and you head to the front desk to check out.
 
 [PLAYER]
-Hi, This is my first time checking books out here, is there anything special I have to do?
+Hi, this is my first time checking books out here, is there anything special I have to do?
 
 [ENVIRONMENT]
 You look at the person operating the front desk. She’s dressed in all black, with heavy makeup and a gothic look. 
@@ -98,7 +100,7 @@ Laugh
 Hah, yeah, that's me. I know my name can be a little unusual for other people to hear but it is my name.
 
 [PLAYER]
-Well hey I think its a great name, definitely suits you.
+Well hey, I think its a great name, it definitely suits you.
 
 [RAVEN]
 Wink
@@ -141,8 +143,6 @@ Eh, only some books I’ve checked out and my school stuff.
 
 [ENVIRONMENT]
 You hope you don’t have to carry around all that stuff next year. 
-
-You wonder what the workload is going to be like.
 
 [RAVEN]
 Default
@@ -197,7 +197,7 @@ Default
 Are you off to a good start so far?
 
 [PLAYER]
-Well honestly, my Intro class wasn’t too great, I was kinda sitting next to this guy and I don’t think he knew what he was talking about when he was trying to give me advice. 
+Well honestly, my intro class wasn’t too great, I was kinda sitting next to this guy and I don’t think he knew what he was talking about when he was trying to give me advice. 
 
 I think we were going over time signatures?
 
@@ -208,7 +208,7 @@ You neglect to mention more about Oliver.
 Smirk
 Ah, that always sucks. 
 
-Well, luckily time signatures are pretty easy to start with. Let’s just start with basic stuff.
+Well, luckily time signatures are pretty easy to start with. Let’s just go over the basic stuff.
 
 [ENVIRONMENT]
 You spend some time learning about time signatures. 

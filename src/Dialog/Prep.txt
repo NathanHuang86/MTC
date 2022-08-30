@@ -28,7 +28,7 @@ Oh no! You only got four people to write their names in your notebook!
 
 Man, you really don’t want to get a bad grade on your first assignment of the semester...
 
-Maybe you’ll just find someone in class who will sign it quickly before class starts.
+Maybe you can find someone who will sign it quickly before class starts.
 
 CRASH!
 
@@ -129,8 +129,7 @@ Default
 I’m really liking the Smoke Chainers, their musical talent is unmatched.
 
 [ENVIRONMENT]
-You’ve heard the Smoke Chainers before. 
-They’re popular, but they’ve never really stood out to you.
+You’ve heard the Smoke Chainers before. They’re popular, but they’ve never really stood out to you.
 
 [PLAYER]
 Oh, that’s cool–
@@ -149,7 +148,7 @@ She looks back at you, and you get the feeling she was expecting you to understa
 Bored
 Ugh, this is exactly what I was talking about.
 
-They’re about more than the surface level popular music, it’s just the medium they use to deconstruct the industry, y’know?
+They’re more than surface level pop music, it’s just the medium they use to deconstruct the industry, y’know?
 
 [PLAYER]
 That makes sense, I guess I didn’t really examine them critically.
@@ -195,7 +194,7 @@ Smile
 Thank you.
 
 [ENVIRONMENT]
-The professor walks into class just on time, immediately getting started with class. 
+The professor walks into class just on time, immediately getting started with the lesson.
 
 He quickly walks around the room, checking everyone’s notebooks. 
 
@@ -266,7 +265,7 @@ First it was Ellie’s children’s music, and then… Oliver’s music.
 You decide not to tell Vivian about either.
 
 [PLAYER]
-I listened to a pop artist recently actually, I think it was The Weekday?
+I was listening to this pop artist recently, I think it was The Weekday?
 
 [VIVIAN]
 Default
@@ -281,10 +280,12 @@ Really? I guess I wasn’t really listening that much.
 Default
 Yeah, he’s amazing. 
 
-He puts really subtle symbolism in his albums, it’s like this whole anthology across his body of work.
+He puts really subtle symbolism in his albums, it’s like he has this whole anthology across his entire body of work.
 
 [PLAYER]
-Do you like to write any music?
+Huh, thats pretty cool.
+
+Do you like to write any music yourself?
 
 [VIVIAN]
 Default
@@ -297,13 +298,13 @@ However more recently I've been trying to focus more on my instrumental ability.
 To broaden my fields, ya know?
 
 [PLAYER]
-Yeah that’s really cool! 
+Yeah that’s awesome. 
 
 I’m undeclared right now, but I was considering voice.
 
 [VIVIAN]
 Default
-It’s pretty cool. 
+It’s pretty fun. I reccomend sticking with it!
 
 [PLAYER]
 Do you do a lot of vocal work in your free time?

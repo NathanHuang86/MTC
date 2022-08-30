@@ -123,16 +123,14 @@ It takes more than a wardrobe malfunction to hurt me.
 Maybe Chadwick would’ve needed to go to the nurse’s office.
 
 [PLAYER]
-I’m pretty sure anyone would’ve needed to. 
-It looked pretty painful.
+I’m pretty sure anyone would’ve needed to. It looked pretty painful.
 
 [ENVIRONMENT]
 Oliver ignores your statement.
 
 [OLIVER]
 Default
-Anyway, do you want to sit down with me? 
-No doubt my expertise will help you in this class.
+Anyway, do you want to sit down with me? No doubt my expertise will help you in this class.
 
 [PLAYER]
 Sure. Hey, would you mind signing my notebook? 
@@ -144,8 +142,7 @@ Smile
 An autograph? Of course, let me get out my best pen!
 
 [ENVIRONMENT]
-Oliver pulls a calligraphy pen from his bag. 
-It has a large feather taped to it. 
+Oliver pulls a calligraphy pen from his bag. It has a large feather taped to it. 
 
 He takes your notebook, but looks at the page and scoffs.
 
@@ -153,7 +150,7 @@ He takes your notebook, but looks at the page and scoffs.
 Mad
 You’ve already had that imbecile Chadwick sign it? 
 
-I guess you’re just letting anyone do it, then.
+I guess you’re just letting anyone do it then.
 
 [PLAYER]
 That was the assignment, yeah.
@@ -190,6 +187,7 @@ Oh, shush. Class is about to start.
 
 [ENVIRONMENT]
 Your professor starts talking soon after that, and you assume class would’ve gone great if you weren’t sitting next to Oliver. 
+
 Today’s lesson is on time signatures. It’s pretty easy, honestly.
 
 [OLIVER]
@@ -222,7 +220,7 @@ That’s wrong too.
 Seriously, how do they hire these idiots? I always just do it on a computer.
 
 [PLAYER]
-But you still have to double check if what you’re doing sounds good if you’re working digitally…
+But you still have to double check what you’re doing sounds good even if you’re working digitally…
 
 [OLIVER]
 Talk

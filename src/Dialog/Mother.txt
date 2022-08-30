@@ -50,12 +50,14 @@ Knowing that you still need more members for the band, you muster your courage a
 Oh hey…
 
 [ENVIRONMENT]
-As you call her name you suddenly remember that you don’t remember her name.
-Not only that but as you start to call out to her, you see a tiny hand reach out from behind an aisle and grab the hem of her dress.
+As you call out to her, you suddenly remember that you don’t quite know her name.
+
+Not only that, but as you start to call out to her, you notice a tiny hand reach out from behind an aisle and grab the hem of her dress.
 
 [CHILD]
 Default
 Mama, that stranger over there is looking at you.
+
 Mama, do you know that stranger?
 
 [MOTHER]
@@ -63,7 +65,9 @@ Thought
 I don’t think they’re talking to us, sweetheart. We should leave them be.
 
 [ENVIRONMENT]
-Suddenly, as she starts to speak aloud you recall seeing her leave with her child the day you were late for class. You wish you’d caught her name earlier. You decide to approach her.
+Suddenly, as she starts to speak aloud you recall seeing her leave with her child the day you were late for class. 
+
+You wish you’d caught her name earlier and decide to approach her.
 
 [PLAYER]
 Hey! We’re in the same music class. 
@@ -78,14 +82,17 @@ Don’t be mean now, sweetheart!
 
 Hi, nice to meet you. 
 
-It’s nice to talk to someone in one of my classes. 
+[PLAYER]
+Nice to meet you too!
+
+What's your name?
 
 [NATALIE]
 Happy
-It’s hard making friends in college. I’m Natalie, and this is my daughter, Ellie.
+I’m Natalie, and this is my daughter, Ellie.
 
 [PLAYER]
-I can imagine. How long have you been going to school here?
+How long have you been going to school here?
 
 [NATALIE]
 Talk
@@ -144,12 +151,13 @@ It would be a really big help to me, and I can pay you a bit if you’d like!
 [PLAYER]
 Sure! That sounds great!
 
-[ENVIRONMENT]
-After Natalie finishes buying what looks like snacks for her child, you walk with the two of them to the campus plaza, where Natalie quickly unpacks her schoolwork. 
-She hands you her bag from the store.
-
 [BACKGROUND]
 Plaza Area
+[ENVIRONMENT]
+After Natalie finishes buying what looks like snacks for her child, you walk with the two of them to the campus plaza, where Natalie quickly unpacks her schoolwork. 
+
+She hands you her bag from the store.
+
 [NATALIE]
 Default
 Ellie loves her fruit snacks, so I’m sure she’ll want some now. 
@@ -159,7 +167,9 @@ I’ll also give you her tablet in case she wants to watch something on it.
 Thank you so much for agreeing to watch her for a bit, I just have to finish up one of my assignments and we’ll be on our way, I promise.
 
 [PLAYER]
-Do you think you could sign my notebook? I don’t have enough signatures for our class yet.
+No problem!
+
+By the way, do you think you could sign my notebook? I don’t have enough signatures for our class yet.
 
 [NATALIE]
 Happy
