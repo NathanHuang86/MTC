@@ -148,7 +148,7 @@ func nextScript(line):
 		$sprCharacter/aniCharacterEntrance.play("DayNight")
 		self.disabled = true
 	
-	if tracker == 23 and sigGlobal.gamedata["intScene"] == 0 and sigGlobal.gamedata["strProtagName"] == null:
+	if tracker == 27 and sigGlobal.gamedata["intScene"] == 0 and sigGlobal.gamedata["strProtagName"] == null:
 		print("Player name here...")
 		script = str(script) + "\n" + str(line)
 		self.disabled = true
