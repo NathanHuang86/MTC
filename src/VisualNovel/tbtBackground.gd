@@ -148,7 +148,7 @@ func nextScript(line):
 		$sprCharacter/aniCharacterEntrance.play("DayNight")
 		self.disabled = true
 	
-	if tracker == 27 and sigGlobal.gamedata["intScene"] == 0 and sigGlobal.gamedata["strProtagName"] == null:
+	if tracker == 23 and sigGlobal.gamedata["intScene"] == 0 and sigGlobal.gamedata["strProtagName"] == null:
 		print("Player name here...")
 		script = str(script) + "\n" + str(line)
 		self.disabled = true
@@ -181,6 +181,9 @@ func _on_liePlayerInput_text_entered(new_text):
 
 func _on_aniCharacterEntrance_animation_finished(anim_name):
 	if anim_name == "DayNight":
+		dialog.text = nextScript(f.get_line())
+		$sprCharacter/aniCharacterEntrance.play("NightDay")
+	if anim_name == "NightDay":
 		$sprCharacter/aniCharacterEntrance/colDayNight.visible = false
 		self.disabled = false
 

@@ -1,4 +1,4 @@
-[gd_scene load_steps=17 format=2]
+[gd_scene load_steps=18 format=2]
 
 [ext_resource path="res://assets/Images/Black.jpg" type="Texture" id=2]
 [ext_resource path="res://src/VisualNovel/tbtBackground.gd" type="Script" id=5]
@@ -52,6 +52,22 @@ tracks/0/keys = {
 "transitions": PoolRealArray( 1, 1 ),
 "update": 0,
 "values": [ Color( 1, 1, 1, 1 ), Color( 1, 1, 1, 0 ) ]
+}
+
+[sub_resource type="Animation" id=12]
+resource_name = "NightDay"
+length = 3.0
+tracks/0/type = "value"
+tracks/0/path = NodePath("Background/sprCharacter/aniCharacterEntrance/colDayNight:color")
+tracks/0/interp = 1
+tracks/0/loop_wrap = true
+tracks/0/imported = false
+tracks/0/enabled = true
+tracks/0/keys = {
+"times": PoolRealArray( 0, 3 ),
+"transitions": PoolRealArray( 1, 1 ),
+"update": 0,
+"values": [ Color( 0, 0, 0, 1 ), Color( 0, 0, 0, 0 ) ]
 }
 
 [sub_resource type="Animation" id=4]
@@ -150,13 +166,14 @@ root_node = NodePath("../../..")
 anims/DayNight = SubResource( 1 )
 anims/Entrance = SubResource( 2 )
 anims/Exit = SubResource( 3 )
+anims/NightDay = SubResource( 12 )
 anims/RESET = SubResource( 4 )
 
 [node name="colDayNight" type="ColorRect" parent="Background/sprCharacter/aniCharacterEntrance"]
 visible = false
 margin_right = 1920.0
 margin_bottom = 1080.0
-color = Color( 0, 0, 0, 0 )
+color = Color( 0, 0, 0, 1 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
@@ -234,6 +251,7 @@ __meta__ = {
 stream = ExtResource( 9 )
 volume_db = -15.0
 autoplay = true
+
 [connection signal="animation_finished" from="Background/sprCharacter/aniCharacterEntrance" to="Background" method="_on_aniCharacterEntrance_animation_finished"]
 [connection signal="pressed" from="Background/Dialog/btnSave" to="Background" method="_on_btnSave_pressed"]
 [connection signal="pressed" from="Background/Dialog/btnLoad" to="Background" method="_on_btnLoad_pressed"]
