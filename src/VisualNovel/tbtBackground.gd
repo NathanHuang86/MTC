@@ -13,8 +13,10 @@ func _ready():
 	dialog.text = nextScript(line)
 	get_node("Dialog/Sprite").self_modulate.a = 0.5
 	
-	if sigGlobal.gamedata["scriptLine"] != null:
+	if sigGlobal.gamedata["scriptLine"] != null and sigGlobal.gamedata["scene"] != false:
+		sigGlobal.gamedata["scene"] = false
 		var lineLeft = sigGlobal.gamedata.scriptLine
+		
 		while lineLeft != 1:
 				dialog.text = nextScript(f.get_line())
 				lineLeft = lineLeft - 1
@@ -191,6 +193,7 @@ func _on_btnSave_pressed():
 	var save_game = File.new()
 	save_game.open("user://game-data.json", File.WRITE)
 	sigGlobal.gamedata["scriptLine"] = get_parent().get_node("Background").tracker
+	sigGlobal.gamedata["scene"] = true
 	save_game.store_string(to_json(sigGlobal.gamedata))
 	save_game.close()
 
