@@ -124,6 +124,16 @@ script = ExtResource( 5 )
 stream = ExtResource( 9 )
 volume_db = -15.0
 
+[node name="Label" type="Label" parent="."]
+margin_left = 1773.97
+margin_top = 1030.62
+margin_right = 2042.97
+margin_bottom = 1122.62
+rect_scale = Vector2( 3, 3 )
+text = "Ver 1.1"
+__meta__ = {
+"_edit_use_anchors_": false
+}
 [connection signal="animation_finished" from="aniCharacterChange" to="." method="_on_aniCharacterChange_animation_finished"]
 [connection signal="pressed" from="btnLoad" to="btnLoad" method="_on_btnLoad_pressed"]
 [connection signal="finished" from="aspBGM" to="." method="_on_aspBGM_finished"]

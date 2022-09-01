@@ -8,6 +8,11 @@ onready var tracker = 0
 onready var aniEnable = false
 
 func _ready():
+	RhythmGlobal.sceneInt = sigGlobal.gamedata["intScene"]
+	print("----")
+	print(RhythmGlobal.sceneInt)
+	print(sigGlobal.gamedata["intScene"])
+	print("----")
 	f.open(scenes[sigGlobal.gamedata["intScene"]], File.READ)
 	var line = f.get_line()
 	dialog.text = nextScript(line)

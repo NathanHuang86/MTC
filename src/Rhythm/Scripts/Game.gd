@@ -4,6 +4,7 @@ onready var map = File.new()
 onready var scripts = ['res://src/Rhythm/Maps/Janitor.txt','res://src/Rhythm/Maps/Cosplay.txt','res://src/Rhythm/Maps/Himbo.txt', 'res://src/Rhythm/Maps/Mother.txt', 'res://src/Rhythm/Maps/Oliver.txt', 'res://src/Rhythm/Maps/Woman.txt', 'res://src/Rhythm/Maps/Ominous.txt', 'res://src/Rhythm/Maps/Skater.txt']
 onready var sprites = ['Janitor', 'Cosplayer', 'Himbo', 'Mother', 'Oliver', 'Shoppin', 'Ominous', 'Skater'] #add skater and ominous when you can
 var song_bpm = [90, 350, 220, 320, 200, 240, 800, 360]
+var numbs = [0, 1, 2, 3, 4, 5, 6, 7]
 #Janitor, cosplay(brodie), himbo 110, mother160, 
 #oliver 100, woman, ominous, skater
 
@@ -18,7 +19,7 @@ var okay = 0
 var missed = 0
 
 var bpm = song_bpm[RhythmGlobal.sceneInt]
-
+var sceneCount = numbs[RhythmGlobal.sceneInt]
 
 var song_position = 0.0
 var song_position_in_beats = 0
@@ -53,8 +54,12 @@ var instance4
 var background
 
 func _ready():
+	print("----")
+	print(RhythmGlobal.sceneInt)
+	print(sigGlobal.gamedata["intScene"])
+	print("----")
 	$Sprite.set_animation(sprites[RhythmGlobal.sceneInt])
-	match RhythmGlobal.sceneInt:
+	match sceneCount:
 		0:
 			background = preload('res://assets/Images/Background/Elevator.jpg')
 		1:

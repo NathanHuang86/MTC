@@ -54,6 +54,16 @@ animations = [ {
 "name": "Himbo",
 "speed": 5.0
 }, {
+"frames": [ ExtResource( 29 ), ExtResource( 28 ), ExtResource( 30 ) ],
+"loop": true,
+"name": "Shoppin",
+"speed": 5.0
+}, {
+"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
+"loop": true,
+"name": "Oliver",
+"speed": 5.0
+}, {
 "frames": [ ExtResource( 21 ), ExtResource( 31 ), ExtResource( 32 ) ],
 "loop": true,
 "name": "Ominous",
@@ -72,16 +82,6 @@ animations = [ {
 "frames": [ ExtResource( 34 ), ExtResource( 35 ), ExtResource( 33 ) ],
 "loop": true,
 "name": "Skater",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 29 ), ExtResource( 28 ), ExtResource( 30 ) ],
-"loop": true,
-"name": "Shoppin",
-"speed": 5.0
-}, {
-"frames": [ ExtResource( 16 ), ExtResource( 18 ), ExtResource( 24 ) ],
-"loop": true,
-"name": "Oliver",
 "speed": 5.0
 }, {
 "frames": [ ExtResource( 27 ), ExtResource( 23 ), ExtResource( 22 ) ],

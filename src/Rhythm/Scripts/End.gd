@@ -1,10 +1,11 @@
 extends Node2D
-
+var numbs = [0, 1, 2, 3, 4, 5, 6, 7]
+var sceneCount = numbs[RhythmGlobal.sceneInt]
 
 var background
 func _ready():
 	$Sprite.frame = RhythmGlobal.sceneInt
-	match RhythmGlobal.sceneInt:
+	match sceneCount:
 		0:
 			background = preload('res://assets/Images/Background/Elevator.jpg')
 		1:

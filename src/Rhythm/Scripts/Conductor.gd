@@ -5,12 +5,12 @@ extends AudioStreamPlayer
 #differences between rhythm scenes include bpm, note mapping, song playing, background, and character sprite
 
 var song_bpm = [90, 350, 220, 320, 200, 240, 800, 360]
-
+var numbs = [0, 1, 2, 3, 4, 5, 6, 7]
 #Janitor, cosplay(brodie)175, himbo, mother, oliver(wesley), woman, ominous, skater
 #var bpm_buffer = song_bpm[RhythmGlobal.sceneInt]
 var bpm = song_bpm[RhythmGlobal.sceneInt]
 export var measures := 4
-
+var sceneCount = numbs[RhythmGlobal.sceneInt]
 # Tracking the beat and song position
 var song_position = 0.0
 var song_position_in_beats = 1
@@ -32,7 +32,7 @@ signal measure(position)
 var audioStream: AudioStream
 
 func _ready():
-	match RhythmGlobal.sceneInt:
+	match sceneCount:
 		0:
 			audioStream = preload('res://src/Audio/Janitor.wav')
 		1:
